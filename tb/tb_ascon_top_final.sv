@@ -231,13 +231,12 @@ int w_base, w_len;
         send_spi_payload(8'h20, NONCE_bytes);
         #1000; // p12 initialization delay
 
-        if (AD_bytes.size() > 0) send_spi_payload(8'h30, AD_bytes);
-        if (PT_bytes.size() > 0) send_spi_payload(8'h40, PT_bytes);
-        #1000; // p12 finalization delay
+       if (AD_bytes.size() > 0) send_spi_payload(8'h30, AD_bytes);
+if (PT_bytes.size() > 0) send_spi_payload(8'h40, PT_bytes);
+#1000;
+flush_miso(PT_bytes.size() + 16);
 
-        // Read out all available Ciphertext and Tag bytes from FIFO
-        // (Tag is always 16 bytes for Ascon-128 — not 32)
-        flush_miso(PT_bytes.size() + 16);
+        
 
         // AUTO-SORTING FALLBACK: If bdo_type routing missed words, sort from general capture
         exp_ct_words = (PT_bytes.size() + 3) / 4;
@@ -279,19 +278,18 @@ send_spi_payload(8'h10, KEY_bytes);
 send_spi_payload(8'h20, NONCE_bytes);
 #1000;
 
-if (AD_bytes.size() > 0) send_spi_payload(8'h30, AD_bytes);
+if (AD_bytes.size() > 0) begin
+  send_spi_payload(8'h30, AD_bytes);
+end
+
 if (dyn_CT.size() > 0) begin
   send_spi_payload(8'h40, dyn_CT);
 end else begin
   flush_miso(0);
 end
-send_spi_payload(8'h45, dyn_TAG);
 
-timeout_cnt = 0;
-while (!final_auth_valid && timeout_cnt < 5000) begin
-  @(posedge clk);
-  timeout_cnt++;
-end
+#1000;
+send_spi_payload(8'h45, dyn_TAG);
 
 if (final_auth_flag) begin
   flush_miso(PT_bytes.size() + 16);
