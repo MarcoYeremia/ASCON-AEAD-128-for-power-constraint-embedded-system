@@ -280,8 +280,12 @@ send_spi_payload(8'h20, NONCE_bytes);
 #1000;
 
 if (AD_bytes.size() > 0) send_spi_payload(8'h30, AD_bytes);
-if (dyn_CT.size() > 0)   send_spi_payload(8'h40, dyn_CT);
-send_spi_payload(8'h45, dyn_TAG);   // dedicated TAG command, not 0x40
+if (dyn_CT.size() > 0) begin
+  send_spi_payload(8'h40, dyn_CT);
+end else begin
+  flush_miso(0);
+end
+send_spi_payload(8'h45, dyn_TAG);
 
 timeout_cnt = 0;
 while (!final_auth_valid && timeout_cnt < 5000) begin
