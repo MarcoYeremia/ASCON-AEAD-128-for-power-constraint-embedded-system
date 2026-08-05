@@ -294,16 +294,15 @@ module spi_controller (
                     || state == S_LOAD_MSG || state == S_LOAD_TAG) && rx_valid) begin
 
         // A new byte just arrived, proving a previously-buffered AD/MSG
-        // word was NOT the last word after all -- release it now as a
-        // normal (non-final) word.
-        if (pend_valid) begin
-          bdi        <= pend_word;
-          bdi_valid  <= 4'b1111;
-          bdi_type   <= pend_type;
-          bdi_eot    <= (pend_wcnt == 3'd3) ? 1'b1 : 1'b0;
-          bdi_eoi    <= 1'b0;
-          pend_valid <= 1'b0;
-        end
+// word was NOT the last word after all -- release it now as a normal (non-final) word.
+if (pend_valid) begin
+  bdi        <= pend_word;
+  bdi_valid  <= 4'b1111;
+  bdi_type   <= pend_type;
+  bdi_eot    <= 1'b0; // PERBAIKAN: Selalu 0 karena terbukti bukan akhir transmisi
+  bdi_eoi    <= 1'b0;
+  pend_valid <= 1'b0;
+end
 
         // FIX (byte order): Ascon (per the NIST SP 800-232 reference)
         // packs each byte-string into its 64-bit state words LITTLE-ENDIAN
