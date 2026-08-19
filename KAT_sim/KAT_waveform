@@ -1,0 +1,42 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate /tb_ascon_top_final/clk
+add wave -noupdate /tb_ascon_top_final/rst
+add wave -noupdate /tb_ascon_top_final/sclk
+add wave -noupdate /tb_ascon_top_final/cs_n
+add wave -noupdate /tb_ascon_top_final/mosi
+add wave -noupdate /tb_ascon_top_final/miso
+add wave -noupdate /tb_ascon_top_final/spi_period
+add wave -noupdate /tb_ascon_top_final/rx_byte
+add wave -noupdate /tb_ascon_top_final/final_auth_valid
+add wave -noupdate /tb_ascon_top_final/final_auth_flag
+add wave -noupdate /tb_ascon_top_final/in_decryption_phase
+add wave -noupdate /tb_ascon_top_final/fd
+add wave -noupdate /tb_ascon_top_final/kat_count
+add wave -noupdate /tb_ascon_top_final/total_tested
+add wave -noupdate /tb_ascon_top_final/total_passed
+add wave -noupdate /tb_ascon_top_final/total_failed
+add wave -noupdate /tb_ascon_top_final/timeout_cnt
+add wave -noupdate /tb_ascon_top_final/word_idx
+add wave -noupdate /tb_ascon_top_final/byte_idx
+add wave -noupdate /tb_ascon_top_final/exp_ct_words
+add wave -noupdate /tb_ascon_top_final/w_base
+add wave -noupdate /tb_ascon_top_final/w_len
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {0 ps} 0}
+quietly wave cursor active 0
+configure wave -namecolwidth 150
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ps
+update
+WaveRestoreZoom {99999999050 ps} {100000000050 ps}

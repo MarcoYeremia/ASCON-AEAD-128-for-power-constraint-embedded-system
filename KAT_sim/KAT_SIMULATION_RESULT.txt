@@ -1,0 +1,2792 @@
+# ====================================================================
+#        ASCON-128 TOP-LEVEL NIST KAT AUTOMATED VERIFICATION
+#        System Clock: 50 MHz | SPI Clock: 20 MHz (40ns High Phase)
+# ====================================================================
+#  [PASS] Count =   1 | AD:  0 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : 4f9c278211bec9316bf68f46ee8b2ec6
+#         -> Decrypt PT : 
+#  [PASS] Count =   2 | AD:  0 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8
+#         -> Tag        : 4c4bc1957cad5aa2660f67326c05eeb7
+#         -> Decrypt PT : 00
+#  [PASS] Count =   3 | AD:  0 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3
+#         -> Tag        : 6a59ed0240fd22d77975a35f8fd59779
+#         -> Decrypt PT : 0001
+#  [PASS] Count =   4 | AD:  0 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fe
+#         -> Tag        : 3c67c7590e4d41685a032f5cbf5e91c6
+#         -> Decrypt PT : 000102
+#  [PASS] Count =   5 | AD:  0 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece
+#         -> Tag        : a5ee6ff92b2ea99a6dcabe3286d67c5f
+#         -> Decrypt PT : 00010203
+#  [PASS] Count =   6 | AD:  0 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece04
+#         -> Tag        : 66412dd4105ef170e27fe83f0c77b97f
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count =   7 | AD:  0 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044c
+#         -> Tag        : c1996b864ba17948870ef5658eb582f2
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count =   8 | AD:  0 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5
+#         -> Tag        : 5724b9877642c03f5751d609e5534dbe
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count =   9 | AD:  0 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5ca
+#         -> Tag        : f0754fc81a73781da45868e93d804b17
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count =  10 | AD:  0 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3
+#         -> Tag        : 1329d7e7b61b032661a2a7452f94af59
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count =  11 | AD:  0 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8
+#         -> Tag        : 1edeb1609b114a36fa5cc466c450c7e0
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count =  12 | AD:  0 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c852
+#         -> Tag        : d647dc5976b11524cbc91c39edf7cb2a
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count =  13 | AD:  0 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c85211
+#         -> Tag        : 1993682086442052d7b78ebb03863fff
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count =  14 | AD:  0 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118
+#         -> Tag        : d81b91b1eb07b263d0316386455e3b35
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count =  15 | AD:  0 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7
+#         -> Tag        : 8385d511d2b13b143112a62e4dd75063
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count =  16 | AD:  0 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b782
+#         -> Tag        : 8d2cf57f5035e77b0ecbd4e4806464af
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count =  17 | AD:  0 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b
+#         -> Tag        : 97ccde364201c1fc0291d9591d27eca0
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count =  18 | AD:  0 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b15
+#         -> Tag        : aa76dbf8f270a4f8cdf82e86ba0e2ead
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count =  19 | AD:  0 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520
+#         -> Tag        : 7b48923826296c211a289dfa498bf187
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count =  20 | AD:  0 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff
+#         -> Tag        : 6c9932568ffa5192b7dfb33c926977ef
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count =  21 | AD:  0 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff79
+#         -> Tag        : a9ced14e13e49e4f6c57a0e7e8e714e5
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count =  22 | AD:  0 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff7964
+#         -> Tag        : 780a6869b9b921fb5916dba76db3f6bc
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count =  23 | AD:  0 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff79648f
+#         -> Tag        : 81a4bc936f7ba84c991434f9beebc291
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count =  24 | AD:  0 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff79648f51
+#         -> Tag        : 6adcc020533e2d0e2381175cb6a0afae
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count =  25 | AD:  0 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff79648f5112
+#         -> Tag        : 83c89c5b2237a395863750d51a08c351
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count =  26 | AD:  0 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff79648f511241
+#         -> Tag        : 141ff4d067033324878388f9457c55d1
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count =  27 | AD:  0 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff79648f51124105
+#         -> Tag        : 7390ca50e24579f24ebb4cd6ba763130
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count =  28 | AD:  0 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff79648f51124105cb
+#         -> Tag        : 9fcb22472035db1a5ef5c81263fdff16
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count =  29 | AD:  0 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff79648f51124105cb5e
+#         -> Tag        : 5a807a81224cb6beb2583c4c3feae928
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count =  30 | AD:  0 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff79648f51124105cb5eb5
+#         -> Tag        : 551b03361e5fd0199e66669b6a440eab
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count =  31 | AD:  0 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff79648f51124105cb5eb58e
+#         -> Tag        : 2e595954145bf1c20d6ec4cfdbef6bd7
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count =  32 | AD:  0 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff79648f51124105cb5eb58eb4
+#         -> Tag        : d6acb1e52ea0a904e9c81d6b3aea06ed
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count =  33 | AD:  0 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : c8e3fece044ce5cac3c8521118b7829b1520ff79648f51124105cb5eb58eb4be
+#         -> Tag        : eb8e9eea285f0070c753086a22e1e701
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count =  34 | AD:  1 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : cccb674fe18a09a285d6ab11b35675c0
+#         -> Decrypt PT : 
+#  [PASS] Count =  35 | AD:  1 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6
+#         -> Tag        : 249daf9e5a519c37751b4df1d01c2678
+#         -> Decrypt PT : 00
+#  [PASS] Count =  36 | AD:  1 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b630
+#         -> Tag        : 4c5ca8113e0deb61a5a8d7fc8e225c21
+#         -> Decrypt PT : 0001
+#  [PASS] Count =  37 | AD:  1 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305d
+#         -> Tag        : 424ae1884c59ed70df665613a736270b
+#         -> Decrypt PT : 000102
+#  [PASS] Count =  38 | AD:  1 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa
+#         -> Tag        : 63b9e92581341c30a596f8176eb64f2d
+#         -> Decrypt PT : 00010203
+#  [PASS] Count =  39 | AD:  1 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa09
+#         -> Tag        : b4599ee574f6b4a8c73b01abc5f9404b
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count =  40 | AD:  1 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa0987
+#         -> Tag        : 30d7835eb4a5973cfc9ed161deb6469a
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count =  41 | AD:  1 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772
+#         -> Tag        : 3b92619b99234c0223d8def3143aafc6
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count =  42 | AD:  1 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba
+#         -> Tag        : 93f7b3621318145ad30c87956d0af759
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count =  43 | AD:  1 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59
+#         -> Tag        : 33c94f9e679651d6c89c9cfc2f3fa982
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count =  44 | AD:  1 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba5961
+#         -> Tag        : 9149e81e4fef8ce38099d2074aef6133
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count =  45 | AD:  1 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619d
+#         -> Tag        : 8fef1d835c9213523c56b197b4fe9936
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count =  46 | AD:  1 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7
+#         -> Tag        : e12022de60f2f9638cc43fa447c06650
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count =  47 | AD:  1 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff
+#         -> Tag        : 9bc5aebf6946f76e0e39cb241087677c
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count =  48 | AD:  1 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3f
+#         -> Tag        : ec59d2262c8349012305b9ae69f6839a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count =  49 | AD:  1 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3
+#         -> Tag        : f62c1322d6dc3fd68f77ec75ab43ea06
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count =  50 | AD:  1 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6
+#         -> Tag        : 9d5cd7596562c841e5b9b363f0f3df0b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count =  51 | AD:  1 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ff
+#         -> Tag        : d67b729e1eeb4c8f9ad7841fe29748a8
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count =  52 | AD:  1 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe6
+#         -> Tag        : 1dd4ee31592ab8152fd1ca373c22059c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count =  53 | AD:  1 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608
+#         -> Tag        : 5491396864497bd0d5226b9e025266d9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count =  54 | AD:  1 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fd
+#         -> Tag        : 275ce3d85a0c730c16dd94de46875e1a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count =  55 | AD:  1 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fdb9
+#         -> Tag        : 97bed7ce28bbe981c327c71365e862d3
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count =  56 | AD:  1 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fdb947
+#         -> Tag        : 0e0cdc87c019b40b206d0784262c1562
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count =  57 | AD:  1 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fdb9479b
+#         -> Tag        : 535a46006901b4dc2f382556418106b9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count =  58 | AD:  1 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fdb9479b98
+#         -> Tag        : d3644b8ec32f66e22fb67157e24ae501
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count =  59 | AD:  1 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fdb9479b98b8
+#         -> Tag        : f9bc06ff68a3acb78ae3323b3549d0f9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count =  60 | AD:  1 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fdb9479b98b8ad
+#         -> Tag        : 075ddd70ebd9b6ddb037ff637204f6be
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count =  61 | AD:  1 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fdb9479b98b8ad51
+#         -> Tag        : bc90f0aa006af17cb9c77c0135138a8f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count =  62 | AD:  1 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fdb9479b98b8ad51b0
+#         -> Tag        : b5365a1453918313f3a83933e644870c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count =  63 | AD:  1 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fdb9479b98b8ad51b067
+#         -> Tag        : c1f1a28b7a237453a2485897dc64a224
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count =  64 | AD:  1 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fdb9479b98b8ad51b067d6
+#         -> Tag        : e63119b728f67aa1f7a242554ac04900
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count =  65 | AD:  1 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fdb9479b98b8ad51b067d6b9
+#         -> Tag        : a518987b14e604802a786365f4a472b8
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count =  66 | AD:  1 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b6305daa098772ba59619de7ff3fc3e6ffe608fdb9479b98b8ad51b067d6b96b
+#         -> Tag        : 9a8192c19f2b04526a91d3762c1d214a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count =  67 | AD:  2 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : f65b191550c4df9cfdd4460ebbcca782
+#         -> Decrypt PT : 
+#  [PASS] Count =  68 | AD:  2 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10
+#         -> Tag        : d3e9e99e85912f4b58e1b03329361a1b
+#         -> Decrypt PT : 00
+#  [PASS] Count =  69 | AD:  2 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dc
+#         -> Tag        : 21162dab859f817bb4e352f96a0c6abe
+#         -> Decrypt PT : 0001
+#  [PASS] Count =  70 | AD:  2 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf
+#         -> Tag        : 94a2f2cb69ae597803b95e935065150d
+#         -> Decrypt PT : 000102
+#  [PASS] Count =  71 | AD:  2 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d
+#         -> Tag        : 0834ec7ac405f056cbacd6ebc511b707
+#         -> Decrypt PT : 00010203
+#  [PASS] Count =  72 | AD:  2 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08
+#         -> Tag        : 27f04677dd0b47b174996067a0305db1
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count =  73 | AD:  2 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d0807
+#         -> Tag        : aded7939392165c802ccc3937c2d8568
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count =  74 | AD:  2 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077d
+#         -> Tag        : c36d4420f5f3e37a5cd8aa6d76e0f06c
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count =  75 | AD:  2 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1
+#         -> Tag        : 1d00b52e33b55b57321d91be3ec97b85
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count =  76 | AD:  2 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd183
+#         -> Tag        : 4ca3ecb624a29a95bff5994bb0928f16
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count =  77 | AD:  2 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e
+#         -> Tag        : fdba952d639b19b28fc86a85417e38f0
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count =  78 | AD:  2 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30
+#         -> Tag        : 181f1d9cf5e2f70a5fd3e104c906828a
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count =  79 | AD:  2 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e0
+#         -> Tag        : f28c70ef46c887eba563681b2f1b8072
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count =  80 | AD:  2 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077
+#         -> Tag        : febe36184ad9c8cea126c8e1645e7465
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count =  81 | AD:  2 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5
+#         -> Tag        : 7e151160ebe6b995e438e9ba5fe23284
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count =  82 | AD:  2 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e7
+#         -> Tag        : 9edd0275ecdd002c582fc9d95d98eca3
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count =  83 | AD:  2 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a
+#         -> Tag        : 1f3aaa3e6a0702b263f09f918cec3b9b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count =  84 | AD:  2 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9f
+#         -> Tag        : 5ff9884d2c61a19a0167480da9507a08
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count =  85 | AD:  2 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb3
+#         -> Tag        : d2a86b9586fd709cc6c7de130293adaa
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count =  86 | AD:  2 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f
+#         -> Tag        : 2fb9c2c8228868340cf415a6616bb5c9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count =  87 | AD:  2 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41
+#         -> Tag        : 9db1a4db59f81e67a19c878a5259b852
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count =  88 | AD:  2 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41f3
+#         -> Tag        : 9d94d8bf52136e0cbcd7f2d35fc949e9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count =  89 | AD:  2 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41f3a0
+#         -> Tag        : 4c8da711999030b819884c4342d2fffc
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count =  90 | AD:  2 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41f3a089
+#         -> Tag        : 325e8d684f0e83d040fca2eef043594c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count =  91 | AD:  2 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41f3a089ec
+#         -> Tag        : 2adc6b5720e159201d7dbf200b4c152a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count =  92 | AD:  2 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41f3a089ec75
+#         -> Tag        : 926133b3b6e065b97359b91aaf46f1fa
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count =  93 | AD:  2 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41f3a089ec750f
+#         -> Tag        : c9826494af4557541be99a6ebbe430e7
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count =  94 | AD:  2 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41f3a089ec750f1b
+#         -> Tag        : c9fa550e8c5f64ff5de494e21f455b51
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count =  95 | AD:  2 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41f3a089ec750f1bfe
+#         -> Tag        : 4c174a4b28f3115d2324633cbf8b98da
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count =  96 | AD:  2 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41f3a089ec750f1bfee5
+#         -> Tag        : 11157937bc545d95dae448c5ee1136fd
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count =  97 | AD:  2 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41f3a089ec750f1bfee5b9
+#         -> Tag        : 64faf3cce594daa0dcf9656e89ce9d77
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count =  98 | AD:  2 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41f3a089ec750f1bfee5b9b8
+#         -> Tag        : e5cd8ba5121d79ad73049cfc26cb4a51
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count =  99 | AD:  2 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10dccf8d08077dd1833e30e077b5e79a9fb35f41f3a089ec750f1bfee5b9b8c1
+#         -> Tag        : 857b494960ec8ea035ed8ecaa553df5c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 100 | AD:  3 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : d127cf7d2cd4da8930616c70b3619f42
+#         -> Decrypt PT : 
+#  [PASS] Count = 101 | AD:  3 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46
+#         -> Tag        : 881ec91a9bd193a95a67d175fbcd63c3
+#         -> Decrypt PT : 00
+#  [PASS] Count = 102 | AD:  3 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0
+#         -> Tag        : edfacca2797d907e858565529801d64f
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 103 | AD:  3 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f5
+#         -> Tag        : 962a7c0720bb8575fd33c5440c58a62f
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 104 | AD:  3 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50b
+#         -> Tag        : 6ae52efc9d23bebdf5067a9f7371593a
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 105 | AD:  3 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd4
+#         -> Tag        : bb224abd505098e1893fca88e3281bfb
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 106 | AD:  3 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421
+#         -> Tag        : 4fa33d993429879f11bf41284b97f253
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 107 | AD:  3 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6
+#         -> Tag        : 2ec5d795e6b4fbc51a93a4ac6f4898c6
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 108 | AD:  3 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc
+#         -> Tag        : 5cb87ab99a5eb926deb284e977a362e2
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 109 | AD:  3 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c
+#         -> Tag        : efd4e89d51bb4736eaf17ed6353ea60a
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 110 | AD:  3 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2a
+#         -> Tag        : 9dd0550636f45e2f806fbef423c472e1
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 111 | AD:  3 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4
+#         -> Tag        : 86e1eee2ea3ea88aeeef36286b1d3fe2
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 112 | AD:  3 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4fa
+#         -> Tag        : 668c63a25cade9a8ccc670f4f37677ce
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 113 | AD:  3 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed
+#         -> Tag        : e5173a149b52a8f8480560e8d94960f2
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 114 | AD:  3 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3d
+#         -> Tag        : c028caa8484106f90d97110bb6289770
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 115 | AD:  3 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4
+#         -> Tag        : 1ab68e530d6426b5087885af2ec7b113
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 116 | AD:  3 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e4
+#         -> Tag        : 68fc0310052b5e5db57bda4683d1f1fe
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 117 | AD:  3 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e477
+#         -> Tag        : 1fd0a5e01714dc6e1f6a157126d452e6
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 118 | AD:  3 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716
+#         -> Tag        : bfe385b86f7f78dda609ef97183bea93
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 119 | AD:  3 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec
+#         -> Tag        : eb6c5aca902b00cea612ab9bd726a051
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 120 | AD:  3 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec20
+#         -> Tag        : 90971bb90e1d74a0c1354bc4f4c21b3c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 121 | AD:  3 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec201f
+#         -> Tag        : 64b861fa4f202675244887dfa5c27263
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 122 | AD:  3 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec201f27
+#         -> Tag        : 9f1030225278ae24acf698821559d4c3
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 123 | AD:  3 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec201f27d5
+#         -> Tag        : 5df0bbc3f752be748ca5f54da45fee0b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 124 | AD:  3 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec201f27d5ed
+#         -> Tag        : cda427c684b1e69ee31d34598acae6e0
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 125 | AD:  3 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec201f27d5edc3
+#         -> Tag        : 5270e023025f260bc5bfdbf6dabb5357
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 126 | AD:  3 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec201f27d5edc371
+#         -> Tag        : f53448da1181b2337b71e0fad6d87599
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 127 | AD:  3 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec201f27d5edc371a9
+#         -> Tag        : b6e8a35fd9ef6e439e625f9db213d314
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 128 | AD:  3 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec201f27d5edc371a93a
+#         -> Tag        : ebf3dd29330251ae509022a64ef8202a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 129 | AD:  3 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec201f27d5edc371a93a95
+#         -> Tag        : 0e5540173e9c61978dd9d69e6e976c46
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 130 | AD:  3 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec201f27d5edc371a93a958f
+#         -> Tag        : fa53c46aab6bc822d76dfce37a8e5c18
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 131 | AD:  3 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec201f27d5edc371a93a958f37
+#         -> Tag        : cf1a7c6bd9c9504825eb48191091ad1d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 132 | AD:  3 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 46f0f50bd421e6fc3c2af4faed3db4e47716ec201f27d5edc371a93a958f37db
+#         -> Tag        : bb6d1e7d198302e62c6f3358625aeeb2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 133 | AD:  4 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : 000ba92e52b5ed6b97c9d913cc4c82df
+#         -> Decrypt PT : 
+#  [PASS] Count = 134 | AD:  4 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef
+#         -> Tag        : fcceb66eabcf57827a2838fd902c866f
+#         -> Decrypt PT : 00
+#  [PASS] Count = 135 | AD:  4 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef73
+#         -> Tag        : ce659d81140a571aea5b8a967b80e299
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 136 | AD:  4 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317
+#         -> Tag        : 589e18a8312d711934b019c7fd618288
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 137 | AD:  4 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc
+#         -> Tag        : a20b32bb6292e568a2886944917257b9
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 138 | AD:  4 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc97
+#         -> Tag        : 93917687fcb0254f23b603bbe6c11a6b
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 139 | AD:  4 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972e
+#         -> Tag        : ccaf4879b85c1d29b92fd130465d08ae
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 140 | AD:  4 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee4
+#         -> Tag        : c910d087010194260a2f92e658fb7f9b
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 141 | AD:  4 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d
+#         -> Tag        : abe07ba2b777480259bd9f1182793f81
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 142 | AD:  4 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37
+#         -> Tag        : a51bfecf2d3a431ee885b181cedde329
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 143 | AD:  4 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be
+#         -> Tag        : bf50321f0a0694cddd455684ae4b33e3
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 144 | AD:  4 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c
+#         -> Tag        : a948d4df49f7a9c7e69b0e87ac4b7b32
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 145 | AD:  4 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f
+#         -> Tag        : b88486bff75a2b9c5f87ea0314dfbaf4
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 146 | AD:  4 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f71
+#         -> Tag        : 5f7ca981ccc4dbb17f95b084cde7c89a
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 147 | AD:  4 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b
+#         -> Tag        : e22e465af5c9199eecc7cc73b637ea9f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 148 | AD:  4 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b05
+#         -> Tag        : 75e9f3777fa9ecbdf234eda061362b48
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 149 | AD:  4 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058c
+#         -> Tag        : f194ce57211c65e3d91c9654e9f2c06c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 150 | AD:  4 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb2
+#         -> Tag        : ca60df88be744cb2c7cee57799682077
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 151 | AD:  4 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c
+#         -> Tag        : 83e4d48008bfa753585e0d8901c1ea35
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 152 | AD:  4 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e
+#         -> Tag        : ef5c9ab68fe80462e9ecb4ae5a1c2788
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 153 | AD:  4 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65
+#         -> Tag        : 2761647519ea3df36b0912b68adfe0ab
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 154 | AD:  4 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65f1
+#         -> Tag        : 0791f6b2aa1fdbfd4d0801538c5bcad9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 155 | AD:  4 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65f1e1
+#         -> Tag        : 688ba9db5524a891aafc7c72938ce965
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 156 | AD:  4 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65f1e17f
+#         -> Tag        : b8165789bb4aa080827323de4f935d26
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 157 | AD:  4 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65f1e17f57
+#         -> Tag        : 7332259ca7b31f58c347dc84be368442
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 158 | AD:  4 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65f1e17f576f
+#         -> Tag        : ab9201d96604807d7da0cde2da61fe97
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 159 | AD:  4 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65f1e17f576f07
+#         -> Tag        : f22a7fd2581a94783ee0d080dd86c10f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 160 | AD:  4 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65f1e17f576f07c9
+#         -> Tag        : ef2104f707418226612b546d959c4559
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 161 | AD:  4 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65f1e17f576f07c9ae
+#         -> Tag        : 68ba5173bda318e559e83c7aeceecee9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 162 | AD:  4 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65f1e17f576f07c9aea3
+#         -> Tag        : 9e5c9e11d07449068cd8f5fbb784f78a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 163 | AD:  4 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65f1e17f576f07c9aea3a6
+#         -> Tag        : 0542ce0794621933be5360d9a87dcae2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 164 | AD:  4 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65f1e17f576f07c9aea3a694
+#         -> Tag        : 0b1c0582b63d285d184da879a23f276e
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 165 | AD:  4 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ef7317dc972ee47d37be2c1f719b058cb25c1e65f1e17f576f07c9aea3a6940b
+#         -> Tag        : 3daf3ae093c2e540941e738e009caa05
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 166 | AD:  5 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : f7cc167f8fed3aeea99b385b8622157e
+#         -> Decrypt PT : 
+#  [PASS] Count = 167 | AD:  5 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 10
+#         -> Tag        : 68284644e1e18da8e7288904a222cb5b
+#         -> Decrypt PT : 00
+#  [PASS] Count = 168 | AD:  5 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 1056
+#         -> Tag        : f9ca04a224f60f1d3322648b867b40f9
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 169 | AD:  5 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645
+#         -> Tag        : 7caf6f2eacc5ed86db179b4766751848
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 170 | AD:  5 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac
+#         -> Tag        : a850f5409e7b1ae18d2a8f130ed8d40f
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 171 | AD:  5 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9a
+#         -> Tag        : 44247e5150bf3b3e5e7ab00744247048
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 172 | AD:  5 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aab
+#         -> Tag        : 73e5b304b7e0d71d117267fe475f8b45
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 173 | AD:  5 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd3
+#         -> Tag        : cc659a3cb5ec29eb5d59a2af3321e25e
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 174 | AD:  5 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b
+#         -> Tag        : 8edadefaa88752e4507bc68d10d8d6df
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 175 | AD:  5 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4d
+#         -> Tag        : 96e5c4d25ab75f7393ce1cd76d48510c
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 176 | AD:  5 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec
+#         -> Tag        : af58a06fb608539a22818510cab61262
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 177 | AD:  5 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a
+#         -> Tag        : f86cabab8c6fb5fe39c45353b2d9ffbe
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 178 | AD:  5 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f
+#         -> Tag        : 076bf2d37c233c41b6be63b6ed8c63f7
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 179 | AD:  5 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f32
+#         -> Tag        : 26d1b485ac81bc98c99afedae113f18f
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 180 | AD:  5 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275
+#         -> Tag        : 0a0217c0bdefc11a29458cea68001e30
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 181 | AD:  5 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce
+#         -> Tag        : 07ce0c1add2da2a4b19bbebe423ae280
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 182 | AD:  5 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0e
+#         -> Tag        : 40182f8e35512fa39109210c0cc88566
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 183 | AD:  5 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eea
+#         -> Tag        : 4656754bebc1bc2f6e52d480dcf0ab03
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 184 | AD:  5 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafc
+#         -> Tag        : 9aee2c7944b2aa2293ea4e1902869bcd
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 185 | AD:  5 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4
+#         -> Tag        : 5fe47b4ba0646fcebaa63fc29abd365b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 186 | AD:  5 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d0
+#         -> Tag        : 11c7f8fed40bde955b0a3c248378bfe1
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 187 | AD:  5 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d070
+#         -> Tag        : d925a30f199b05e0cea2a3100f7f8cac
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 188 | AD:  5 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d070a2
+#         -> Tag        : 47e4aa57088c600962d775d8795ff02f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 189 | AD:  5 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d070a268
+#         -> Tag        : 20217254d04c8defbc79c34c277bc9bd
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 190 | AD:  5 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d070a26800
+#         -> Tag        : e01131dc6b2dd4763b354a0540eb31d4
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 191 | AD:  5 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d070a2680018
+#         -> Tag        : 131a1ecfddc6c3eefa29429520d1f8d2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 192 | AD:  5 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d070a268001896
+#         -> Tag        : c4498b4d5baecceca7c2362df5e10bf6
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 193 | AD:  5 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d070a26800189698
+#         -> Tag        : 485d3e6e9053fc7507115249a21152e3
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 194 | AD:  5 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d070a268001896982b
+#         -> Tag        : c302719ca40a743dde3dcf2b65e1c801
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 195 | AD:  5 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d070a268001896982b86
+#         -> Tag        : 68fc28189570312db1fd382d2a716d63
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 196 | AD:  5 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d070a268001896982b8633
+#         -> Tag        : 9941552df4cab0f52c4e7915805e1820
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 197 | AD:  5 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d070a268001896982b863342
+#         -> Tag        : 138f525e9e365e0ff6b8f90261c7f792
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 198 | AD:  5 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 105645ac9aabd39b4dec8a0f3275ce0eeafcf4d070a268001896982b863342c7
+#         -> Tag        : 86a2c3a6036445726925582e6337f4aa
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 199 | AD:  6 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : 51ccbc46d56e93b89b1a3bfdad0aa4d5
+#         -> Decrypt PT : 
+#  [PASS] Count = 200 | AD:  6 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b3
+#         -> Tag        : c1a4494b672994c8a1d64c593014fdd7
+#         -> Decrypt PT : 00
+#  [PASS] Count = 201 | AD:  6 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330
+#         -> Tag        : 7320f6ed2340f87c666708d22d3e90de
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 202 | AD:  6 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6
+#         -> Tag        : cf46215183b833ea399847d61f68315a
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 203 | AD:  6 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fd
+#         -> Tag        : b51ee89153dcf117419fd0f3c97914d2
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 204 | AD:  6 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdae
+#         -> Tag        : ea45adbe9965a8a28ffd8c5fd8752999
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 205 | AD:  6 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc
+#         -> Tag        : e6fb7cb9b6d1a063738ba6e76943b3ce
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 206 | AD:  6 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c
+#         -> Tag        : bb60950ec8e0f0a4fdb7de9344c12919
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 207 | AD:  6 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e
+#         -> Tag        : cb98a83a794e25ac0c7be28cd43bf174
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 208 | AD:  6 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e60
+#         -> Tag        : af2f9a5c03aa10515a85a693452f5f4a
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 209 | AD:  6 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c
+#         -> Tag        : 4ae89b9a9bf9c07ed4fdf850f3849a72
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 210 | AD:  6 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e
+#         -> Tag        : ca21c78aa2a501e9972defbe72254b28
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 211 | AD:  6 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f
+#         -> Tag        : d024a7c8f3045957ee31585597a856e9
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 212 | AD:  6 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e
+#         -> Tag        : 33aa41b6fea581710e5cc730b7f61c38
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 213 | AD:  6 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e83
+#         -> Tag        : d51cbe4bfd068f5266acdd3de6f7988d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 214 | AD:  6 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332
+#         -> Tag        : 73100228e195974d96920a88e0c973c1
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 215 | AD:  6 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e833263
+#         -> Tag        : 65e5679dec4743ef9b2b93eb2ed58aa1
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 216 | AD:  6 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f
+#         -> Tag        : a38a4163db19a0cfd21d106fccbb555d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 217 | AD:  6 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78
+#         -> Tag        : 151c940ae24278e9d723fce5ac904462
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 218 | AD:  6 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d5
+#         -> Tag        : cf9c0eb223c675f6f408871daac7818c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 219 | AD:  6 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b
+#         -> Tag        : 39beb837e499262f0422e799f5041dc3
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 220 | AD:  6 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b4f
+#         -> Tag        : a2d76ba43f7841f50932b5c168f89034
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 221 | AD:  6 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b4f1a
+#         -> Tag        : 1a498d4ebe71b72696a391ba6c36b9a9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 222 | AD:  6 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b4f1a91
+#         -> Tag        : 0feb29ccde334d8b3ec43d0b278493dc
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 223 | AD:  6 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b4f1a91ba
+#         -> Tag        : fe041a9fb920ccb0c2165388c570aba0
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 224 | AD:  6 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b4f1a91ba61
+#         -> Tag        : ce1a59f07afca2de6bad2313b67ed83b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 225 | AD:  6 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b4f1a91ba61a9
+#         -> Tag        : 5d4ec08f9f1ed02f9abff07e9d53d727
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 226 | AD:  6 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b4f1a91ba61a948
+#         -> Tag        : 71c263d1fe5ffcea3edf5ac8c11d66b4
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 227 | AD:  6 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b4f1a91ba61a948a7
+#         -> Tag        : 266b260e3e04869ecb547efe2bda7d8b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 228 | AD:  6 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b4f1a91ba61a948a7be
+#         -> Tag        : b9668e90b1b517148f1cdfbc0a2e55da
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 229 | AD:  6 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b4f1a91ba61a948a7be7b
+#         -> Tag        : 1e46155f9dbd54630d84aa0596641a32
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 230 | AD:  6 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b4f1a91ba61a948a7be7bb8
+#         -> Tag        : b187c2212179dcf978f8cd3d741418f5
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 231 | AD:  6 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : b330e6fdaebc9c1e604c2e9f9e8332635f78d59b4f1a91ba61a948a7be7bb868
+#         -> Tag        : c81563f34619b0cca3ea3a5874dd219c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 232 | AD:  7 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : b38abbd573e071c6265eeac4a68f65ab
+#         -> Decrypt PT : 
+#  [PASS] Count = 233 | AD:  7 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e
+#         -> Tag        : 2c12bb28874f3817c9428c4356f683a0
+#         -> Decrypt PT : 00
+#  [PASS] Count = 234 | AD:  7 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e22
+#         -> Tag        : 21a8d9cbab04f600732562be0dd99d9c
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 235 | AD:  7 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226b
+#         -> Tag        : 8d78a020e60195369da0ebcc73bffc96
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 236 | AD:  7 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf4
+#         -> Tag        : 05d893071e3409888b0dc6628792b5f3
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 237 | AD:  7 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423
+#         -> Tag        : 4f029c7dcc68853682373f91d11c827d
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 238 | AD:  7 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3
+#         -> Tag        : 05247bd1cfb2b5be797d06cab9f63463
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 239 | AD:  7 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6
+#         -> Tag        : 71bab93e9faf1218f9a59780d18a3102
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 240 | AD:  7 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cb
+#         -> Tag        : 0772b5a747216250a5c383f96f79c2d2
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 241 | AD:  7 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd
+#         -> Tag        : 45d9b8f31adb65d628ea929c6a5f0a1e
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 242 | AD:  7 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c
+#         -> Tag        : 6d3aea03b45958c0c5bca19a486a8ea6
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 243 | AD:  7 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76
+#         -> Tag        : a0acb067018f8121e29a0b4fa0995f21
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 244 | AD:  7 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d4
+#         -> Tag        : 8901de8d7e392c91acbe8bb7323c8e03
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 245 | AD:  7 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479
+#         -> Tag        : 16cc6139883ee5a1ca67cd6be4b66ead
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 246 | AD:  7 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479ef
+#         -> Tag        : a9b748b38ecc7aa45e305bf63e1fd171
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 247 | AD:  7 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effc
+#         -> Tag        : 5d3b09f4ba28755fcb38708740a5ab6c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 248 | AD:  7 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfe
+#         -> Tag        : 707a0842dcd502b0d7a630bc74b4b069
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 249 | AD:  7 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5
+#         -> Tag        : 4cd3e13fba7960937c1148295aedeb3d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 250 | AD:  7 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef540
+#         -> Tag        : 3d5dbeef65f622f1d328928b2665bb73
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 251 | AD:  7 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403e
+#         -> Tag        : 2f1ca2162d967da9b4c1465daf63a682
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 252 | AD:  7 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc
+#         -> Tag        : 21bd0c1d12d2a0f2a4b74eeee9ecc369
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 253 | AD:  7 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc9a
+#         -> Tag        : 382de86ee3d24da528c99300b62ce40f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 254 | AD:  7 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc9a78
+#         -> Tag        : 5fe3b28d0866528785175727b221a45a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 255 | AD:  7 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc9a78b6
+#         -> Tag        : e3f3dfd28e4bd14aa9fec21175a7e5a1
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 256 | AD:  7 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc9a78b63e
+#         -> Tag        : a15ff6ffc18d8f1412b196a15ba1e037
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 257 | AD:  7 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc9a78b63ee6
+#         -> Tag        : 78acbfd839844966cc128ffc1cda091c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 258 | AD:  7 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc9a78b63ee608
+#         -> Tag        : 9e67c420207e11c9509370967b135272
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 259 | AD:  7 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc9a78b63ee608c6
+#         -> Tag        : 3f0b2f6d31a37a9dfa3b32f0bc98efdc
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 260 | AD:  7 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc9a78b63ee608c6da
+#         -> Tag        : ec637889c70295ffdd632360a7af2eb5
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 261 | AD:  7 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc9a78b63ee608c6dacd
+#         -> Tag        : b914674fd7eabe190dcc3ad009bee437
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 262 | AD:  7 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc9a78b63ee608c6dacd99
+#         -> Tag        : 520208bce16e940a98cb9ea51e274523
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 263 | AD:  7 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc9a78b63ee608c6dacd9918
+#         -> Tag        : 0b63b8f5a1f1bed54103288648dfc929
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 264 | AD:  7 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4e226bf423d3a6cbbd3c76d479effcfef5403ecc9a78b63ee608c6dacd99187d
+#         -> Tag        : 35504072e215cd7e3aa7e4bcda346030
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 265 | AD:  8 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : 865c594093a9edee2c1d6384ccb4939e
+#         -> Decrypt PT : 
+#  [PASS] Count = 266 | AD:  8 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da
+#         -> Tag        : ff2b0d632dd6e7b305eeac9732eceb61
+#         -> Decrypt PT : 00
+#  [PASS] Count = 267 | AD:  8 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e
+#         -> Tag        : 651cb1d6f0201390170ae5c2e0d0c606
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 268 | AD:  8 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c
+#         -> Tag        : 73a0a06c0d3fe43efbe07f4ccf2343b4
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 269 | AD:  8 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91
+#         -> Tag        : 34d403d04d778bcc2975c21354a5b64d
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 270 | AD:  8 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7
+#         -> Tag        : 63d4995a5d34abd3a804df118e6f87ef
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 271 | AD:  8 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb
+#         -> Tag        : 790e813cc383af1828605ea801832e73
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 272 | AD:  8 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb86
+#         -> Tag        : 32143106c289eaeba1081974380d4107
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 273 | AD:  8 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612
+#         -> Tag        : 095f6b065901f1fbff62a1e48df491a2
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 274 | AD:  8 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba
+#         -> Tag        : 239627c887f040cec67443ca80d1ca36
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 275 | AD:  8 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10
+#         -> Tag        : 7d415868478188db72ec7556f15d212e
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 276 | AD:  8 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba1028
+#         -> Tag        : d6814e1afee5db68d08c5b08101c50e5
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 277 | AD:  8 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f
+#         -> Tag        : 6f2f8d05abd1ada8d8b11cc907970d8d
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 278 | AD:  8 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06
+#         -> Tag        : 2f55757f98479d296f27396bd39dc844
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 279 | AD:  8 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7
+#         -> Tag        : 54bbe2a1fb3049d9e431f181d4ae939c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 280 | AD:  8 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc
+#         -> Tag        : 131fcd2d11d876676b4965dc1aabfab2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 281 | AD:  8 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc52
+#         -> Tag        : e8d9ea633ef3d01db271df636478184e
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 282 | AD:  8 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522e
+#         -> Tag        : 9ead8a41ed15eb2d91c58e2c1a683ed8
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 283 | AD:  8 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebd
+#         -> Tag        : 9f31a101b29c35be1e295844329adb8b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 284 | AD:  8 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcd
+#         -> Tag        : 269b868526c4020e0c8eaccb76eeddf1
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 285 | AD:  8 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddc
+#         -> Tag        : 8fd4e43d0aadb1681b637ae53e193efe
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 286 | AD:  8 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddcf7
+#         -> Tag        : 8d4fc65c2c8fe927e21862b189aaf076
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 287 | AD:  8 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddcf7f2
+#         -> Tag        : 484c51e03c4a38c4c830ead186d7ed58
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 288 | AD:  8 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddcf7f206
+#         -> Tag        : e40cca9a7d585d2317b1b769f59c5e1a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 289 | AD:  8 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddcf7f206c1
+#         -> Tag        : fc0f6da6cbf95fb87246e42004365a4a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 290 | AD:  8 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddcf7f206c174
+#         -> Tag        : 7ef87109fb4bedd0cbeb5c95b0d22ce5
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 291 | AD:  8 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddcf7f206c1741d
+#         -> Tag        : 2f44673a6e38e9d5141e03ccced31b7c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 292 | AD:  8 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddcf7f206c1741d65
+#         -> Tag        : 74f46ae18b1d763da48c1a7c0f738c10
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 293 | AD:  8 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddcf7f206c1741d65c7
+#         -> Tag        : 399e92859be7d086acbd3ad44e28c96c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 294 | AD:  8 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddcf7f206c1741d65c7d4
+#         -> Tag        : fd148516a62507db811f7df90515cf47
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 295 | AD:  8 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddcf7f206c1741d65c7d42b
+#         -> Tag        : a554ad23f7eb61a2896b82a7029f0a18
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 296 | AD:  8 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddcf7f206c1741d65c7d42b47
+#         -> Tag        : 957435cce111a8968aac539c04c8b39d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 297 | AD:  8 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : da9e0c91c7cb8612ba10282f06c7fc522ebdcddcf7f206c1741d65c7d42b47be
+#         -> Tag        : 66d2154c980ce7a6d757bb0dc951ec95
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 298 | AD:  9 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : 24f13284a0f90f906b18c7e4061c0896
+#         -> Decrypt PT : 
+#  [PASS] Count = 299 | AD:  9 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f
+#         -> Tag        : 36811e242dea0d88aa0dc0f1588c225b
+#         -> Decrypt PT : 00
+#  [PASS] Count = 300 | AD:  9 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59
+#         -> Tag        : 2af785c90ad0c807a1d9468edc33378a
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 301 | AD:  9 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7
+#         -> Tag        : c04f69ff6f657a9a20b7633536961786
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 302 | AD:  9 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f767
+#         -> Tag        : 0e632ddbaf3b9078fb8499c5970e19f0
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 303 | AD:  9 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d
+#         -> Tag        : 2cb78b4857ef1054d1e2eb7e1b0c7661
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 304 | AD:  9 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f
+#         -> Tag        : daa5179d6ac6a8fe54782b7815ce32a4
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 305 | AD:  9 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f90
+#         -> Tag        : f67ca53d520736ad96d8333388b2ba30
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 306 | AD:  9 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907b
+#         -> Tag        : 0a82ec32c8f7f55a0aed293647b8629d
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 307 | AD:  9 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8
+#         -> Tag        : 10c74b0b095c321b5e4f34843e2178e4
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 308 | AD:  9 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b1
+#         -> Tag        : 671cf1f54ae681318dada32338bce37f
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 309 | AD:  9 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180
+#         -> Tag        : 4c9968d1935d01005dc94b979bb0811c
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 310 | AD:  9 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b18059
+#         -> Tag        : 0bd54f5732e6b749c5106d0e903eb8ce
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 311 | AD:  9 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599e
+#         -> Tag        : 3b16e947abd227583bac6a51e56dea4c
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 312 | AD:  9 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa
+#         -> Tag        : 8299f19fd463c4c1a575c1b2a9919ca8
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 313 | AD:  9 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39
+#         -> Tag        : f0238de819bd99c3515e3b0eedab3c5d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 314 | AD:  9 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b2
+#         -> Tag        : bda28c99802c41c8fe4a680815fdb8bf
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 315 | AD:  9 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b290
+#         -> Tag        : ddaafa31545b0e9ccfb74650f6b5d729
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 316 | AD:  9 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004
+#         -> Tag        : 7c605b448062204622c6476d5e8bd2ae
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 317 | AD:  9 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004da
+#         -> Tag        : 4e4b32b4d722b0f0bfefb53f4c8be3f2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 318 | AD:  9 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2
+#         -> Tag        : a5cd4260206435d2c8ddbe81f83469b4
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 319 | AD:  9 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2ef
+#         -> Tag        : e6476b9b544616d441961b6662160348
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 320 | AD:  9 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2ef74
+#         -> Tag        : ba9dac24f0c585d362465f6240ae1500
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 321 | AD:  9 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2ef74a7
+#         -> Tag        : ca39c1280336dcf7999be75fdf54633e
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 322 | AD:  9 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2ef74a784
+#         -> Tag        : d37b6910ee54af100c6f58c047536541
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 323 | AD:  9 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2ef74a784af
+#         -> Tag        : 1f38192136f57278839a31aa29c58bcb
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 324 | AD:  9 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2ef74a784af33
+#         -> Tag        : 6ba705fc1a509ed99d39ba61299d8672
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 325 | AD:  9 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2ef74a784af3394
+#         -> Tag        : 73d0cfd23a41d259ae7b97d8ee1367ef
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 326 | AD:  9 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2ef74a784af3394cc
+#         -> Tag        : d19355035b001851de3f917b96097310
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 327 | AD:  9 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2ef74a784af3394cc4e
+#         -> Tag        : b0dc77930f54b3bfb3f997577774ac61
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 328 | AD:  9 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2ef74a784af3394cc4e0d
+#         -> Tag        : 31ac78491ddf76a3f24d56b9aab4eb4e
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 329 | AD:  9 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2ef74a784af3394cc4e0db7
+#         -> Tag        : 2dd6d5dfe9e41c6e504f7e067f9c30b4
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 330 | AD:  9 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f59f7674d4f907ba8b180599eaa39b29004dac2ef74a784af3394cc4e0db70f
+#         -> Tag        : a9d0bd7862f1184450dcab16902ea443
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 331 | AD: 10 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : 35bb5b5ebb8f21b1694603345397a443
+#         -> Decrypt PT : 
+#  [PASS] Count = 332 | AD: 10 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 32
+#         -> Tag        : 3976786939509127cbbb1d9cbfe48cf3
+#         -> Decrypt PT : 00
+#  [PASS] Count = 333 | AD: 10 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 3224
+#         -> Tag        : ec87cb5d43224821977e8b298474a20a
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 334 | AD: 10 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409
+#         -> Tag        : 92a80b64d74ff2ca61785c3568da0380
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 335 | AD: 10 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6
+#         -> Tag        : f6e127fdbffd9d8c0b0172a9bd271a4f
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 336 | AD: 10 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa
+#         -> Tag        : 664cf3a593db866dec777185293e6eb4
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 337 | AD: 10 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa62
+#         -> Tag        : 0860ddb8dceace1a1bdcabb4280c61b6
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 338 | AD: 10 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294
+#         -> Tag        : b65bd072e47275c9a4c2364a3cb07bf7
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 339 | AD: 10 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa629473
+#         -> Tag        : bc09c6464edb85d5669b8f96cadfb6b6
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 340 | AD: 10 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e
+#         -> Tag        : 632ec5b0e86e74acf8a8236c186254d7
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 341 | AD: 10 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a
+#         -> Tag        : 3ee2ade366b52c20b37f21e2930380d8
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 342 | AD: 10 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f
+#         -> Tag        : caf583b9eb83d473c44055a1994e190d
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 343 | AD: 10 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c
+#         -> Tag        : d124f14180a1503f462a412c1552c9e5
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 344 | AD: 10 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3d
+#         -> Tag        : aaa0c58afbf12bab15bed70c2372d98b
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 345 | AD: 10 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb
+#         -> Tag        : 02e53c3ae1e50a8966f995ea703064d7
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 346 | AD: 10 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb03
+#         -> Tag        : 119098ee98c331a0478659eb7874414e
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 347 | AD: 10 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306
+#         -> Tag        : 723ced760c099380565d760a83e3bfb0
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 348 | AD: 10 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e2
+#         -> Tag        : e6239b63a0fa60670dfbd85f3d90aa3d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 349 | AD: 10 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205
+#         -> Tag        : 127fe436bf9f8cc69bbd793d051f0061
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 350 | AD: 10 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f1
+#         -> Tag        : 393b69f18bc9d26e175f3b9681837f79
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 351 | AD: 10 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177
+#         -> Tag        : 5c8deb5f0d0ee6b69e5ac05c1831c76a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 352 | AD: 10 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177b2
+#         -> Tag        : 2e7bf4a7e7a437b5da8001db64b6175d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 353 | AD: 10 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177b2f5
+#         -> Tag        : f7449634da121230b53493ab6c414dca
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 354 | AD: 10 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177b2f588
+#         -> Tag        : 834031c4c36e1c4ee9dfc7d215e88906
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 355 | AD: 10 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177b2f5885b
+#         -> Tag        : db02a4468ca16638945bc16401a25bb5
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 356 | AD: 10 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177b2f5885b20
+#         -> Tag        : 6901269d8f09e55753291935a9d491dd
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 357 | AD: 10 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177b2f5885b207c
+#         -> Tag        : ee387d1d150d628dcefc072f08bc45fa
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 358 | AD: 10 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177b2f5885b207cc6
+#         -> Tag        : 56b2333faa96018e35f8e194278cf9ca
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 359 | AD: 10 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177b2f5885b207cc684
+#         -> Tag        : a1c78d44024a942df3bebd72460bc366
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 360 | AD: 10 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177b2f5885b207cc6843f
+#         -> Tag        : c6f3cf95675f1d0536e6bd2ed70c2cfa
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 361 | AD: 10 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177b2f5885b207cc6843fdb
+#         -> Tag        : 3261995303e9e02dc3c2421b0477a5ed
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 362 | AD: 10 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177b2f5885b207cc6843fdbfe
+#         -> Tag        : 323375803c2762e791a97789d1c6bf79
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 363 | AD: 10 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 322409b6fa6294734e7a7f9c3dbb0306e205f177b2f5885b207cc6843fdbfe8e
+#         -> Tag        : dcf5d5f21a387740768d98e42a4ad37c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 364 | AD: 11 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : b8bf86903450f40432f51096e55898fa
+#         -> Decrypt PT : 
+#  [PASS] Count = 365 | AD: 11 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36
+#         -> Tag        : e74a5cee82fd3bad9697b1ba70a6c9af
+#         -> Decrypt PT : 00
+#  [PASS] Count = 366 | AD: 11 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e3
+#         -> Tag        : 4ee152f5a6bfb82977036792a29ebff2
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 367 | AD: 11 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e
+#         -> Tag        : ad0d3d61f247d47ec1bcc98c6730712c
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 368 | AD: 11 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05
+#         -> Tag        : 1bb5284adde2d621dad131ef9e177d2c
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 369 | AD: 11 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db
+#         -> Tag        : 982ad84ffc0a5b4bf84f482247ba7149
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 370 | AD: 11 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88
+#         -> Tag        : 0dc6ce87e14ab53eb9b2d3899846a68a
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 371 | AD: 11 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3
+#         -> Tag        : 98ecdafe220cf3a1f46f2d72173d2ac5
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 372 | AD: 11 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb
+#         -> Tag        : 02ec5e95de22ba153306ef4405643fb1
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 373 | AD: 11 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb66
+#         -> Tag        : 1e4793f1fa69c04feb4ba8787a9ba8a2
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 374 | AD: 11 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb6653
+#         -> Tag        : d27ca89e2799f727f4174a2aeb36c205
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 375 | AD: 11 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310
+#         -> Tag        : f2d46a007a7140a21283978d92f0d7cd
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 376 | AD: 11 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2
+#         -> Tag        : 8301c67e6065bd16f280ef9bf6c1fcf8
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 377 | AD: 11 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e8
+#         -> Tag        : 9277ea6a0120da22a0acd91cb16f0412
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 378 | AD: 11 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b
+#         -> Tag        : ba534fdbd14d9f4194a6b65f594f61ed
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 379 | AD: 11 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14
+#         -> Tag        : 82a6477c9cc354de70fe7623b73475d9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 380 | AD: 11 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa
+#         -> Tag        : 3dc07e3832553c893d2098fcb4d4e10b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 381 | AD: 11 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa30
+#         -> Tag        : c85d17c3da15c6f7076448e26eccac39
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 382 | AD: 11 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097
+#         -> Tag        : c88133cc8ec3b441538e8556f43973eb
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 383 | AD: 11 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d6
+#         -> Tag        : 366e72d4095f553e853c3096dc88f7ec
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 384 | AD: 11 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65c
+#         -> Tag        : 68c835480532c4256a8e367be18c93b6
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 385 | AD: 11 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65cbe
+#         -> Tag        : 42204811698db271828a45c0c6ee8cf9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 386 | AD: 11 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65cbe39
+#         -> Tag        : 01d9344055c8c18815b6504f3c7335c2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 387 | AD: 11 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65cbe395b
+#         -> Tag        : 5c006c003a4c610b7a8eac35fb2b0176
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 388 | AD: 11 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65cbe395bbf
+#         -> Tag        : 1853e2c2faeb8f26a011a91a8c481b8b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 389 | AD: 11 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65cbe395bbfd1
+#         -> Tag        : eec8a3bd70b004fbe4d355dd1362cfd2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 390 | AD: 11 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65cbe395bbfd113
+#         -> Tag        : d47d76fd910ddc3ad2d1f1e8e2bd91d1
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 391 | AD: 11 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65cbe395bbfd113fb
+#         -> Tag        : 3c7e6ab7a96c53ab2da41d3b36dc0ace
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 392 | AD: 11 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65cbe395bbfd113fbfd
+#         -> Tag        : 0f8071a670a393f2429ec0f3f05947a2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 393 | AD: 11 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65cbe395bbfd113fbfd49
+#         -> Tag        : 2d9143080bb66946d4084b72f4a42bf7
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 394 | AD: 11 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65cbe395bbfd113fbfd49ed
+#         -> Tag        : 5fdbbed8ba0a289a9e3032033f99d1e3
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 395 | AD: 11 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65cbe395bbfd113fbfd49edcb
+#         -> Tag        : 14dbc76daa0b83bba161fc8aeeab901f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 396 | AD: 11 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 36e34e05db88b3cb665310e2e82b14fa3097d65cbe395bbfd113fbfd49edcbff
+#         -> Tag        : 377f38a237f84cf4f5da7aff76848804
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 397 | AD: 12 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : 4b03b405717243d04ce7d1713728975e
+#         -> Decrypt PT : 
+#  [PASS] Count = 398 | AD: 12 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 98
+#         -> Tag        : e3b0d22b5c084a8def2cfd7610b25fc5
+#         -> Decrypt PT : 00
+#  [PASS] Count = 399 | AD: 12 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a
+#         -> Tag        : 305de32a78ca82148b3720e74222ba4a
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 400 | AD: 12 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c
+#         -> Tag        : 0da828f988cc31bd628805ed168e6cdf
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 401 | AD: 12 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c42
+#         -> Tag        : 0d11134be9efb08f5ce8801b8623fca4
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 402 | AD: 12 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d
+#         -> Tag        : 9ba5c1df68a0ef1926d4f1b63b93acb4
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 403 | AD: 12 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25
+#         -> Tag        : 12c7dc301eb61761e8583a62e1fb5bd9
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 404 | AD: 12 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e6
+#         -> Tag        : e13f89a6a75966cbfa9537555329e40e
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 405 | AD: 12 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650
+#         -> Tag        : 2413fe4a384bbf51520f4e274408ba4c
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 406 | AD: 12 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6
+#         -> Tag        : 21e0a751c99dfb66384ade14e1cca890
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 407 | AD: 12 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9
+#         -> Tag        : 99bda36fab821df5a75b1ab8a5502dbe
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 408 | AD: 12 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c902
+#         -> Tag        : acb5b673eafdb8836425dc5381e95da3
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 409 | AD: 12 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e
+#         -> Tag        : 9ab523a08008df70075f2de2616078ea
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 410 | AD: 12 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2d
+#         -> Tag        : 18b95f40493019b2118e1696547a6a35
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 411 | AD: 12 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df9
+#         -> Tag        : bebfdeebb18c71af1a4c46f306c670d2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 412 | AD: 12 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e
+#         -> Tag        : de6d097f52258a46d36065c6c2728956
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 413 | AD: 12 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66
+#         -> Tag        : df531f0daf0ae8f3432a92f58ee52259
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 414 | AD: 12 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de
+#         -> Tag        : b89633bc610f5450f4db77b54b4dc36d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 415 | AD: 12 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de06
+#         -> Tag        : 081581e25d1592693dcece1dfa9112da
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 416 | AD: 12 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668
+#         -> Tag        : 330dbdc4be975ffdef79552921b45fb8
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 417 | AD: 12 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd
+#         -> Tag        : c713b69885ae948118002a78d9e54e4c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 418 | AD: 12 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd0b
+#         -> Tag        : 8c0694b136fb1f2ab25fdbf81dab8b0e
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 419 | AD: 12 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd0b3f
+#         -> Tag        : 8cf5d2c44b93ac63ec42f86b1aa3d08c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 420 | AD: 12 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd0b3f19
+#         -> Tag        : 3f0fce41a2158edbd62e262527cce93b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 421 | AD: 12 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd0b3f1903
+#         -> Tag        : b68e0ffc0946c5308ff6630002256151
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 422 | AD: 12 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd0b3f1903f0
+#         -> Tag        : 8dfb611dc684d6b2dd1f14710ac0a141
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 423 | AD: 12 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd0b3f1903f092
+#         -> Tag        : b732db151e702966599f8e1bd71a5891
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 424 | AD: 12 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd0b3f1903f0922f
+#         -> Tag        : 31894f57e8270f6532397c8b3d087771
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 425 | AD: 12 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd0b3f1903f0922f3b
+#         -> Tag        : 7b42e51333670ae96ed5522f166963f1
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 426 | AD: 12 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd0b3f1903f0922f3b71
+#         -> Tag        : bdcbf8297de5676f176e369dee11e0f5
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 427 | AD: 12 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd0b3f1903f0922f3b7149
+#         -> Tag        : 1c63329447ab0d9bc8846ce86673667c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 428 | AD: 12 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd0b3f1903f0922f3b714928
+#         -> Tag        : 462b1023dfe67fe1472c4dfc39066c9f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 429 | AD: 12 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 981a3c428d25e650f6c9022e2df99e66de0668cd0b3f1903f0922f3b7149282f
+#         -> Tag        : 84f418f01b508f4e2a6deae1abd93c37
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 430 | AD: 13 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : d2813664ba3d183ef2f9cd7135680f19
+#         -> Decrypt PT : 
+#  [PASS] Count = 431 | AD: 13 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ac
+#         -> Tag        : d796b8ddc917f2c8676eac32c3afd3a5
+#         -> Decrypt PT : 00
+#  [PASS] Count = 432 | AD: 13 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3
+#         -> Tag        : ad569634e37591976af1c601d04efec6
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 433 | AD: 13 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb
+#         -> Tag        : e443f604cd325b6c1dcee6df94fdbffe
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 434 | AD: 13 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81
+#         -> Tag        : c7382597d310a5937cd939f86dbb690f
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 435 | AD: 13 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb8190
+#         -> Tag        : 8b6390492fe44ef7c7a580a77dac5a2c
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 436 | AD: 13 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f
+#         -> Tag        : 6ddd06ebfe21cd5d51cff47fba4c6377
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 437 | AD: 13 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39
+#         -> Tag        : 2991dc2e195a79d8714f9b0bb98067a9
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 438 | AD: 13 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39df
+#         -> Tag        : 446f4b753694ad45fb8f09bb46a5b3e5
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 439 | AD: 13 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc2
+#         -> Tag        : 8b78e13b05b08e83c6e4e08d10dbfd52
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 440 | AD: 13 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c
+#         -> Tag        : 1c2441a2b16d61ce22d360093ef923a3
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 441 | AD: 13 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c49
+#         -> Tag        : 9c24852fba56cf501b75cd0190beba7f
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 442 | AD: 13 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982
+#         -> Tag        : 0fbed57c6b2f4a079aa3cd8c05f4eb9d
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 443 | AD: 13 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af
+#         -> Tag        : dbbe88f3482b54f09d387854125ec4b7
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 444 | AD: 13 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76
+#         -> Tag        : 30469daf221b2e1c6b61179104b51192
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 445 | AD: 13 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af7615
+#         -> Tag        : 05a81f440a07674cff780d3d3af63ee4
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 446 | AD: 13 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f
+#         -> Tag        : 9392cd8939cafab9a86f8ec074f8d97c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 447 | AD: 13 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f82
+#         -> Tag        : 5bdd0796e85255360ea55ffb8fc39deb
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 448 | AD: 13 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e
+#         -> Tag        : 6a5f960afb7b29c1abba0db89e5080ec
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 449 | AD: 13 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1b
+#         -> Tag        : e2a14ad2fbf403e5d5cde9cc0ed0782f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 450 | AD: 13 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc1
+#         -> Tag        : e3ed155c14c954eb0d93923c9b8bd1d3
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 451 | AD: 13 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc107
+#         -> Tag        : 59d71a5621791dcaf2d9a1b0d5433ca6
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 452 | AD: 13 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc10723
+#         -> Tag        : d6db52c2d13be00eea973ac4823c65ed
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 453 | AD: 13 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc10723eb
+#         -> Tag        : 02b7aba3afdfc055e24ce30e2acf2a1f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 454 | AD: 13 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc10723eb47
+#         -> Tag        : 54794b2e9875369abeb02f5811e15b02
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 455 | AD: 13 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc10723eb47d0
+#         -> Tag        : 0ca6e714c1165c009c32d8e622dae31b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 456 | AD: 13 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc10723eb47d086
+#         -> Tag        : 491e8ccd94a65371d2022fe14c1df414
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 457 | AD: 13 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc10723eb47d08634
+#         -> Tag        : 7280c5116b918c0a47ba3b6a475a051b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 458 | AD: 13 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc10723eb47d0863412
+#         -> Tag        : 956eebb8227b17d3cf43584b51caafda
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 459 | AD: 13 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc10723eb47d086341249
+#         -> Tag        : 66fbe6fe5028379af4f53f6d83e4fa4d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 460 | AD: 13 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc10723eb47d08634124955
+#         -> Tag        : b76eba8a85e80aed59f2b8c27c2a7181
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 461 | AD: 13 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc10723eb47d0863412495587
+#         -> Tag        : 323f7edd2c990a65e86db2127fbe4b31
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 462 | AD: 13 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : aca3bb81906f39dfc24c4982af76152f828e1bc10723eb47d086341249558793
+#         -> Tag        : 416bddb43dfdaa86f3c3dc4c831022bb
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 463 | AD: 14 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : 84c04a74c7a193755a5b40394e3ba2ba
+#         -> Decrypt PT : 
+#  [PASS] Count = 464 | AD: 14 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21
+#         -> Tag        : bf0077826dd488b582cc197b3f79d90a
+#         -> Decrypt PT : 00
+#  [PASS] Count = 465 | AD: 14 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21ac
+#         -> Tag        : 519266dd8227dcb13ee4eaef130cecc9
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 466 | AD: 14 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb8
+#         -> Tag        : 1a12a84183231c74cab38a6a486361a5
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 467 | AD: 14 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879
+#         -> Tag        : 3bc429933df61b4a4145352afcf339d6
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 468 | AD: 14 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc
+#         -> Tag        : 1971b83adde05ab7dfc47cb29f7eaddb
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 469 | AD: 14 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc19
+#         -> Tag        : 43d6df708920d30e0dd352079e00ab38
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 470 | AD: 14 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915
+#         -> Tag        : c9c251598a2768750f07e29a8b202689
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 471 | AD: 14 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915ed
+#         -> Tag        : 4735b69064227edee6e032e90ee00fa4
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 472 | AD: 14 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca
+#         -> Tag        : 7c7a1eae3c740905d55d099b213a013e
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 473 | AD: 14 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca83
+#         -> Tag        : 568641df898344d1bfec3fc117f2e928
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 474 | AD: 14 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318
+#         -> Tag        : b3e0128d4d49eafc8b974bb3d33570ec
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 475 | AD: 14 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a4
+#         -> Tag        : 228aa3b73e3d1a353c1d5db55b6381f8
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 476 | AD: 14 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479
+#         -> Tag        : effc33d669482cceca7b14deaca96201
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 477 | AD: 14 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e8
+#         -> Tag        : 511de0a501dcfe517adc8f59ef2b283b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 478 | AD: 14 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887
+#         -> Tag        : 4e8edd0747f184afefc9359f384288fe
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 479 | AD: 14 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb
+#         -> Tag        : 41edc099dc983d88c9e7c2c97ec5cce8
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 480 | AD: 14 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb91
+#         -> Tag        : 5fd1d179bbf26b1eba184fca8d131fbd
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 481 | AD: 14 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb9100
+#         -> Tag        : 599c171c529ca0138deb57578248a6fd
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 482 | AD: 14 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017
+#         -> Tag        : 191017b657aac9e65d195f3ec7aa32c7
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 483 | AD: 14 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2
+#         -> Tag        : d2e9d4669942cf879c0a4d92ff81f279
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 484 | AD: 14 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2ee
+#         -> Tag        : c0a168bb00697c2ae81031cb35663430
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 485 | AD: 14 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2ee10
+#         -> Tag        : e7b9e5e439a0446514d9a9460cdc3bc7
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 486 | AD: 14 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2ee10a3
+#         -> Tag        : 58134abc84b312dd623efebbcb1a01fc
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 487 | AD: 14 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2ee10a367
+#         -> Tag        : 5c82b93733e9626949c061fa70ed3b2f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 488 | AD: 14 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2ee10a3673d
+#         -> Tag        : 9a32fa3f2ad86710595c94caa1b0eaed
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 489 | AD: 14 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2ee10a3673d5d
+#         -> Tag        : 524301d25d3bc9895b9828bdc5cd3db8
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 490 | AD: 14 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2ee10a3673d5d86
+#         -> Tag        : 720a929e0be6a5907ccc1a0d1c8a6492
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 491 | AD: 14 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2ee10a3673d5d8616
+#         -> Tag        : aefd1438f714666849a2c89122c7c456
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 492 | AD: 14 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2ee10a3673d5d86163d
+#         -> Tag        : 89e661a962ccb4637f01c29facf1704b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 493 | AD: 14 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2ee10a3673d5d86163d3a
+#         -> Tag        : a7f02fea7c80df20c3139f5136f2dc34
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 494 | AD: 14 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2ee10a3673d5d86163d3aef
+#         -> Tag        : 036b391aada6763b84b4b8a46390e1bf
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 495 | AD: 14 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 21acb879fc1915edca8318a479e887cb910017a2ee10a3673d5d86163d3aefdf
+#         -> Tag        : bff6e96dacec47a465ce229ebf2186ee
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 496 | AD: 15 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : 759102a6953861627aae1836d003a294
+#         -> Decrypt PT : 
+#  [PASS] Count = 497 | AD: 15 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00
+#         -> Tag        : 82df6811e23acb143633509e0f8e12b8
+#         -> Decrypt PT : 00
+#  [PASS] Count = 498 | AD: 15 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd
+#         -> Tag        : 7013b3b10e5ae6f2730c31c19afa1a2a
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 499 | AD: 15 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39
+#         -> Tag        : 78513cc7310a743e35b9bdf2420ca851
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 500 | AD: 15 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa
+#         -> Tag        : c62acccf7fe2ec8c243fc134904e7402
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 501 | AD: 15 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c
+#         -> Tag        : 275c352737bfe7acefa8e87006774a5b
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 502 | AD: 15 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a
+#         -> Tag        : 741d639778bf13fbcc3863513405a83d
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 503 | AD: 15 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7c
+#         -> Tag        : c83b99f430063ea97435c5e48aa66332
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 504 | AD: 15 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4
+#         -> Tag        : 538d0281ab1cc8151e70ed95d5a8e429
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 505 | AD: 15 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce469
+#         -> Tag        : 56722454ddf33ce0dc39bd71f726830f
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 506 | AD: 15 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce46986
+#         -> Tag        : e9722e66e071cbe8955fd4eb05feff27
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 507 | AD: 15 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601
+#         -> Tag        : e84706cac5fa4082dabe2e7d0a7cf3c1
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 508 | AD: 15 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f3
+#         -> Tag        : a993cb7db1de653aa84136c2cdec7b36
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 509 | AD: 15 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d
+#         -> Tag        : 8d6a67c1ca08b5eeadff071c5c497832
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 510 | AD: 15 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c
+#         -> Tag        : b5ff14283fe5081e3957b44f64dc82e5
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 511 | AD: 15 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c40
+#         -> Tag        : c610d916b9f58a7d98096a078fb347c5
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 512 | AD: 15 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033
+#         -> Tag        : 0089e3e1208683089652ca1ab72d3e99
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 513 | AD: 15 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c403331
+#         -> Tag        : 940d7deff08f176262ffb2259fa5bab6
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 514 | AD: 15 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d
+#         -> Tag        : 4beb03fc3b510c23f727cb19440c01b7
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 515 | AD: 15 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93
+#         -> Tag        : 6669443b358f34e8bcafeca80bee880a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 516 | AD: 15 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1
+#         -> Tag        : 012c74678c8d47aa0fe076808ab7d30c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 517 | AD: 15 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1c5
+#         -> Tag        : ab1af04d7f4920c577a6fd5131ea53a2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 518 | AD: 15 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1c5f2
+#         -> Tag        : 20f0b6c01ab6deae94a8fa38cda718a8
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 519 | AD: 15 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1c5f2df
+#         -> Tag        : 68b485c4a1cd698c67881051ce1474ee
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 520 | AD: 15 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1c5f2dfc9
+#         -> Tag        : 96dc7e155a4e794faf20f1f92a619203
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 521 | AD: 15 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1c5f2dfc988
+#         -> Tag        : 9057dad820561ec66c1bfd4d4e37af5a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 522 | AD: 15 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1c5f2dfc988b6
+#         -> Tag        : d473ec1ba6b22bd0f04e6e9a3f679ef3
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 523 | AD: 15 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1c5f2dfc988b679
+#         -> Tag        : 04c1bbd4e185044917c267526b4b7c3e
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 524 | AD: 15 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1c5f2dfc988b679cc
+#         -> Tag        : 560970ee51c6c23d0222a2359387734a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 525 | AD: 15 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1c5f2dfc988b679cc56
+#         -> Tag        : e97007206ab198256703d4fc06297c34
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 526 | AD: 15 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1c5f2dfc988b679cc567f
+#         -> Tag        : a317611bcdca5a6e40bc116915991c01
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 527 | AD: 15 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1c5f2dfc988b679cc567fa8
+#         -> Tag        : fab321ac9e7750f76a10de52bf7426d7
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 528 | AD: 15 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 00dd39fa9c3a7ce4698601f36d8c4033318d93e1c5f2dfc988b679cc567fa85c
+#         -> Tag        : 2b1f1956961f4a9f69c1687d6ec0872c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 529 | AD: 16 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : e4230cdb8330ee9dc0cfd7c7b346e6dc
+#         -> Decrypt PT : 
+#  [PASS] Count = 530 | AD: 16 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 43
+#         -> Tag        : 7843077c1051f61f2043ac027b58b378
+#         -> Decrypt PT : 00
+#  [PASS] Count = 531 | AD: 16 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353
+#         -> Tag        : 73442e28faf99ee2f548a4b503a63eb3
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 532 | AD: 16 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb
+#         -> Tag        : 887df5de90de1f444b56e353614e70ee
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 533 | AD: 16 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92
+#         -> Tag        : d478844704f4b22f808d1f4e78d2983e
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 534 | AD: 16 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92ab
+#         -> Tag        : ebbb2cbb2354012a33d236c30a9f7815
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 535 | AD: 16 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc9
+#         -> Tag        : 34840f49c47b6c0f89617bdf0946e2cc
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 536 | AD: 16 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95c
+#         -> Tag        : bb619835a543113ddb08c9321d8fd539
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 537 | AD: 16 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb
+#         -> Tag        : 469631973a861fb33c8e17b0997a0acb
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 538 | AD: 16 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c
+#         -> Tag        : 8b887111796c29ab2edd27880fa53213
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 539 | AD: 16 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c29
+#         -> Tag        : 5735f05d898f996b4f90ac74c43cb0d8
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 540 | AD: 16 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292c
+#         -> Tag        : 5ffff856678697dd23a0b7a9e15da541
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 541 | AD: 16 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3
+#         -> Tag        : b97b550efbc907e2bdeb70f3ee89d6d6
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 542 | AD: 16 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9
+#         -> Tag        : 2371637257923d940fd2a5ae6015193d
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 543 | AD: 16 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e1
+#         -> Tag        : 888e1e0e08349945740435e65149ff7d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 544 | AD: 16 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11e
+#         -> Tag        : f3960bf7e80cef16e426c61c243a9010
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 545 | AD: 16 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed1
+#         -> Tag        : 58485116d384ee6e4cac2a0686ab0e6e
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 546 | AD: 16 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17f
+#         -> Tag        : 1db91be6d7c7d44f2435772bd560376c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 547 | AD: 16 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2
+#         -> Tag        : 83a8f54b57be592ac6edddc59a5cf17e
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 548 | AD: 16 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe
+#         -> Tag        : 02311730b69f638668a9d15b1fe82749
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 549 | AD: 16 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe16
+#         -> Tag        : 0e884537ac42e5c3e1ff445a4a51d7a2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 550 | AD: 16 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe1672
+#         -> Tag        : 4ba10983bd59cdfd617796629caf5c53
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 551 | AD: 16 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe16728c
+#         -> Tag        : 50efb02bba27cb3f0caa4aebfb3c837e
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 552 | AD: 16 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe16728cf2
+#         -> Tag        : a0fdbd303934b2ea3840809f3b7c00d3
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 553 | AD: 16 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe16728cf2e4
+#         -> Tag        : 55d54a1e3e034d493ea4187002aa468f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 554 | AD: 16 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe16728cf2e4fe
+#         -> Tag        : b9acada1fc9800a1e296c0b358da53a2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 555 | AD: 16 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe16728cf2e4fe6f
+#         -> Tag        : 81058f8ddd7781312bdf3a4a0704ac13
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 556 | AD: 16 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe16728cf2e4fe6f4f
+#         -> Tag        : 0f98db091976a632e7f991497fce11dd
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 557 | AD: 16 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe16728cf2e4fe6f4fa7
+#         -> Tag        : 240be0cae456be83284db56cd1b43181
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 558 | AD: 16 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe16728cf2e4fe6f4fa758
+#         -> Tag        : 682c917c9222b16e5e3b6dff79d7d3fe
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 559 | AD: 16 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe16728cf2e4fe6f4fa758fa
+#         -> Tag        : 602e301c5ec7d8d72b47a18c35bc1c7f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 560 | AD: 16 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe16728cf2e4fe6f4fa758fafe
+#         -> Tag        : 28fe9ec69b8381299e8f07b85b0cba15
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 561 | AD: 16 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 4353cb92abc95cbb8c292cd3b9e11ed17fc2fe16728cf2e4fe6f4fa758fafe23
+#         -> Tag        : 682b6b18f06d1ced839a1290b320cd3c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 562 | AD: 17 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : bd8851cd3af9847844839a791dd70e8c
+#         -> Decrypt PT : 
+#  [PASS] Count = 563 | AD: 17 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f
+#         -> Tag        : 78e31fd17e2e0770149933a23a97cb17
+#         -> Decrypt PT : 00
+#  [PASS] Count = 564 | AD: 17 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57
+#         -> Tag        : 214b58c39d5c726ba7a8d822f7ac3f55
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 565 | AD: 17 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e7
+#         -> Tag        : 5f2b26718af338113bf6e09dbb806211
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 566 | AD: 17 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b
+#         -> Tag        : 06ea34d19e773a31a4a828e712b8435f
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 567 | AD: 17 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1d
+#         -> Tag        : fef8daa8c781b4c68a320d21c7f79ccb
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 568 | AD: 17 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9
+#         -> Tag        : 089365f9480b7647463797db77687991
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 569 | AD: 17 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1
+#         -> Tag        : 922af0d0c1299e4bdaea3a4fe0ee34e2
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 570 | AD: 17 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e5
+#         -> Tag        : 993828239ecdc43e07525c1878d10530
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 571 | AD: 17 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e593
+#         -> Tag        : bda2b2ffb49d2565199f121be775718b
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 572 | AD: 17 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352
+#         -> Tag        : f4485d761ca022a2cbea5bd91c87462a
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 573 | AD: 17 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf
+#         -> Tag        : 9ddaa9ed8d901be39841720623175b33
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 574 | AD: 17 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf07
+#         -> Tag        : cd52915a36c5f02124b22f40289281b6
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 575 | AD: 17 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a
+#         -> Tag        : 893af6c870ff8c046488a40c0d113868
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 576 | AD: 17 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28
+#         -> Tag        : 2dab9b1283fbc0381f3071f806649cc1
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 577 | AD: 17 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8
+#         -> Tag        : 6284f3a37697bfe69a9943479dc11487
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 578 | AD: 17 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bb
+#         -> Tag        : e2bf73110b9cb74af267bb3042b40605
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 579 | AD: 17 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbed
+#         -> Tag        : f93fef05647214ad8c63da01597ae38d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 580 | AD: 17 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2
+#         -> Tag        : 4545591381282b2b3df86a0d0d052692
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 581 | AD: 17 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3
+#         -> Tag        : ff303043a57674ea0277b2daf89624a4
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 582 | AD: 17 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e1
+#         -> Tag        : cf49abaed71a21dce4bc89dc242d9570
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 583 | AD: 17 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e12f
+#         -> Tag        : dd45c92be72f63fa7fcf055da05a9a18
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 584 | AD: 17 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e12f6e
+#         -> Tag        : 429c2f9065fe18b45b49f702622f0f5f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 585 | AD: 17 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e12f6e84
+#         -> Tag        : ed734775894bac77de7638ab13beadb9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 586 | AD: 17 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e12f6e849a
+#         -> Tag        : 49af9d16268044716a7e30fc2a7aa1ff
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 587 | AD: 17 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e12f6e849a3e
+#         -> Tag        : 92574918a139ae0cbf6814d6febe4771
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 588 | AD: 17 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e12f6e849a3ed1
+#         -> Tag        : 16615874fb18d8f1664d3e58ebc2e6e9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 589 | AD: 17 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e12f6e849a3ed1b2
+#         -> Tag        : 3cffce55aaf618da817e9c26f3d02e7d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 590 | AD: 17 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e12f6e849a3ed1b210
+#         -> Tag        : f0b4d6069546f374fad8cff9bf6166a2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 591 | AD: 17 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e12f6e849a3ed1b210ae
+#         -> Tag        : 8e1ac3a766094032acff526b75ecd00b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 592 | AD: 17 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e12f6e849a3ed1b210aeb8
+#         -> Tag        : bfb1ee4bdaab5a0a6b1ab5e24df436f2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 593 | AD: 17 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e12f6e849a3ed1b210aeb863
+#         -> Tag        : b27e63cef407644faaf8fbd63a4a24f2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 594 | AD: 17 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9f57e73b1dc9d1e59352cf071a28c8bbedc2b3e12f6e849a3ed1b210aeb863ae
+#         -> Tag        : 1efa455f36bceb86d5e68846fa0c754c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 595 | AD: 18 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : 118f0cced10e0bb559a85f7ede580836
+#         -> Decrypt PT : 
+#  [PASS] Count = 596 | AD: 18 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93
+#         -> Tag        : ed8f9c91e6f6eaf7d2c454bb6a4a1116
+#         -> Decrypt PT : 00
+#  [PASS] Count = 597 | AD: 18 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 9390
+#         -> Tag        : 70088fe6ce1598afdb61f63eee00979e
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 598 | AD: 18 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f
+#         -> Tag        : 5ea30a7507c9c9f7087b7fe7d8dc14ae
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 599 | AD: 18 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a
+#         -> Tag        : 293f4fc36a3df3578da2196816bb8b8b
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 600 | AD: 18 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28
+#         -> Tag        : c2231ba270c963eb2fff3392f1e89915
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 601 | AD: 18 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e5
+#         -> Tag        : 769c1d60de2880033facccf729bdb70d
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 602 | AD: 18 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556
+#         -> Tag        : 31de64461a36d278d44fcbf175f6026e
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 603 | AD: 18 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b7
+#         -> Tag        : 74adbc575d4720d1591b21253dcd0e53
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 604 | AD: 18 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769
+#         -> Tag        : 323dbd88fdbfa0ea76fdbf8fdac7f5c4
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 605 | AD: 18 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b76983
+#         -> Tag        : 438585ab80ad4e69b51a89d6c505477a
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 606 | AD: 18 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b7698395
+#         -> Tag        : 8590c54f7c931af8b614eef5e7d2136a
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 607 | AD: 18 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545
+#         -> Tag        : 4293221dd293fa0b0de3434aad2ceaec
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 608 | AD: 18 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545ab
+#         -> Tag        : 9a291f125002096254d8211df9012024
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 609 | AD: 18 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb
+#         -> Tag        : 94419f0665438edeff259bb5927992ef
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 610 | AD: 18 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d
+#         -> Tag        : d45e9034f6bee5f4626b6b9f417e07a2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 611 | AD: 18 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d60
+#         -> Tag        : 342ebd21b1f2be6b98595dd4fca8b3f3
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 612 | AD: 18 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086
+#         -> Tag        : 69c066243d696ceae6a5e3eb6c722841
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 613 | AD: 18 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d608641
+#         -> Tag        : 503b0e18bd60830127b34a645da214c3
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 614 | AD: 18 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e
+#         -> Tag        : 945962448bfe963e5731302cfc265397
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 615 | AD: 18 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a
+#         -> Tag        : 428f6954618f403d1abf168770fb5093
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 616 | AD: 18 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a66
+#         -> Tag        : f34e08e114729aad98f0f15881b5fe04
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 617 | AD: 18 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a66f2
+#         -> Tag        : 86576c50c8279d400858aff4704906ae
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 618 | AD: 18 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a66f254
+#         -> Tag        : 8f20e0fe0e1f294e224043cd31e3af6a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 619 | AD: 18 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a66f25402
+#         -> Tag        : 794dc0b006a221a009aae1a835fe1813
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 620 | AD: 18 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a66f2540284
+#         -> Tag        : 6091ce43bc22a439ee0dc240a54b978d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 621 | AD: 18 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a66f254028470
+#         -> Tag        : 3606e3d8355029b040dc5abb86a85024
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 622 | AD: 18 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a66f2540284702c
+#         -> Tag        : d2305c6822669514abdff40fec6efe31
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 623 | AD: 18 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a66f2540284702cb5
+#         -> Tag        : 2fbccadefe32bd653270d1773fb1f56d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 624 | AD: 18 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a66f2540284702cb5bf
+#         -> Tag        : 91f6bd8fec757b9ac3c675374ada0dcb
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 625 | AD: 18 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a66f2540284702cb5bfcf
+#         -> Tag        : 0a5ed9546c55db96cf54c77cbe71b7bf
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 626 | AD: 18 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a66f2540284702cb5bfcffa
+#         -> Tag        : ab20c53f77395015fbd901d8c6da2897
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 627 | AD: 18 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 93907f2a28e556b769839545abeb3d6086415e1a66f2540284702cb5bfcffa15
+#         -> Tag        : b97b5739a4d58575913ca051224370c1
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 628 | AD: 19 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : 1c68e3de2c87b9a3c81ad91e1a083c6e
+#         -> Decrypt PT : 
+#  [PASS] Count = 629 | AD: 19 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 89
+#         -> Tag        : f4d3cd0ab81ff7477978700c44287247
+#         -> Decrypt PT : 00
+#  [PASS] Count = 630 | AD: 19 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947
+#         -> Tag        : a2f35d3cc8cdea1aae09c6afd0ed1a49
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 631 | AD: 19 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e1
+#         -> Tag        : ab29157e7d8ecf7a3e3ea6046baf51b9
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 632 | AD: 19 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116
+#         -> Tag        : 94f6d04c3cd3d39b73f893397634484c
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 633 | AD: 19 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3
+#         -> Tag        : f54f145ef8277bcbf427813355c0c018
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 634 | AD: 19 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9
+#         -> Tag        : 0736b4152b189c3265b8d3bccc79fa1d
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 635 | AD: 19 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0
+#         -> Tag        : 7a50831324b7d448271a4240efaebde5
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 636 | AD: 19 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c027
+#         -> Tag        : 50ba83420b1628e15028c4763a3cb1cc
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 637 | AD: 19 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a
+#         -> Tag        : 3fc75145220f60fda5012f43a4b80c69
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 638 | AD: 19 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62
+#         -> Tag        : e5fa8971ac3151523d7b667421dcae57
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 639 | AD: 19 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62db
+#         -> Tag        : ab78ecca9a0e46e0febbbb4e5fd2c9c1
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 640 | AD: 19 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6
+#         -> Tag        : 4ed4f7678a30461073e7679d657349b5
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 641 | AD: 19 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe654
+#         -> Tag        : 1606cb5aa61c8060d13416696d7f15b7
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 642 | AD: 19 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e
+#         -> Tag        : 661b3d59be501a07cda37580eb51b141
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 643 | AD: 19 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e75
+#         -> Tag        : e4e0f58fb280d2debd8870d7bbf225ca
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 644 | AD: 19 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586
+#         -> Tag        : 01715c694f386d9102aa3664df0734f2
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 645 | AD: 19 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e758676
+#         -> Tag        : f62a93f9f7c56f5071bafbccbd042502
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 646 | AD: 19 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763f
+#         -> Tag        : ea5aa68957f29e3e7e0c9a5176c9ff73
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 647 | AD: 19 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb
+#         -> Tag        : cd5f3c234949bec69e12a057675defe9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 648 | AD: 19 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb11
+#         -> Tag        : 1d55be10dc5a471ed9405b1c7f0ea396
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 649 | AD: 19 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb118a
+#         -> Tag        : cec04d20c17d07bdac13029399527ef3
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 650 | AD: 19 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb118a69
+#         -> Tag        : 11a5d57eebe31f0ddebd5d3fb605e8db
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 651 | AD: 19 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb118a69a1
+#         -> Tag        : 72847926363cb96388d5469f34201cbf
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 652 | AD: 19 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb118a69a1ca
+#         -> Tag        : 89e44098997a5d2dbb1c79434a972a3f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 653 | AD: 19 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb118a69a1ca3d
+#         -> Tag        : d98a3769e08e0fb183488eac7fd63b73
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 654 | AD: 19 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb118a69a1ca3dc6
+#         -> Tag        : 663655e22cc3aaf423866e46c1202297
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 655 | AD: 19 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb118a69a1ca3dc613
+#         -> Tag        : 10be60f0243a9e60fd90a7b6ac4baff7
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 656 | AD: 19 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb118a69a1ca3dc61327
+#         -> Tag        : 6d4f679f5a4e75df0b83f6b6131f82d4
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 657 | AD: 19 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb118a69a1ca3dc613279b
+#         -> Tag        : 6ad580dc6f875b9b87adfc963dfacaaa
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 658 | AD: 19 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb118a69a1ca3dc613279bbe
+#         -> Tag        : b7fb6b48618d43d61734d54d0a982081
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 659 | AD: 19 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb118a69a1ca3dc613279bbe53
+#         -> Tag        : 092ff4d8c8de18d818d8125f4fa0eead
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 660 | AD: 19 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 8947e116f3a9c0279a62dbe6545e7586763fbb118a69a1ca3dc613279bbe5359
+#         -> Tag        : b1d53dbdc877c69e0d6faadb7609f9d9
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 661 | AD: 20 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : b8097b457642c490908eed5f4e891267
+#         -> Decrypt PT : 
+#  [PASS] Count = 662 | AD: 20 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7
+#         -> Tag        : 821626b3b2b4093508096bdb8a69186b
+#         -> Decrypt PT : 00
+#  [PASS] Count = 663 | AD: 20 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7dd
+#         -> Tag        : 72db9b8cbc6061aa0be70f8f23cd2244
+#         -> Decrypt PT : 0001
+#  [PASS] Count = 664 | AD: 20 B | PT:  3 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe
+#         -> Tag        : 6c869f7ce6c7dbfef0138fd506bab985
+#         -> Decrypt PT : 000102
+#  [PASS] Count = 665 | AD: 20 B | PT:  4 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1b
+#         -> Tag        : a7a1383cd4dbd7f5b9078ca29c2a1ad3
+#         -> Decrypt PT : 00010203
+#  [PASS] Count = 666 | AD: 20 B | PT:  5 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4
+#         -> Tag        : c6bd00c45e3e48c01c1311fb38369a57
+#         -> Decrypt PT : 0001020304
+#  [PASS] Count = 667 | AD: 20 B | PT:  6 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c1
+#         -> Tag        : 1e17af167287d47a10981a7bdb960039
+#         -> Decrypt PT : 000102030405
+#  [PASS] Count = 668 | AD: 20 B | PT:  7 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19b
+#         -> Tag        : d1e75cc14ed7b22d3af3b910f294f8c5
+#         -> Decrypt PT : 00010203040506
+#  [PASS] Count = 669 | AD: 20 B | PT:  8 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa
+#         -> Tag        : 3ee6ede278a5e68cd29af36b3cba9fc9
+#         -> Decrypt PT : 0001020304050607
+#  [PASS] Count = 670 | AD: 20 B | PT:  9 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51
+#         -> Tag        : 2f365bcce809d08b5acd1e7c25a6beea
+#         -> Decrypt PT : 000102030405060708
+#  [PASS] Count = 671 | AD: 20 B | PT: 10 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa5177
+#         -> Tag        : bda5dcac106b4b9e0abeb2e4dec8a3fe
+#         -> Decrypt PT : 00010203040506070809
+#  [PASS] Count = 672 | AD: 20 B | PT: 11 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772b
+#         -> Tag        : f364b0b39d2cdc307ffb6fc05e98a377
+#         -> Decrypt PT : 000102030405060708090a
+#  [PASS] Count = 673 | AD: 20 B | PT: 12 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf3
+#         -> Tag        : 068589524e398aa368ead43439551941
+#         -> Decrypt PT : 000102030405060708090a0b
+#  [PASS] Count = 674 | AD: 20 B | PT: 13 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366
+#         -> Tag        : b77c4cd5713b6d9a39bd296b751c0411
+#         -> Decrypt PT : 000102030405060708090a0b0c
+#  [PASS] Count = 675 | AD: 20 B | PT: 14 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e4
+#         -> Tag        : 7398c53d600a4b8ca015b4d464433b4f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d
+#  [PASS] Count = 676 | AD: 20 B | PT: 15 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479
+#         -> Tag        : 465103fbafd2d05a4548f81d7b38725b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e
+#  [PASS] Count = 677 | AD: 20 B | PT: 16 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b6
+#         -> Tag        : ca14389ca7584778186e0d2a24a04c44
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f
+#  [PASS] Count = 678 | AD: 20 B | PT: 17 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625
+#         -> Tag        : 510caefe52b279f2266b217626ca133c
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10
+#  [PASS] Count = 679 | AD: 20 B | PT: 18 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be
+#         -> Tag        : d6cac52e8220d7f33dc0cd04e1fce6de
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011
+#  [PASS] Count = 680 | AD: 20 B | PT: 19 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be86
+#         -> Tag        : c45a4884b90af3f9cfc5663d45288ac4
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112
+#  [PASS] Count = 681 | AD: 20 B | PT: 20 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673
+#         -> Tag        : 34c70e8c0a8c8b63eee15827602ec875
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213
+#  [PASS] Count = 682 | AD: 20 B | PT: 21 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673ff
+#         -> Tag        : e9426146ec41c887a625bf0a52a3099d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314
+#  [PASS] Count = 683 | AD: 20 B | PT: 22 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673fff3
+#         -> Tag        : f441883e8405edb334c7b03bbc080c68
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415
+#  [PASS] Count = 684 | AD: 20 B | PT: 23 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673fff3a8
+#         -> Tag        : db01f0bb61f1b867b43c101e1111670b
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516
+#  [PASS] Count = 685 | AD: 20 B | PT: 24 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673fff3a824
+#         -> Tag        : 5fae0908f747ebd49db5d7ca79ade07d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f1011121314151617
+#  [PASS] Count = 686 | AD: 20 B | PT: 25 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673fff3a82450
+#         -> Tag        : 71d44a18fe600ab4c964f7c4f877851a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718
+#  [PASS] Count = 687 | AD: 20 B | PT: 26 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673fff3a8245064
+#         -> Tag        : 34af1666b7a116ed9ebbd6c03a82f11a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f10111213141516171819
+#  [PASS] Count = 688 | AD: 20 B | PT: 27 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673fff3a824506418
+#         -> Tag        : dfc4e201c681bf71c03bb7b0a74a075f
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a
+#  [PASS] Count = 689 | AD: 20 B | PT: 28 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673fff3a82450641869
+#         -> Tag        : 42c938d41e38da76e991833bff447b4d
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b
+#  [PASS] Count = 690 | AD: 20 B | PT: 29 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673fff3a82450641869e8
+#         -> Tag        : 6db47626fc1e46181bf5de5bbba15528
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c
+#  [PASS] Count = 691 | AD: 20 B | PT: 30 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673fff3a82450641869e880
+#         -> Tag        : 4dd21cfaaa86b141adc1afc81390ea75
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d
+#  [PASS] Count = 692 | AD: 20 B | PT: 31 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673fff3a82450641869e880aa
+#         -> Tag        : cf3fd29ce30236b4f17e6fccdd52e64a
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e
+#  [PASS] Count = 693 | AD: 20 B | PT: 32 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : f7ddfe1bc4c19baa51772bf366e479b625be8673fff3a82450641869e880aa1e
+#         -> Tag        : e856aef6ded42084f8742703c5e221bb
+#         -> Decrypt PT : 000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f
+#  [PASS] Count = 694 | AD: 21 B | PT:  0 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : 
+#         -> Tag        : 7b59afd062513b22047eaf7f764ced9b
+#         -> Decrypt PT : 
+#  [PASS] Count = 695 | AD: 21 B | PT:  1 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ec
+#         -> Tag        : be80c0ad46dce97495c8fc5c982b4526
+#         -> Decrypt PT : 00
+#  [PASS] Count = 696 | AD: 21 B | PT:  2 B | ENC & DEC Matched NIST Reference
+#         -> Ciphertext : ec06
+#         -> Tag        : 7a3f10304a428f16ea9317e720c20f71
+#         -> Decrypt PT : 0001
+# 
+#  [ERROR] Global Simulation Timeout reached! FSM stalled.
+# ** Note: $finish    : C:/Users/miche/Documents/kulyeah/chipathon/test/tb/tb_ascon_top_final.sv(371)
+#    Time: 100 ms  Iteration: 0  Instance: /tb_ascon_top_final
