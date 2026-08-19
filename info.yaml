@@ -17,3 +17,37 @@ project:
   discord: "Maco, Kennnnn, Arch, Corryn, lelektro"
   description: "Hardware implementation of Ascon cryptography with SPI interface"
   lvs_config: "lvs_config.json"
+
+# ======================================================
+# Pad Map / Pin Connectivity
+# ======================================================
+pinout:
+  - name: "clk"
+    direction: "input"
+    description: "System clock"
+  - name: "rst"       
+    direction: "input"
+    description: "Active-low reset"
+  - name: "cs_n"
+    direction: "input"
+    description: "SPI Chip Select"
+  - name: "sclk"
+    direction: "input"
+    description: "SPI Clock"
+  - name: "mosi"
+    direction: "input"
+    description: "SPI Master Out Slave In"
+  - name: "miso"
+    direction: "output"
+    description: "SPI Master In Slave Out"
+
+# =======================================================================
+# Metrices (for more, it's on the signoff_summary & signoff_full folder)
+# =======================================================================
+  clock_hz: 25000000
+  foundry: "SkyWater"
+  process: "gf180mcu"
+  macro_size: "1000 x 1000"
+  die_area_sq_um: 572106
+  gate_count: 24109
+  power_mw: 93.86 # 25C 5V
