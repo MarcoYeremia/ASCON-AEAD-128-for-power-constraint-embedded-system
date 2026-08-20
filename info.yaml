@@ -44,10 +44,10 @@ pinout:
 # =======================================================================
 # Metrices (for more, it's on the signoff_summary & signoff_full folder)
 # =======================================================================
-  clock_hz: 25000000
-  foundry: "SkyWater"
-  process: "gf180mcu"
-  macro_size: "1000 x 1000"
-  die_area_sq_um: 572106
-  gate_count: 24109
-  power_mw: 93.86 # 25C 5V
+clock_hz: 25000000
+foundry: "SkyWater"
+process: "gf180mcu"
+macro_size: "1000 x 1000"
+die_area_sq_um: 572106
+gate_count: 24109
+power_mw: 93.86 # 25C 5V
