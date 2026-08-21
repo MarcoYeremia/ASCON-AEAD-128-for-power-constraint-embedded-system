@@ -1,0 +1,288 @@
+
+Magic 8.3 revision 528 - Compiled on Wed Jun 18 09:45:25 PM CEST 2025.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+WARNING: RLIMIT_NOFILE is above 1024 and Tcl_Version<9 this may cause runtime issues [rlim_cur=1048576]
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology gf180mcuD ...
+10 Magic internal units = 1 Lambda
+Input style import: scaleFactor=10, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    obsactive mvobsactive filldiff fillpoly m1hole obsm1 fillm1 obsv1 m2hole obsm2 fillm2 obsv2 m3hole obsm3 fillm3 m4hole obsm4 fillm4 m5hole obsm5 fillm5 glass fillblock lvstext obscomment 
+Scaled tech values by 10 / 1 to match internal grid scaling
+Loading gf180mcuD Device Generator Menu ...
+Loading "/usr/local/lib/python3.12/dist-packages/openlane/scripts/magic/wrapper.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: ascon_top
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_32".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_64".
+Reading "gf180mcu_fd_sc_mcu7t5v0__endcap".
+Reading "gf180mcu_fd_sc_mcu7t5v0__filltie".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_8".
+Reading "gf180mcu_fd_sc_mcu7t5v0__dffrnq_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkinv_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fill_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fillcap_16".
+Reading "gf180mcu_fd_sc_mcu7t5v0__fill_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__mux2_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nor2_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__dffrnq_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__buf_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_3".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_8".
+Reading "gf180mcu_fd_sc_mcu7t5v0__dlyc_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__dffrnq_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__xnor2_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi21_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkinv_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__inv_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai22_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand2_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai21_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__inv_3".
+Reading "gf180mcu_fd_sc_mcu7t5v0__xor2_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi221_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi22_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand3_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__inv_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai221_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__inv_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai211_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__buf_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi211_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkinv_8".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__and2_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nor3_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai221_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nor2_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkinv_12".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai31_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi211_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai32_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__or2_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__xor2_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi221_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkinv_3".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand2_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nor2_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi21_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__buf_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__xor3_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__xor3_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__dffsnq_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__or3_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi222_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__xnor3_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand3_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand4_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi221_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai222_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai21_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai211_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi22_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai21_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__dffsnq_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nor4_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nor4_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__xnor2_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__or4_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand3_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi21_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nor4_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi22_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nor3_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai31_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__and4_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai22_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__xnor3_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__or2_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand2_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkinv_16".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai211_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__and2_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__and2_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__or4_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand4_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nand4_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__and4_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__nor3_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__inv_12".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai31_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi211_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__and3_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__or3_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__buf_8".
+Reading "gf180mcu_fd_sc_mcu7t5v0__and3_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__or2_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__or4_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__buf_3".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai33_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai32_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkinv_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai222_2".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai222_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__inv_8".
+Reading "gf180mcu_fd_sc_mcu7t5v0__dffq_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__antenna".
+Reading "gf180mcu_fd_sc_mcu7t5v0__xnor2_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai22_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi222_1".
+Reading "gf180mcu_fd_sc_mcu7t5v0__clkbuf_16".
+Reading "gf180mcu_fd_sc_mcu7t5v0__aoi222_4".
+Reading "gf180mcu_fd_sc_mcu7t5v0__oai221_4".
+Reading "ascon_top".
+    5000 uses
+    10000 uses
+    15000 uses
+    20000 uses
+    25000 uses
+    30000 uses
+    35000 uses
+    40000 uses
+Moving label "_00014_" from metal5 to via4 in cell ascon_top.
+Moving label "_00370_" from metal5 to via4 in cell ascon_top.
+Moving label "_03469_" from metal5 to via4 in cell ascon_top.
+Moving label "_03741_" from metal5 to via4 in cell ascon_top.
+Moving label "_04277_" from metal5 to via4 in cell ascon_top.
+Moving label "_04320_" from metal5 to via4 in cell ascon_top.
+Moving label "_04410_" from metal5 to via4 in cell ascon_top.
+Moving label "_04596_" from metal5 to via4 in cell ascon_top.
+Moving label "_05026_" from metal5 to via4 in cell ascon_top.
+Moving label "_05180_" from metal5 to via4 in cell ascon_top.
+Moving label "_05246_" from metal5 to via4 in cell ascon_top.
+Moving label "_05743_" from metal5 to via4 in cell ascon_top.
+Moving label "_06833_" from metal3 to via2 in cell ascon_top.
+Moving label "_06997_" from metal5 to via4 in cell ascon_top.
+Moving label "_07881_" from metal2 to via1 in cell ascon_top.
+Moving label "_08200_" from metal5 to via4 in cell ascon_top.
+Moving label "_08365_" from metal5 to via4 in cell ascon_top.
+Moving label "_08696_" from metal5 to via4 in cell ascon_top.
+Moving label "_09184_" from metal5 to via4 in cell ascon_top.
+Moving label "_09331_" from metal5 to via4 in cell ascon_top.
+Moving label "_09403_" from metal3 to via2 in cell ascon_top.
+Moving label "_09585_" from metal5 to via4 in cell ascon_top.
+Moving label "_09892_" from metal5 to via4 in cell ascon_top.
+Moving label "_09920_" from metal5 to via4 in cell ascon_top.
+Moving label "_10025_" from metal5 to via4 in cell ascon_top.
+Moving label "_10044_" from metal5 to via4 in cell ascon_top.
+Moving label "_10084_" from metal5 to via4 in cell ascon_top.
+Moving label "_10257_" from metal5 to via4 in cell ascon_top.
+Moving label "_10365_" from metal5 to via4 in cell ascon_top.
+Moving label "_10381_" from metal5 to via4 in cell ascon_top.
+Moving label "_10484_" from metal5 to via4 in cell ascon_top.
+Moving label "_10492_" from metal5 to via4 in cell ascon_top.
+Moving label "_10612_" from metal3 to via2 in cell ascon_top.
+Moving label "_10620_" from metal3 to via2 in cell ascon_top.
+Moving label "_10740_" from metal5 to via4 in cell ascon_top.
+Moving label "_10813_" from metal5 to via4 in cell ascon_top.
+Moving label "_10893_" from metal5 to via4 in cell ascon_top.
+Moving label "_10909_" from metal3 to via2 in cell ascon_top.
+Moving label "_10997_" from metal4 to via3 in cell ascon_top.
+Moving label "_11070_" from metal5 to via4 in cell ascon_top.
+Moving label "_11080_" from metal3 to via2 in cell ascon_top.
+Moving label "_11179_" from metal5 to via4 in cell ascon_top.
+Moving label "_11278_" from metal5 to via4 in cell ascon_top.
+Moving label "_11289_" from metal5 to via4 in cell ascon_top.
+Moving label "_11466_" from metal5 to via4 in cell ascon_top.
+Moving label "_11516_" from metal5 to via4 in cell ascon_top.
+Moving label "_11519_" from metal5 to via4 in cell ascon_top.
+Moving label "_12192_" from metal5 to via4 in cell ascon_top.
+Moving label "_12215_" from metal5 to via4 in cell ascon_top.
+Moving label "_12229_" from metal5 to via4 in cell ascon_top.
+Moving label "_12236_" from metal5 to via4 in cell ascon_top.
+Moving label "_12244_" from metal5 to via4 in cell ascon_top.
+Moving label "_12290_" from metal5 to via4 in cell ascon_top.
+Moving label "bdi_eoi" from metal5 to via4 in cell ascon_top.
+Moving label "clknet_leaf_144_clk" from metal3 to via2 in cell ascon_top.
+Moving label "clknet_leaf_427_clk" from metal3 to via2 in cell ascon_top.
+Moving label "clknet_leaf_503_clk" from metal3 to via2 in cell ascon_top.
+Moving label "clknet_leaf_5_clk" from metal3 to via2 in cell ascon_top.
+Moving label "clknet_leaf_97_clk" from metal3 to via2 in cell ascon_top.
+Moving label "key\[23\]" from metal5 to via4 in cell ascon_top.
+Moving label "key\[26\]" from metal5 to via4 in cell ascon_top.
+Moving label "key\[28\]" from metal5 to via4 in cell ascon_top.
+Moving label "net1108" from metal5 to via4 in cell ascon_top.
+Moving label "net1133" from metal5 to via4 in cell ascon_top.
+Moving label "net1156" from metal5 to via4 in cell ascon_top.
+Moving label "net1211" from metal5 to via4 in cell ascon_top.
+Moving label "net1261" from metal5 to via4 in cell ascon_top.
+Moving label "net1405" from metal5 to via4 in cell ascon_top.
+Moving label "net1431" from metal5 to via4 in cell ascon_top.
+Moving label "net1485" from metal5 to via4 in cell ascon_top.
+Moving label "net1538" from metal4 to via3 in cell ascon_top.
+Moving label "net1563" from metal5 to via4 in cell ascon_top.
+Moving label "net171" from metal5 to via4 in cell ascon_top.
+Moving label "net1827" from metal5 to via4 in cell ascon_top.
+Moving label "net1840" from metal5 to via4 in cell ascon_top.
+Moving label "net1882" from metal5 to via4 in cell ascon_top.
+Moving label "net200" from metal3 to via2 in cell ascon_top.
+Moving label "net214" from metal5 to via4 in cell ascon_top.
+Moving label "net377" from metal3 to via2 in cell ascon_top.
+Moving label "net422" from metal3 to via2 in cell ascon_top.
+Moving label "net446" from metal3 to via2 in cell ascon_top.
+Moving label "net553" from metal5 to via4 in cell ascon_top.
+Moving label "net584" from metal5 to via4 in cell ascon_top.
+Moving label "net586" from metal5 to via4 in cell ascon_top.
+Moving label "net61" from metal5 to via4 in cell ascon_top.
+Moving label "net765" from metal3 to via2 in cell ascon_top.
+Moving label "net797" from metal5 to via4 in cell ascon_top.
+Moving label "net806" from metal5 to via4 in cell ascon_top.
+Moving label "net825" from metal5 to via4 in cell ascon_top.
+Moving label "net843" from metal5 to via4 in cell ascon_top.
+Moving label "net942" from metal5 to via4 in cell ascon_top.
+Moving label "net971" from metal5 to via4 in cell ascon_top.
+Moving label "net977" from metal5 to via4 in cell ascon_top.
+Moving label "pp_inst.core_inst.key_q\[60\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[13\]\[17\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[16\]\[21\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[16\]\[28\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[1\]\[28\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[21\]\[30\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[30\]\[25\]" from metal2 to via1 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[32\]\[31\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[36\]\[17\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[36\]\[9\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[37\]\[3\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[42\]\[29\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[44\]\[12\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[44\]\[15\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[44\]\[9\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[46\]\[2\]" from metal5 to via4 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[47\]\[7\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[48\]\[17\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[49\]\[16\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[49\]\[23\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[49\]\[28\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[4\]\[19\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[51\]\[1\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[52\]\[7\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[54\]\[9\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[59\]\[12\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[59\]\[9\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[5\]\[22\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[60\]\[0\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[62\]\[2\]" from metal5 to via4 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[62\]\[8\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[63\]\[16\]" from metal3 to via2 in cell ascon_top.
+Moving label "rx_valid" from metal3 to via2 in cell ascon_top.
+Moving label "spi_ctrl.word_cnt\[2\]" from metal3 to via2 in cell ascon_top.
+[INFO] Loading ascon_top
+
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+/foss/pdks/gf180mcuD/libs.tech/magic/gf180mcuD.tech: line 2547: section drc:
+	Unknown cif layer: ndiff_missing_pwell
+/foss/pdks/gf180mcuD/libs.tech/magic/gf180mcuD.tech: line 2549: section drc:
+	Unknown cif layer: mvndiff_missing_pwell
+No errors found.
+[INFO] COUNT: 0
+[INFO] Should be divided by 3 or 4
+[INFO] DRC Checking DONE (/foss/designs/ascon_top_layout/runs/RUN_2026-08-21_17-20-50/62-magic-drc/reports/drc_violations.magic.rpt)
+[INFO] Saving mag view with DRC errors (/foss/designs/ascon_top_layout/runs/RUN_2026-08-21_17-20-50/62-magic-drc/views/ascon_top.drc.mag)
+[INFO] Saved
