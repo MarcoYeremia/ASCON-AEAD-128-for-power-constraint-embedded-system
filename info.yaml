@@ -42,12 +42,12 @@ pinout:
     description: "SPI Master In Slave Out"
 
 # =======================================================================
-# Metrices (for more, it's on the signoff_summary & signoff_full folder)
+# Metrices (for more, it's on the signoff_summary_fix & signoff_full_fix folder)
 # =======================================================================
 clock_hz: 25000000
-foundry: "SkyWater"
+foundry: "GlobalFoundries" 
 process: "gf180mcu"
 macro_size: "1000 x 1000"
-die_area_sq_um: 572106
-gate_count: 24109
-power_mw: 93.86 # 25C 5V
+die_area_sq_um: 573430      
+gate_count: 24122           
+power_mw: 236.36           
