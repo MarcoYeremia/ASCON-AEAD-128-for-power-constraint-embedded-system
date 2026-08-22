@@ -1,0 +1,65 @@
+{
+   "creator": "Yosys 0.54 (git sha1 db72ec3bd, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)",
+   "invocation": "stat -json -liberty /foss/designs/ascon_top_layout/runs/RUN_2026-08-21_17-20-50/tmp/715ac6e08059443898f7c64549d97bec.lib ",
+   "modules": {
+      "\\ascon_top": {
+         "num_wires":         16321,
+         "num_wire_bits":     19735,
+         "num_pub_wires":     143,
+         "num_pub_wire_bits": 3557,
+         "num_ports":         6,
+         "num_port_bits":     6,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         19260,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 4543,
+            "$_AND_": 192,
+            "$_DFFE_PP0N_": 63,
+            "$_DFFE_PP0P_": 418,
+            "$_DFFE_PP_": 2048,
+            "$_DFF_PP0_": 272,
+            "$_DFF_PP1_": 5,
+            "$_MUX_": 2516,
+            "$_NAND_": 170,
+            "$_NOR_": 397,
+            "$_NOT_": 770,
+            "$_ORNOT_": 197,
+            "$_OR_": 6047,
+            "$_XNOR_": 662,
+            "$_XOR_": 960
+         }
+      }
+   },
+      "design": {
+         "num_wires":         16321,
+         "num_wire_bits":     19735,
+         "num_pub_wires":     143,
+         "num_pub_wire_bits": 3557,
+         "num_ports":         6,
+         "num_port_bits":     6,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         19260,
+         "num_cells_by_type": {
+            "$_ANDNOT_": 4543,
+            "$_AND_": 192,
+            "$_DFFE_PP0N_": 63,
+            "$_DFFE_PP0P_": 418,
+            "$_DFFE_PP_": 2048,
+            "$_DFF_PP0_": 272,
+            "$_DFF_PP1_": 5,
+            "$_MUX_": 2516,
+            "$_NAND_": 170,
+            "$_NOR_": 397,
+            "$_NOT_": 770,
+            "$_ORNOT_": 197,
+            "$_OR_": 6047,
+            "$_XNOR_": 662,
+            "$_XOR_": 960
+         }
+      }
+}
+
