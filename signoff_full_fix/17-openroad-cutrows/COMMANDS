@@ -1,0 +1,1 @@
+openroad -exit -no_splash -metrics /foss/designs/ascon_top_layout/runs/RUN_2026-08-21_17-20-50/17-openroad-cutrows/or_metrics_out.json /usr/local/lib/python3.12/dist-packages/openlane/scripts/openroad/cut_rows.tcl

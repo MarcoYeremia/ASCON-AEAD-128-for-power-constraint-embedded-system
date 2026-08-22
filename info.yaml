@@ -50,4 +50,4 @@ process: "gf180mcu"
 macro_size: "1000 x 1000"
 die_area_sq_um: 573430      
 gate_count: 24122           
-power_mw: 236.36           
+power_mw: 236.36            
