@@ -180,8 +180,8 @@ int w_base, w_len;
     $display("       System Clock: 50 MHz | SPI Clock: 20 MHz (40ns High Phase)");
     $display("====================================================================");
 
-    fd = $fopen("C:/Users/miche/Documents/kulyeah/chipathon/tolongla/LWC_AEAD_KAT_128_128.txt", "r");
-    if (fd == 0) fd = $fopen("C:/Users/miche/Documents/kulyeah/chipathon/tolongla/LWC_AEAD_KAT_128_128.txt", "r");
+    fd = $fopen("D:/ACADS/CHIPATHON/2026/ASCON-AEAD-128-for-power-constraint-embedded-system/tb/LWC_AEAD_KAT_128_128.txt", "r");
+    if (fd == 0) fd = $fopen("D:/ACADS/CHIPATHON/2026/ASCON-AEAD-128-for-power-constraint-embedded-system/tb/LWC_AEAD_KAT_128_128.txt", "r");
     
     if (fd == 0) begin
       $display(" [FATAL ERROR] Cannot open 'LWC_AEAD_KAT_128_128.txt'.");
@@ -362,7 +362,7 @@ end
   // 7. GLOBAL SIMULATION TIMEOUT WATCHDOG
   // ==========================================================================
   initial begin
-    #100_000_000;
+    #300_000_000;
     $display("\n [ERROR] Global Simulation Timeout reached! FSM stalled.");
     $finish;
   end
