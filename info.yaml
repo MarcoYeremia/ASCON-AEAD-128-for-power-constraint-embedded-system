@@ -20,7 +20,7 @@ project:
 
 
 pins:
-  - name: vss
+  - name: VSS
     io_type: ground 
   - name: clk
     io_type: input_schmitt
@@ -34,7 +34,7 @@ pins:
     io_type: input_cmos
   - name: miso # SPI Master In Slave Out
     io_type: bidirectional
-  - name: vdd
+  - name: VDD
     io_type: power
 
         
