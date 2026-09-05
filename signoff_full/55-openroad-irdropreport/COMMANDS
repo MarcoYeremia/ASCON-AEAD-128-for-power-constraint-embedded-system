@@ -1,1 +1,0 @@
-openroad -exit -no_splash -metrics /foss/designs/ascon_top_layout/runs/RUN_2026-08-13_14-50-54/55-openroad-irdropreport/or_metrics_out.json /usr/local/lib/python3.12/dist-packages/openlane/scripts/openroad/irdrop.tcl
