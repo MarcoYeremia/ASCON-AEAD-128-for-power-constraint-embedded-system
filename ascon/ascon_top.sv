@@ -1,14 +1,56 @@
 `timescale 1ns/1ps
 
 module ascon_top (
-  input logic clk,
-  input logic rst,
-  
+  // 1. Pin Input Fungsional
+  input  logic clk,
+  input  logic rst,
   input  logic sclk,
   input  logic cs_n,
   input  logic mosi,
-  output logic miso
+
+  // 2. Kontrol Resistive Pulling Input (0 0 = Normal CMOS)
+  output logic clk_PU,   output logic clk_PD,
+  output logic rst_PU,   output logic rst_PD,
+  output logic cs_n_PU,  output logic cs_n_PD,
+  output logic sclk_PU,  output logic sclk_PD,
+  output logic mosi_PU,  output logic mosi_PD,
+
+  // 3. Pin MISO dan Kontrol I/O Pad-nya
+  output logic miso_OUT,
+  input  logic miso_IN,
+  output logic miso_IE,
+  output logic miso_OE,
+  output logic miso_PU,
+  output logic miso_PD,
+  output logic miso_CS,
+  output logic miso_SL,
+  output logic miso_PDRV1,
+  output logic miso_PDRV0
 );
+ (* keep = 1 *) logic dummy_sink;
+assign dummy_sink = miso_IN;
+  // ==========================================
+  // GF180MCU DIGITAL I/O PAD TIE-OFFS
+  // ==========================================
+
+  assign clk_PU  = 1'b0; assign clk_PD  = 1'b0;
+  assign rst_PU  = 1'b0; assign rst_PD  = 1'b0;
+  assign cs_n_PU = 1'b0; assign cs_n_PD = 1'b0;
+  assign sclk_PU = 1'b0; assign sclk_PD = 1'b0;
+  assign mosi_PU = 1'b0; assign mosi_PD = 1'b0;
+
+  assign miso_IE    = 1'b0; 
+  assign miso_OE    = 1'b1; 
+  assign miso_PU    = 1'b0; 
+  assign miso_PD    = 1'b0; 
+  assign miso_CS    = 1'b0; 
+  assign miso_SL    = 1'b0; 
+  assign miso_PDRV1 = 1'b0; 
+  assign miso_PDRV0 = 1'b1; 
+
+  // ==========================================
+  // LOGIKA INTERNAL ASLI (TIDAK ADA YANG DIHAPUS)
+  // ==========================================
 
   logic [7:0] rx_data;
   logic       rx_valid;
@@ -39,7 +81,7 @@ module ascon_top (
     .sclk(sclk),
     .cs_n(cs_n),
     .mosi(mosi),
-    .miso(miso),
+    .miso(miso_OUT), // <--- INI SATU-SATUNYA YANG BERUBAH DARI LOGIKAMU
     .rx_data(rx_data),
     .rx_valid(rx_valid),
     .tx_data(tx_data),
@@ -72,7 +114,6 @@ module ascon_top (
     .auth(auth),
     .auth_valid(auth_valid)
   );
-
 
   postprocessor_rup pp_inst (
     .clk(clk),

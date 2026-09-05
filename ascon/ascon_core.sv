@@ -510,6 +510,17 @@ end
     end
   end
 
- endmodule
+  //////////////////////////////////////////////////
+  // Debug Signals (can be removed for synthesis) //
+  //////////////////////////////////////////////////
+
+  logic [63:0] x0, x1, x2, x3, x4;
+  assign x0 = state_q[0];
+  assign x1 = state_q[1];
+  assign x2 = state_q[2];
+  assign x3 = state_q[3];
+  assign x4 = state_q[4];
+
+endmodule
 
 `endif  // INCL_ASCON_CORE

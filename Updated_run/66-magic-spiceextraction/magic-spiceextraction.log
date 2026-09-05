@@ -1,0 +1,326 @@
+
+Magic 8.3 revision 528 - Compiled on Wed Jun 18 09:45:25 PM CEST 2025.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology gf180mcuD ...
+10 Magic internal units = 1 Lambda
+Input style import: scaleFactor=10, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    obsactive mvobsactive filldiff fillpoly m1hole obsm1 fillm1 obsv1 m2hole obsm2 fillm2 obsv2 m3hole obsm3 fillm3 m4hole obsm4 fillm4 m5hole obsm5 fillm5 glass fillblock lvstext obscomment 
+Scaled tech values by 10 / 1 to match internal grid scaling
+Loading gf180mcuD Device Generator Menu ...
+Loading "/usr/local/lib/python3.12/dist-packages/openlane/scripts/magic/wrapper.tcl" from command line.
+> lef read /foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/techlef/gf180mcu_fd_sc_mcu7t5v0__nom.tlef
+Reading LEF data from file /foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/techlef/gf180mcu_fd_sc_mcu7t5v0__nom.tlef.
+This action cannot be undone.
+LEF read, Line 88 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 95 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 105 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 106 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 120 (Message): Unknown keyword "ARRAYSPACING" in LEF file; ignoring.
+LEF read, Line 125 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 137 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 144 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 145 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 146 (Message): Unknown keyword "ANTENNAGATEPLUSDIFF" in LEF file; ignoring.
+LEF read, Line 155 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 156 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 172 (Message): Unknown keyword "ARRAYSPACING" in LEF file; ignoring.
+LEF read, Line 177 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 189 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 196 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 197 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 198 (Message): Unknown keyword "ANTENNAGATEPLUSDIFF" in LEF file; ignoring.
+LEF read, Line 207 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 208 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 224 (Message): Unknown keyword "ARRAYSPACING" in LEF file; ignoring.
+LEF read, Line 229 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 241 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 248 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 249 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 250 (Message): Unknown keyword "ANTENNAGATEPLUSDIFF" in LEF file; ignoring.
+LEF read, Line 259 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 260 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 276 (Message): Unknown keyword "ARRAYSPACING" in LEF file; ignoring.
+LEF read, Line 281 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 295 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 307 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 308 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 309 (Message): Unknown keyword "ANTENNAGATEPLUSDIFF" in LEF file; ignoring.
+LEF read, Line 314 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 315 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read: Processed 1319 lines.
+> lef read /foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lef/gf180mcu_fd_sc_mcu7t5v0.lef
+Reading LEF data from file /foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lef/gf180mcu_fd_sc_mcu7t5v0.lef.
+This action cannot be undone.
+LEF read: Processed 26334 lines.
+> def read /foss/designs/ascon/runs/RUN_2026-09-05_03-04-29/52-odb-cellfrequencytables/ascon_top.def -noblockage -labels
+Reading DEF data from file /foss/designs/ascon/runs/RUN_2026-09-05_03-04-29/52-odb-cellfrequencytables/ascon_top.def.
+This action cannot be undone.
+  Processed 3 vias total.
+  Processed 58488 subcell instances total.
+  Processed 27 pins total.
+  Processed 2 special nets total.
+  Processed 17908 nets total.
+DEF read: Processed 392744 lines.
+Moving label "_03817_" from metal4 to via4 in cell ascon_top.
+Moving label "_03860_" from metal4 to via4 in cell ascon_top.
+Moving label "_03951_" from metal4 to via4 in cell ascon_top.
+Moving label "_04357_" from metal4 to via4 in cell ascon_top.
+Moving label "_04447_" from metal4 to via4 in cell ascon_top.
+Moving label "_04485_" from metal4 to via4 in cell ascon_top.
+Moving label "_04775_" from metal4 to via4 in cell ascon_top.
+Moving label "_04978_" from metal4 to via4 in cell ascon_top.
+Moving label "_05348_" from metal4 to via4 in cell ascon_top.
+Moving label "_05389_" from metal3 to via2 in cell ascon_top.
+Moving label "_05433_" from metal4 to via4 in cell ascon_top.
+Moving label "_05486_" from metal4 to via4 in cell ascon_top.
+Moving label "_05694_" from metal4 to via4 in cell ascon_top.
+Moving label "_06010_" from metal4 to via4 in cell ascon_top.
+Moving label "_06087_" from metal4 to via4 in cell ascon_top.
+Moving label "_06209_" from metal4 to via4 in cell ascon_top.
+Moving label "_06342_" from metal4 to via4 in cell ascon_top.
+Moving label "_06371_" from metal4 to via4 in cell ascon_top.
+Moving label "_06444_" from metal4 to via4 in cell ascon_top.
+Moving label "_06546_" from metal4 to via4 in cell ascon_top.
+Moving label "_06555_" from metal4 to via4 in cell ascon_top.
+Moving label "_06608_" from metal4 to via4 in cell ascon_top.
+Moving label "_06678_" from metal2 to via2 in cell ascon_top.
+Moving label "_06858_" from metal4 to via4 in cell ascon_top.
+Moving label "_09033_" from metal4 to via3 in cell ascon_top.
+Moving label "_09772_" from metal3 to via2 in cell ascon_top.
+Moving label "_09907_" from metal4 to via4 in cell ascon_top.
+Moving label "_09940_" from metal4 to via4 in cell ascon_top.
+Moving label "_09947_" from metal4 to via4 in cell ascon_top.
+Moving label "_10073_" from metal2 to via2 in cell ascon_top.
+Moving label "_10252_" from metal3 to via2 in cell ascon_top.
+Moving label "_10292_" from metal3 to via2 in cell ascon_top.
+Moving label "_10605_" from metal2 to via2 in cell ascon_top.
+Moving label "_10635_" from metal4 to via4 in cell ascon_top.
+Moving label "_10689_" from metal4 to via4 in cell ascon_top.
+Moving label "_10887_" from metal2 to via2 in cell ascon_top.
+Moving label "_11520_" from metal4 to via4 in cell ascon_top.
+Moving label "_11594_" from metal4 to via4 in cell ascon_top.
+Moving label "_11660_" from metal4 to via4 in cell ascon_top.
+Moving label "_11922_" from metal4 to via4 in cell ascon_top.
+Moving label "_11924_" from metal4 to via4 in cell ascon_top.
+Moving label "_12019_" from metal2 to via2 in cell ascon_top.
+Moving label "_12207_" from metal4 to via4 in cell ascon_top.
+Moving label "_12254_" from metal4 to via3 in cell ascon_top.
+Moving label "bdi\[21\]" from metal3 to via2 in cell ascon_top.
+Moving label "bdi\[8\]" from metal3 to via2 in cell ascon_top.
+Moving label "clknet_leaf_147_clk" from metal3 to via2 in cell ascon_top.
+Moving label "clknet_leaf_203_clk" from metal3 to via2 in cell ascon_top.
+Moving label "clknet_leaf_253_clk" from metal2 to via2 in cell ascon_top.
+Moving label "clknet_leaf_264_clk" from metal3 to via2 in cell ascon_top.
+Moving label "clknet_leaf_314_clk" from metal3 to via2 in cell ascon_top.
+Moving label "clknet_leaf_411_clk" from metal2 to via2 in cell ascon_top.
+Moving label "clknet_leaf_418_clk" from metal2 to via2 in cell ascon_top.
+Moving label "clknet_leaf_443_clk" from metal2 to via2 in cell ascon_top.
+Moving label "clknet_leaf_91_clk" from metal2 to via2 in cell ascon_top.
+Moving label "key\[28\]" from metal4 to via4 in cell ascon_top.
+Moving label "net1172" from metal4 to via4 in cell ascon_top.
+Moving label "net1307" from metal4 to via4 in cell ascon_top.
+Moving label "net1329" from metal4 to via4 in cell ascon_top.
+Moving label "net1338" from metal4 to via4 in cell ascon_top.
+Moving label "net1647" from metal3 to via2 in cell ascon_top.
+Moving label "net1784" from metal2 to via2 in cell ascon_top.
+Moving label "net1842" from metal2 to via2 in cell ascon_top.
+Moving label "net224" from metal4 to via4 in cell ascon_top.
+Moving label "net505" from metal2 to via2 in cell ascon_top.
+Moving label "net669" from metal4 to via4 in cell ascon_top.
+Moving label "net852" from metal4 to via4 in cell ascon_top.
+Moving label "net865" from metal2 to via2 in cell ascon_top.
+Moving label "net884" from metal4 to via4 in cell ascon_top.
+Moving label "net895" from metal4 to via4 in cell ascon_top.
+Moving label "net927" from metal4 to via4 in cell ascon_top.
+Moving label "net949" from metal4 to via4 in cell ascon_top.
+Moving label "net952" from metal4 to via4 in cell ascon_top.
+Moving label "net975" from metal4 to via4 in cell ascon_top.
+Moving label "pp_inst.core_inst.asconp_i.x3\[11\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.core_inst.key_q\[0\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.core_inst.pro_ad" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[0\]\[27\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[0\]\[8\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[10\]\[29\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[11\]\[12\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[11\]\[8\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[15\]\[29\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[17\]\[3\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[19\]\[21\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[19\]\[23\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[19\]\[5\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[28\]\[26\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[28\]\[6\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[29\]\[30\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[30\]\[12\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[31\]\[26\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[32\]\[12\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[32\]\[3\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[35\]\[24\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[37\]\[16\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[37\]\[8\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[38\]\[23\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[39\]\[0\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[41\]\[12\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[42\]\[17\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[42\]\[26\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[42\]\[5\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[44\]\[5\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[48\]\[11\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[4\]\[15\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[51\]\[28\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[53\]\[17\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[54\]\[14\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[54\]\[28\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[56\]\[30\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[5\]\[0\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[5\]\[4\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[5\]\[6\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[60\]\[31\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[61\]\[19\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[63\]\[9\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[8\]\[0\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[8\]\[23\]" from metal3 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[9\]\[11\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[9\]\[13\]" from metal2 to via2 in cell ascon_top.
+Moving label "pp_inst.fifo_data\[9\]\[8\]" from metal3 to via2 in cell ascon_top.
+Moving label "spi_ctrl.tx_stage\[13\]" from metal2 to via2 in cell ascon_top.
+Processing ascon_top
+Extracting gf180mcu_fd_sc_mcu7t5v0__fillcap_32 into gf180mcu_fd_sc_mcu7t5v0__fillcap_32.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__fillcap_64 into gf180mcu_fd_sc_mcu7t5v0__fillcap_64.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__endcap into gf180mcu_fd_sc_mcu7t5v0__endcap.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__filltie into gf180mcu_fd_sc_mcu7t5v0__filltie.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__fillcap_4 into gf180mcu_fd_sc_mcu7t5v0__fillcap_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkinv_1 into gf180mcu_fd_sc_mcu7t5v0__clkinv_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__fillcap_16 into gf180mcu_fd_sc_mcu7t5v0__fillcap_16.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__fill_1 into gf180mcu_fd_sc_mcu7t5v0__fill_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__fill_2 into gf180mcu_fd_sc_mcu7t5v0__fill_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__dffrnq_1 into gf180mcu_fd_sc_mcu7t5v0__dffrnq_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__dffrnq_2 into gf180mcu_fd_sc_mcu7t5v0__dffrnq_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__fillcap_8 into gf180mcu_fd_sc_mcu7t5v0__fillcap_8.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__mux2_2 into gf180mcu_fd_sc_mcu7t5v0__mux2_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkbuf_8 into gf180mcu_fd_sc_mcu7t5v0__clkbuf_8.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__xor2_1 into gf180mcu_fd_sc_mcu7t5v0__xor2_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__inv_3 into gf180mcu_fd_sc_mcu7t5v0__inv_3.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi22_1 into gf180mcu_fd_sc_mcu7t5v0__aoi22_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi21_1 into gf180mcu_fd_sc_mcu7t5v0__aoi21_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 into gf180mcu_fd_sc_mcu7t5v0__clkbuf_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__buf_1 into gf180mcu_fd_sc_mcu7t5v0__buf_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nand2_1 into gf180mcu_fd_sc_mcu7t5v0__nand2_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai21_1 into gf180mcu_fd_sc_mcu7t5v0__oai21_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__inv_2 into gf180mcu_fd_sc_mcu7t5v0__inv_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__xnor2_1 into gf180mcu_fd_sc_mcu7t5v0__xnor2_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkinv_2 into gf180mcu_fd_sc_mcu7t5v0__clkinv_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi221_1 into gf180mcu_fd_sc_mcu7t5v0__aoi221_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai22_1 into gf180mcu_fd_sc_mcu7t5v0__oai22_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__buf_2 into gf180mcu_fd_sc_mcu7t5v0__buf_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai211_1 into gf180mcu_fd_sc_mcu7t5v0__oai211_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nor2_1 into gf180mcu_fd_sc_mcu7t5v0__nor2_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__inv_1 into gf180mcu_fd_sc_mcu7t5v0__inv_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nand3_1 into gf180mcu_fd_sc_mcu7t5v0__nand3_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai31_1 into gf180mcu_fd_sc_mcu7t5v0__oai31_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__buf_4 into gf180mcu_fd_sc_mcu7t5v0__buf_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 into gf180mcu_fd_sc_mcu7t5v0__clkbuf_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__or2_1 into gf180mcu_fd_sc_mcu7t5v0__or2_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__xor2_4 into gf180mcu_fd_sc_mcu7t5v0__xor2_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__xor2_2 into gf180mcu_fd_sc_mcu7t5v0__xor2_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__xor3_1 into gf180mcu_fd_sc_mcu7t5v0__xor3_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__or3_1 into gf180mcu_fd_sc_mcu7t5v0__or3_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__or2_2 into gf180mcu_fd_sc_mcu7t5v0__or2_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai21_4 into gf180mcu_fd_sc_mcu7t5v0__oai21_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nor3_1 into gf180mcu_fd_sc_mcu7t5v0__nor3_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkbuf_3 into gf180mcu_fd_sc_mcu7t5v0__clkbuf_3.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__xnor3_1 into gf180mcu_fd_sc_mcu7t5v0__xnor3_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai21_2 into gf180mcu_fd_sc_mcu7t5v0__oai21_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nor2_2 into gf180mcu_fd_sc_mcu7t5v0__nor2_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__or2_4 into gf180mcu_fd_sc_mcu7t5v0__or2_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nand3_2 into gf180mcu_fd_sc_mcu7t5v0__nand3_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__and2_1 into gf180mcu_fd_sc_mcu7t5v0__and2_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__buf_8 into gf180mcu_fd_sc_mcu7t5v0__buf_8.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi221_2 into gf180mcu_fd_sc_mcu7t5v0__aoi221_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi211_1 into gf180mcu_fd_sc_mcu7t5v0__aoi211_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai32_1 into gf180mcu_fd_sc_mcu7t5v0__oai32_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi211_2 into gf180mcu_fd_sc_mcu7t5v0__aoi211_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nand4_1 into gf180mcu_fd_sc_mcu7t5v0__nand4_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nand2_4 into gf180mcu_fd_sc_mcu7t5v0__nand2_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nor2_4 into gf180mcu_fd_sc_mcu7t5v0__nor2_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nand3_4 into gf180mcu_fd_sc_mcu7t5v0__nand3_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi21_2 into gf180mcu_fd_sc_mcu7t5v0__aoi21_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__xnor2_2 into gf180mcu_fd_sc_mcu7t5v0__xnor2_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi22_2 into gf180mcu_fd_sc_mcu7t5v0__aoi22_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai222_4 into gf180mcu_fd_sc_mcu7t5v0__oai222_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__inv_8 into gf180mcu_fd_sc_mcu7t5v0__inv_8.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__xnor2_4 into gf180mcu_fd_sc_mcu7t5v0__xnor2_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai221_4 into gf180mcu_fd_sc_mcu7t5v0__oai221_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkinv_8 into gf180mcu_fd_sc_mcu7t5v0__clkinv_8.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nor3_2 into gf180mcu_fd_sc_mcu7t5v0__nor3_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__xor3_2 into gf180mcu_fd_sc_mcu7t5v0__xor3_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nor3_4 into gf180mcu_fd_sc_mcu7t5v0__nor3_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkinv_16 into gf180mcu_fd_sc_mcu7t5v0__clkinv_16.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__buf_3 into gf180mcu_fd_sc_mcu7t5v0__buf_3.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai221_1 into gf180mcu_fd_sc_mcu7t5v0__oai221_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__inv_16 into gf180mcu_fd_sc_mcu7t5v0__inv_16.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai222_1 into gf180mcu_fd_sc_mcu7t5v0__oai222_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkinv_20 into gf180mcu_fd_sc_mcu7t5v0__clkinv_20.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai221_2 into gf180mcu_fd_sc_mcu7t5v0__oai221_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__tiel into gf180mcu_fd_sc_mcu7t5v0__tiel.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nand2_2 into gf180mcu_fd_sc_mcu7t5v0__nand2_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkbuf_1 into gf180mcu_fd_sc_mcu7t5v0__clkbuf_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai222_2 into gf180mcu_fd_sc_mcu7t5v0__oai222_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai211_2 into gf180mcu_fd_sc_mcu7t5v0__oai211_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__xnor3_2 into gf180mcu_fd_sc_mcu7t5v0__xnor3_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi211_4 into gf180mcu_fd_sc_mcu7t5v0__aoi211_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__and3_1 into gf180mcu_fd_sc_mcu7t5v0__and3_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi22_4 into gf180mcu_fd_sc_mcu7t5v0__aoi22_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai22_2 into gf180mcu_fd_sc_mcu7t5v0__oai22_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__inv_20 into gf180mcu_fd_sc_mcu7t5v0__inv_20.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai31_2 into gf180mcu_fd_sc_mcu7t5v0__oai31_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi21_4 into gf180mcu_fd_sc_mcu7t5v0__aoi21_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__inv_12 into gf180mcu_fd_sc_mcu7t5v0__inv_12.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkinv_4 into gf180mcu_fd_sc_mcu7t5v0__clkinv_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkinv_12 into gf180mcu_fd_sc_mcu7t5v0__clkinv_12.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai32_2 into gf180mcu_fd_sc_mcu7t5v0__oai32_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi221_4 into gf180mcu_fd_sc_mcu7t5v0__aoi221_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai33_4 into gf180mcu_fd_sc_mcu7t5v0__oai33_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__and2_2 into gf180mcu_fd_sc_mcu7t5v0__and2_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__buf_12 into gf180mcu_fd_sc_mcu7t5v0__buf_12.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nand4_2 into gf180mcu_fd_sc_mcu7t5v0__nand4_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai211_4 into gf180mcu_fd_sc_mcu7t5v0__oai211_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai22_4 into gf180mcu_fd_sc_mcu7t5v0__oai22_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkinv_3 into gf180mcu_fd_sc_mcu7t5v0__clkinv_3.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__inv_4 into gf180mcu_fd_sc_mcu7t5v0__inv_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__or3_4 into gf180mcu_fd_sc_mcu7t5v0__or3_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__or4_4 into gf180mcu_fd_sc_mcu7t5v0__or4_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai31_4 into gf180mcu_fd_sc_mcu7t5v0__oai31_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__dlyb_1 into gf180mcu_fd_sc_mcu7t5v0__dlyb_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__dffq_1 into gf180mcu_fd_sc_mcu7t5v0__dffq_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nand4_4 into gf180mcu_fd_sc_mcu7t5v0__nand4_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__dlya_2 into gf180mcu_fd_sc_mcu7t5v0__dlya_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi222_4 into gf180mcu_fd_sc_mcu7t5v0__aoi222_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nor4_1 into gf180mcu_fd_sc_mcu7t5v0__nor4_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__dlya_1 into gf180mcu_fd_sc_mcu7t5v0__dlya_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__antenna into gf180mcu_fd_sc_mcu7t5v0__antenna.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nor4_4 into gf180mcu_fd_sc_mcu7t5v0__nor4_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi222_2 into gf180mcu_fd_sc_mcu7t5v0__aoi222_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__dffrnq_4 into gf180mcu_fd_sc_mcu7t5v0__dffrnq_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__or3_2 into gf180mcu_fd_sc_mcu7t5v0__or3_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__or4_1 into gf180mcu_fd_sc_mcu7t5v0__or4_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__and3_2 into gf180mcu_fd_sc_mcu7t5v0__and3_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__and4_1 into gf180mcu_fd_sc_mcu7t5v0__and4_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__aoi222_1 into gf180mcu_fd_sc_mcu7t5v0__aoi222_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__and2_4 into gf180mcu_fd_sc_mcu7t5v0__and2_4.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__dffsnq_1 into gf180mcu_fd_sc_mcu7t5v0__dffsnq_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__or4_2 into gf180mcu_fd_sc_mcu7t5v0__or4_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 into gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__dlyc_1 into gf180mcu_fd_sc_mcu7t5v0__dlyc_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__oai33_1 into gf180mcu_fd_sc_mcu7t5v0__oai33_1.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__nor4_2 into gf180mcu_fd_sc_mcu7t5v0__nor4_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__and4_2 into gf180mcu_fd_sc_mcu7t5v0__and4_2.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__tieh into gf180mcu_fd_sc_mcu7t5v0__tieh.ext:
+Extracting gf180mcu_fd_sc_mcu7t5v0__dffsnq_2 into gf180mcu_fd_sc_mcu7t5v0__dffsnq_2.ext:
+Extracting ascon_top into ascon_top.ext:
+exttospice finished.
+Using technology "gf180mcuD", version 1.0.493-0-g0fe599b

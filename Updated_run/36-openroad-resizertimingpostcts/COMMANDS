@@ -1,0 +1,1 @@
+openroad -exit -no_splash -metrics /foss/designs/ascon/runs/RUN_2026-09-05_03-04-29/36-openroad-resizertimingpostcts/or_metrics_out.json /usr/local/lib/python3.12/dist-packages/openlane/scripts/openroad/rsz_timing_postcts.tcl

@@ -1,0 +1,28 @@
+{
+  "DESIGN_NAME": "ascon_top",
+  "VERILOG_FILES": [
+    "dir::ascon_top.sv",
+    "dir::ascon_core.sv",
+    "dir::asconp.sv",
+    "dir::config.sv",
+    "dir::functions.sv",
+    "dir::postprocessor_rup.sv",
+    "dir::register.sv",
+    "dir::spi_controller.sv",
+    "dir::spi_slave.sv"
+  ],
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 20.0,
+  "FP_PDN_MULTILAYER": false,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 1110 1110",
+  "FP_DEF_TEMPLATE": "dir::A68_A.def",
+  "PDK": "gf180mcuD",
+  "STD_CELL_LIBRARY": "gf180mcu_fd_sc_mcu7t5v0",
+  "DIODE_INSERTION_STRATEGY": 3,
+  "MAX_TRANSITION_CONSTRAINT": 4.0,
+  "PL_RESIZER_DESIGN_OPTIMIZATIONS": true,
+  "GLB_RESIZER_DESIGN_OPTIMIZATIONS": true,
+  "SYNTH_BUFFERING": 0,
+"SYNTH_SIZING": 1
+}
