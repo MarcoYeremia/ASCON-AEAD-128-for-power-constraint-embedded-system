@@ -1,0 +1,1624 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2025  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.54 (git sha1 db72ec3bd, g++ 13.3.0-6ubuntu2~24.04 -fPIC -O3)
+
+1. Executing Verilog-2005 frontend: /foss/designs/ascon_top_layout/runs/RUN_2026-08-21_17-20-50/tmp/4b4230f42d4344cbb587ca7e7caac680.bb.v
+Parsing SystemVerilog input from `/foss/designs/ascon_top_layout/runs/RUN_2026-08-21_17-20-50/tmp/4b4230f42d4344cbb587ca7e7caac680.bb.v' to AST representation.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addf_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addf_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addf_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addf_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addh_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addh_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addh_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addh_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and3_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and3_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and3_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and3_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and4_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and4_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and4_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and4_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__antenna'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__antenna_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi211_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi211_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi211_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi211_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi21_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi21_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi21_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi21_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi221_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi221_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi221_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi221_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi222_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi222_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi222_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi222_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi22_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi22_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi22_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi22_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_12'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_20'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_3'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_12'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_3'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_12'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_20'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_3'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_12'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_20'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_3'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlya_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlya_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlya_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlya_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyb_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyb_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyb_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyb_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyc_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyc_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyc_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyc_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyd_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyd_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyd_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyd_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__endcap'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__endcap_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_32'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_64'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fillcap_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fillcap_32'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fillcap_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fillcap_64'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fillcap_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fillcap_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__filltie'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__filltie_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__hold'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__hold_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtn_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtn_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtn_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtn_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtp_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtp_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtp_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtp_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_12'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_20'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_3'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_12'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_3'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux4_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux4_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux4_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux4_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand3_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand3_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand3_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand3_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand4_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand4_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand4_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand4_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor3_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor3_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor3_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor3_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor4_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor4_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor4_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor4_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai211_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai211_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai211_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai211_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai21_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai21_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai21_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai21_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai221_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai221_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai221_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai221_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai222_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai222_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai222_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai222_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai22_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai22_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai22_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai22_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai31_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai31_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai31_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai31_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai32_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai32_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai32_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai32_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai33_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai33_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai33_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai33_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or3_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or3_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or3_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or3_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or4_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or4_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or4_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or4_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__tieh'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__tieh_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__tiel'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__tiel_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor3_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor3_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor3_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor3_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor3_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor3_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor3_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor3_func'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /foss/designs/ascon_top_layout/src/ascon_core.sv
+Parsing SystemVerilog input from `/foss/designs/ascon_top_layout/src/ascon_core.sv' to AST representation.
+Storing AST representation for module `$abstract\asconp'.
+Storing AST representation for module `$abstract\register'.
+Storing AST representation for module `$abstract\ascon_core'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /foss/designs/ascon_top_layout/src/ascon_top.sv
+Parsing SystemVerilog input from `/foss/designs/ascon_top_layout/src/ascon_top.sv' to AST representation.
+Storing AST representation for module `$abstract\ascon_top'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /foss/designs/ascon_top_layout/src/asconp.sv
+Parsing SystemVerilog input from `/foss/designs/ascon_top_layout/src/asconp.sv' to AST representation.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /foss/designs/ascon_top_layout/src/config.sv
+Parsing SystemVerilog input from `/foss/designs/ascon_top_layout/src/config.sv' to AST representation.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /foss/designs/ascon_top_layout/src/functions.sv
+Parsing SystemVerilog input from `/foss/designs/ascon_top_layout/src/functions.sv' to AST representation.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /foss/designs/ascon_top_layout/src/postprocessor_rup.sv
+Parsing SystemVerilog input from `/foss/designs/ascon_top_layout/src/postprocessor_rup.sv' to AST representation.
+Storing AST representation for module `$abstract\postprocessor_rup'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /foss/designs/ascon_top_layout/src/register.sv
+Parsing SystemVerilog input from `/foss/designs/ascon_top_layout/src/register.sv' to AST representation.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /foss/designs/ascon_top_layout/src/spi_controller.sv
+Parsing SystemVerilog input from `/foss/designs/ascon_top_layout/src/spi_controller.sv' to AST representation.
+Storing AST representation for module `$abstract\spi_controller'.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: /foss/designs/ascon_top_layout/src/spi_slave.sv
+Parsing SystemVerilog input from `/foss/designs/ascon_top_layout/src/spi_slave.sv' to AST representation.
+Storing AST representation for module `$abstract\spi_slave'.
+Successfully finished Verilog frontend.
+
+11. Executing HIERARCHY pass (managing design hierarchy).
+
+12. Executing AST frontend in derive mode using pre-parsed AST for module `\ascon_top'.
+Generating RTLIL representation for module `\ascon_top'.
+
+12.1. Analyzing design hierarchy..
+Top module:  \ascon_top
+
+12.2. Executing AST frontend in derive mode using pre-parsed AST for module `\postprocessor_rup'.
+Generating RTLIL representation for module `\postprocessor_rup'.
+Warning: Replacing memory \fifo_eot with list of registers. See /foss/designs/ascon_top_layout/src/postprocessor_rup.sv:85
+Warning: Replacing memory \fifo_type with list of registers. See /foss/designs/ascon_top_layout/src/postprocessor_rup.sv:84
+Warning: Replacing memory \fifo_data with list of registers. See /foss/designs/ascon_top_layout/src/postprocessor_rup.sv:83
+
+12.3. Executing AST frontend in derive mode using pre-parsed AST for module `\spi_controller'.
+Generating RTLIL representation for module `\spi_controller'.
+
+12.4. Executing AST frontend in derive mode using pre-parsed AST for module `\spi_slave'.
+Generating RTLIL representation for module `\spi_slave'.
+
+12.5. Analyzing design hierarchy..
+Top module:  \ascon_top
+Used module:     \postprocessor_rup
+Used module:     \spi_controller
+Used module:     \spi_slave
+
+12.6. Executing AST frontend in derive mode using pre-parsed AST for module `\ascon_core'.
+Generating RTLIL representation for module `\ascon_core'.
+
+12.7. Analyzing design hierarchy..
+Top module:  \ascon_top
+Used module:     \postprocessor_rup
+Used module:         \ascon_core
+Used module:     \spi_controller
+Used module:     \spi_slave
+
+12.8. Executing AST frontend in derive mode using pre-parsed AST for module `\asconp'.
+Generating RTLIL representation for module `\asconp'.
+Parameter 1 (\DATA_WIDTH) = 11
+
+12.9. Executing AST frontend in derive mode using pre-parsed AST for module `\register'.
+Parameter 1 (\DATA_WIDTH) = 11
+Generating RTLIL representation for module `$paramod\register\DATA_WIDTH=32'00000000000000000000000000001011'.
+Parameter 1 (\DATA_WIDTH) = 5
+Parameter 2 (\RST_VALUE) = 5'00001
+
+12.10. Executing AST frontend in derive mode using pre-parsed AST for module `\register'.
+Parameter 1 (\DATA_WIDTH) = 5
+Parameter 2 (\RST_VALUE) = 5'00001
+Generating RTLIL representation for module `$paramod$2bee4efb53c4759eef8dbd8c8b945eecbfdf3d47\register'.
+Parameter 1 (\DATA_WIDTH) = 8
+
+12.11. Executing AST frontend in derive mode using pre-parsed AST for module `\register'.
+Parameter 1 (\DATA_WIDTH) = 8
+Generating RTLIL representation for module `$paramod\register\DATA_WIDTH=32'00000000000000000000000000001000'.
+Parameter 1 (\DATA_WIDTH) = 320
+
+12.12. Executing AST frontend in derive mode using pre-parsed AST for module `\register'.
+Parameter 1 (\DATA_WIDTH) = 320
+Generating RTLIL representation for module `$paramod\register\DATA_WIDTH=32'00000000000000000000000101000000'.
+Parameter 1 (\DATA_WIDTH) = 128
+
+12.13. Executing AST frontend in derive mode using pre-parsed AST for module `\register'.
+Parameter 1 (\DATA_WIDTH) = 128
+Generating RTLIL representation for module `$paramod\register\DATA_WIDTH=32'00000000000000000000000010000000'.
+
+12.14. Analyzing design hierarchy..
+Top module:  \ascon_top
+Used module:     \postprocessor_rup
+Used module:         \ascon_core
+Used module:             \asconp
+Used module:             $paramod\register\DATA_WIDTH=32'00000000000000000000000000001011
+Used module:             $paramod$2bee4efb53c4759eef8dbd8c8b945eecbfdf3d47\register
+Used module:             $paramod\register\DATA_WIDTH=32'00000000000000000000000000001000
+Used module:             $paramod\register\DATA_WIDTH=32'00000000000000000000000101000000
+Used module:             $paramod\register\DATA_WIDTH=32'00000000000000000000000010000000
+Used module:     \spi_controller
+Used module:     \spi_slave
+
+12.15. Analyzing design hierarchy..
+Top module:  \ascon_top
+Used module:     \postprocessor_rup
+Used module:         \ascon_core
+Used module:             \asconp
+Used module:             $paramod\register\DATA_WIDTH=32'00000000000000000000000000001011
+Used module:             $paramod$2bee4efb53c4759eef8dbd8c8b945eecbfdf3d47\register
+Used module:             $paramod\register\DATA_WIDTH=32'00000000000000000000000000001000
+Used module:             $paramod\register\DATA_WIDTH=32'00000000000000000000000101000000
+Used module:             $paramod\register\DATA_WIDTH=32'00000000000000000000000010000000
+Used module:     \spi_controller
+Used module:     \spi_slave
+Removing unused module `$abstract\spi_slave'.
+Removing unused module `$abstract\spi_controller'.
+Removing unused module `$abstract\postprocessor_rup'.
+Removing unused module `$abstract\ascon_top'.
+Removing unused module `$abstract\ascon_core'.
+Removing unused module `$abstract\register'.
+Removing unused module `$abstract\asconp'.
+Removed 7 unused modules.
+Renaming module ascon_top to ascon_top.
+
+13. Executing PROC pass (convert processes to netlists).
+
+13.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+13.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 8 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96 in module spi_controller.
+Marked 4 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:0$94 in module spi_controller.
+Marked 2 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:191$93 in module spi_controller.
+Marked 5 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:129$81 in module spi_controller.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:77$77 in module spi_controller.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:68$75 in module spi_controller.
+Removed 1 dead cases from process $proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$72 in module postprocessor_rup.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$72 in module postprocessor_rup.
+Removed 1 dead cases from process $proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$69 in module postprocessor_rup.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$69 in module postprocessor_rup.
+Removed 1 dead cases from process $proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$66 in module postprocessor_rup.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$66 in module postprocessor_rup.
+Marked 2 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:111$58 in module postprocessor_rup.
+Marked 5 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:91$54 in module postprocessor_rup.
+Marked 6 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26 in module postprocessor_rup.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$19 in module postprocessor_rup.
+Marked 4 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:50$147 in module spi_slave.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:25$142 in module spi_slave.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/register.sv:23$548 in module $paramod\register\DATA_WIDTH=32'00000000000000000000000010000000.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/register.sv:23$547 in module $paramod\register\DATA_WIDTH=32'00000000000000000000000101000000.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/register.sv:23$546 in module $paramod\register\DATA_WIDTH=32'00000000000000000000000000001000.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/register.sv:23$545 in module $paramod$2bee4efb53c4759eef8dbd8c8b945eecbfdf3d47\register.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/register.sv:23$544 in module $paramod\register\DATA_WIDTH=32'00000000000000000000000000001011.
+Marked 13 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$493 in module ascon_core.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$488 in module ascon_core.
+Marked 6 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$471 in module ascon_core.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$460 in module ascon_core.
+Marked 9 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$418 in module ascon_core.
+Marked 32 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$397 in module ascon_core.
+Marked 2 switch rules as full_case in process $proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257 in module ascon_core.
+Removed a total of 3 dead cases.
+
+13.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 14 redundant assignments.
+Promoted 90 assignments to connections.
+
+13.4. Executing PROC_INIT pass (extract init attributes).
+
+13.5. Executing PROC_ARST pass (detect async resets in processes).
+Found async reset \rst in `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+Found async reset \rst in `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:191$93'.
+Found async reset \rst in `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:129$81'.
+Found async reset \rst in `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:77$77'.
+Found async reset \rst in `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:68$75'.
+Found async reset \rst in `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:111$58'.
+Found async reset \rst in `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:91$54'.
+Found async reset \rst in `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+Found async reset \rst in `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:50$147'.
+Found async reset \rst in `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:25$142'.
+Found async reset \rst in `$paramod\register\DATA_WIDTH=32'00000000000000000000000010000000.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$548'.
+Found async reset \rst in `$paramod\register\DATA_WIDTH=32'00000000000000000000000101000000.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$547'.
+Found async reset \rst in `$paramod\register\DATA_WIDTH=32'00000000000000000000000000001000.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$546'.
+Found async reset \rst in `$paramod$2bee4efb53c4759eef8dbd8c8b945eecbfdf3d47\register.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$545'.
+Found async reset \rst in `$paramod\register\DATA_WIDTH=32'00000000000000000000000000001011.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$544'.
+
+13.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~117 debug messages>
+
+13.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+     1/18: $0\word_buf[31:0] [31:24]
+     2/18: $0\word_buf[31:0] [23:16]
+     3/18: $0\word_buf[31:0] [15:8]
+     4/18: $0\word_buf[31:0] [7:0]
+     5/18: $0\mode_reg[3:0]
+     6/18: $0\pend_valid[0:0]
+     7/18: $0\pend_type[3:0]
+     8/18: $0\pend_wcnt[2:0]
+     9/18: $0\pend_word[31:0]
+    10/18: $0\word_cnt[2:0]
+    11/18: $0\byte_cnt[1:0]
+    12/18: $0\bdi_eoi[0:0]
+    13/18: $0\bdi_eot[0:0]
+    14/18: $0\bdi_type[3:0]
+    15/18: $0\bdi_valid[3:0]
+    16/18: $0\bdi[31:0]
+    17/18: $0\key_valid[0:0]
+    18/18: $0\key[31:0]
+Creating decoders for process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:0$94'.
+     1/4: $4\next_state[3:0]
+     2/4: $3\next_state[3:0]
+     3/4: $2\next_state[3:0]
+     4/4: $1\next_state[3:0]
+Creating decoders for process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:191$93'.
+     1/1: $0\state[3:0]
+Creating decoders for process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:129$81'.
+     1/6: $0\tx_fresh[0:0]
+     2/6: $0\tx_stage_valid[0:0]
+     3/6: $0\tx_stage[31:0]
+     4/6: $0\tx_busy[0:0]
+     5/6: $0\tx_byte_cnt[1:0]
+     6/6: $0\tx_shift_reg[31:0]
+Creating decoders for process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:77$77'.
+     1/1: $0\cs_rise[0:0]
+Creating decoders for process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:68$75'.
+     1/1: $0\cs_n_sync[2:0]
+Creating decoders for process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$72'.
+     1/1: $1$mem2reg_rd$\fifo_eot$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:64$11_DATA[0:0]$74
+Creating decoders for process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$69'.
+     1/1: $1$mem2reg_rd$\fifo_type$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:63$10_DATA[3:0]$71
+Creating decoders for process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$66'.
+     1/1: $1$mem2reg_rd$\fifo_data$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:62$9_DATA[31:0]$68
+Creating decoders for process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:111$58'.
+     1/1: $0\rd_ptr[6:0]
+Creating decoders for process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:91$54'.
+     1/2: $0\release_buffer[0:0]
+     2/2: $0\flush_buffer[0:0]
+Creating decoders for process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+     1/211: $3$mem2reg_wr$\fifo_eot$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:85$14_ADDR[5:0]$51
+     2/211: $3$mem2reg_wr$\fifo_eot$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:85$14_DATA[0:0]$52
+     3/211: $3$mem2reg_wr$\fifo_type$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:84$13_ADDR[5:0]$49
+     4/211: $3$mem2reg_wr$\fifo_type$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:84$13_DATA[3:0]$50
+     5/211: $3$mem2reg_wr$\fifo_data$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:83$12_ADDR[5:0]$47
+     6/211: $3$mem2reg_wr$\fifo_data$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:83$12_DATA[31:0]$48
+     7/211: $2$mem2reg_wr$\fifo_eot$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:85$14_DATA[0:0]$44
+     8/211: $2$mem2reg_wr$\fifo_eot$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:85$14_ADDR[5:0]$43
+     9/211: $2$mem2reg_wr$\fifo_type$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:84$13_DATA[3:0]$42
+    10/211: $2$mem2reg_wr$\fifo_type$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:84$13_ADDR[5:0]$41
+    11/211: $2$mem2reg_wr$\fifo_data$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:83$12_DATA[31:0]$40
+    12/211: $2$mem2reg_wr$\fifo_data$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:83$12_ADDR[5:0]$39
+    13/211: $1$mem2reg_wr$\fifo_eot$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:85$14_DATA[0:0]$38
+    14/211: $1$mem2reg_wr$\fifo_eot$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:85$14_ADDR[5:0]$37
+    15/211: $1$mem2reg_wr$\fifo_type$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:84$13_DATA[3:0]$36
+    16/211: $1$mem2reg_wr$\fifo_type$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:84$13_ADDR[5:0]$35
+    17/211: $1$mem2reg_wr$\fifo_data$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:83$12_DATA[31:0]$34
+    18/211: $1$mem2reg_wr$\fifo_data$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:83$12_ADDR[5:0]$33
+    19/211: $0\fifo_eot[63][0:0]
+    20/211: $0\fifo_eot[62][0:0]
+    21/211: $0\fifo_eot[61][0:0]
+    22/211: $0\fifo_eot[60][0:0]
+    23/211: $0\fifo_eot[59][0:0]
+    24/211: $0\fifo_eot[58][0:0]
+    25/211: $0\fifo_eot[57][0:0]
+    26/211: $0\fifo_eot[56][0:0]
+    27/211: $0\fifo_eot[55][0:0]
+    28/211: $0\fifo_eot[54][0:0]
+    29/211: $0\fifo_eot[53][0:0]
+    30/211: $0\fifo_eot[52][0:0]
+    31/211: $0\fifo_eot[51][0:0]
+    32/211: $0\fifo_eot[50][0:0]
+    33/211: $0\fifo_eot[49][0:0]
+    34/211: $0\fifo_eot[48][0:0]
+    35/211: $0\fifo_eot[47][0:0]
+    36/211: $0\fifo_eot[46][0:0]
+    37/211: $0\fifo_eot[45][0:0]
+    38/211: $0\fifo_eot[44][0:0]
+    39/211: $0\fifo_eot[43][0:0]
+    40/211: $0\fifo_eot[42][0:0]
+    41/211: $0\fifo_eot[41][0:0]
+    42/211: $0\fifo_eot[40][0:0]
+    43/211: $0\fifo_eot[39][0:0]
+    44/211: $0\fifo_eot[38][0:0]
+    45/211: $0\fifo_eot[37][0:0]
+    46/211: $0\fifo_eot[36][0:0]
+    47/211: $0\fifo_eot[35][0:0]
+    48/211: $0\fifo_eot[34][0:0]
+    49/211: $0\fifo_eot[33][0:0]
+    50/211: $0\fifo_eot[32][0:0]
+    51/211: $0\fifo_eot[31][0:0]
+    52/211: $0\fifo_eot[30][0:0]
+    53/211: $0\fifo_eot[29][0:0]
+    54/211: $0\fifo_eot[28][0:0]
+    55/211: $0\fifo_eot[27][0:0]
+    56/211: $0\fifo_eot[26][0:0]
+    57/211: $0\fifo_eot[25][0:0]
+    58/211: $0\fifo_eot[24][0:0]
+    59/211: $0\fifo_eot[23][0:0]
+    60/211: $0\fifo_eot[22][0:0]
+    61/211: $0\fifo_eot[21][0:0]
+    62/211: $0\fifo_eot[20][0:0]
+    63/211: $0\fifo_eot[19][0:0]
+    64/211: $0\fifo_eot[18][0:0]
+    65/211: $0\fifo_eot[17][0:0]
+    66/211: $0\fifo_eot[16][0:0]
+    67/211: $0\fifo_eot[15][0:0]
+    68/211: $0\fifo_eot[14][0:0]
+    69/211: $0\fifo_eot[13][0:0]
+    70/211: $0\fifo_eot[12][0:0]
+    71/211: $0\fifo_eot[11][0:0]
+    72/211: $0\fifo_eot[10][0:0]
+    73/211: $0\fifo_eot[9][0:0]
+    74/211: $0\fifo_eot[8][0:0]
+    75/211: $0\fifo_eot[7][0:0]
+    76/211: $0\fifo_eot[6][0:0]
+    77/211: $0\fifo_eot[5][0:0]
+    78/211: $0\fifo_eot[4][0:0]
+    79/211: $0\fifo_eot[3][0:0]
+    80/211: $0\fifo_eot[2][0:0]
+    81/211: $0\fifo_eot[1][0:0]
+    82/211: $0\fifo_eot[0][0:0]
+    83/211: $0\fifo_type[63][3:0]
+    84/211: $0\fifo_type[62][3:0]
+    85/211: $0\fifo_type[61][3:0]
+    86/211: $0\fifo_type[60][3:0]
+    87/211: $0\fifo_type[59][3:0]
+    88/211: $0\fifo_type[58][3:0]
+    89/211: $0\fifo_type[57][3:0]
+    90/211: $0\fifo_type[56][3:0]
+    91/211: $0\fifo_type[55][3:0]
+    92/211: $0\fifo_type[54][3:0]
+    93/211: $0\fifo_type[53][3:0]
+    94/211: $0\fifo_type[52][3:0]
+    95/211: $0\fifo_type[51][3:0]
+    96/211: $0\fifo_type[50][3:0]
+    97/211: $0\fifo_type[49][3:0]
+    98/211: $0\fifo_type[48][3:0]
+    99/211: $0\fifo_type[47][3:0]
+   100/211: $0\fifo_type[46][3:0]
+   101/211: $0\fifo_type[45][3:0]
+   102/211: $0\fifo_type[44][3:0]
+   103/211: $0\fifo_type[43][3:0]
+   104/211: $0\fifo_type[42][3:0]
+   105/211: $0\fifo_type[41][3:0]
+   106/211: $0\fifo_type[40][3:0]
+   107/211: $0\fifo_type[39][3:0]
+   108/211: $0\fifo_type[38][3:0]
+   109/211: $0\fifo_type[37][3:0]
+   110/211: $0\fifo_type[36][3:0]
+   111/211: $0\fifo_type[35][3:0]
+   112/211: $0\fifo_type[34][3:0]
+   113/211: $0\fifo_type[33][3:0]
+   114/211: $0\fifo_type[32][3:0]
+   115/211: $0\fifo_type[31][3:0]
+   116/211: $0\fifo_type[30][3:0]
+   117/211: $0\fifo_type[29][3:0]
+   118/211: $0\fifo_type[28][3:0]
+   119/211: $0\fifo_type[27][3:0]
+   120/211: $0\fifo_type[26][3:0]
+   121/211: $0\fifo_type[25][3:0]
+   122/211: $0\fifo_type[24][3:0]
+   123/211: $0\fifo_type[23][3:0]
+   124/211: $0\fifo_type[22][3:0]
+   125/211: $0\fifo_type[21][3:0]
+   126/211: $0\fifo_type[20][3:0]
+   127/211: $0\fifo_type[19][3:0]
+   128/211: $0\fifo_type[18][3:0]
+   129/211: $0\fifo_type[17][3:0]
+   130/211: $0\fifo_type[16][3:0]
+   131/211: $0\fifo_type[15][3:0]
+   132/211: $0\fifo_type[14][3:0]
+   133/211: $0\fifo_type[13][3:0]
+   134/211: $0\fifo_type[12][3:0]
+   135/211: $0\fifo_type[11][3:0]
+   136/211: $0\fifo_type[10][3:0]
+   137/211: $0\fifo_type[9][3:0]
+   138/211: $0\fifo_type[8][3:0]
+   139/211: $0\fifo_type[7][3:0]
+   140/211: $0\fifo_type[6][3:0]
+   141/211: $0\fifo_type[5][3:0]
+   142/211: $0\fifo_type[4][3:0]
+   143/211: $0\fifo_type[3][3:0]
+   144/211: $0\fifo_type[2][3:0]
+   145/211: $0\fifo_type[1][3:0]
+   146/211: $0\fifo_type[0][3:0]
+   147/211: $0\fifo_data[63][31:0]
+   148/211: $0\fifo_data[62][31:0]
+   149/211: $0\fifo_data[61][31:0]
+   150/211: $0\fifo_data[60][31:0]
+   151/211: $0\fifo_data[59][31:0]
+   152/211: $0\fifo_data[58][31:0]
+   153/211: $0\fifo_data[57][31:0]
+   154/211: $0\fifo_data[56][31:0]
+   155/211: $0\fifo_data[55][31:0]
+   156/211: $0\fifo_data[54][31:0]
+   157/211: $0\fifo_data[53][31:0]
+   158/211: $0\fifo_data[52][31:0]
+   159/211: $0\fifo_data[51][31:0]
+   160/211: $0\fifo_data[50][31:0]
+   161/211: $0\fifo_data[49][31:0]
+   162/211: $0\fifo_data[48][31:0]
+   163/211: $0\fifo_data[47][31:0]
+   164/211: $0\fifo_data[46][31:0]
+   165/211: $0\fifo_data[45][31:0]
+   166/211: $0\fifo_data[44][31:0]
+   167/211: $0\fifo_data[43][31:0]
+   168/211: $0\fifo_data[42][31:0]
+   169/211: $0\fifo_data[41][31:0]
+   170/211: $0\fifo_data[40][31:0]
+   171/211: $0\fifo_data[39][31:0]
+   172/211: $0\fifo_data[38][31:0]
+   173/211: $0\fifo_data[37][31:0]
+   174/211: $0\fifo_data[36][31:0]
+   175/211: $0\fifo_data[35][31:0]
+   176/211: $0\fifo_data[34][31:0]
+   177/211: $0\fifo_data[33][31:0]
+   178/211: $0\fifo_data[32][31:0]
+   179/211: $0\fifo_data[31][31:0]
+   180/211: $0\fifo_data[30][31:0]
+   181/211: $0\fifo_data[29][31:0]
+   182/211: $0\fifo_data[28][31:0]
+   183/211: $0\fifo_data[27][31:0]
+   184/211: $0\fifo_data[26][31:0]
+   185/211: $0\fifo_data[25][31:0]
+   186/211: $0\fifo_data[24][31:0]
+   187/211: $0\fifo_data[23][31:0]
+   188/211: $0\fifo_data[22][31:0]
+   189/211: $0\fifo_data[21][31:0]
+   190/211: $0\fifo_data[20][31:0]
+   191/211: $0\fifo_data[19][31:0]
+   192/211: $0\fifo_data[18][31:0]
+   193/211: $0\fifo_data[17][31:0]
+   194/211: $0\fifo_data[16][31:0]
+   195/211: $0\fifo_data[15][31:0]
+   196/211: $0\fifo_data[14][31:0]
+   197/211: $0\fifo_data[13][31:0]
+   198/211: $0\fifo_data[12][31:0]
+   199/211: $0\fifo_data[11][31:0]
+   200/211: $0\fifo_data[10][31:0]
+   201/211: $0\fifo_data[9][31:0]
+   202/211: $0\fifo_data[8][31:0]
+   203/211: $0\fifo_data[7][31:0]
+   204/211: $0\fifo_data[6][31:0]
+   205/211: $0\fifo_data[5][31:0]
+   206/211: $0\fifo_data[4][31:0]
+   207/211: $0\fifo_data[3][31:0]
+   208/211: $0\fifo_data[2][31:0]
+   209/211: $0\fifo_data[1][31:0]
+   210/211: $0\fifo_data[0][31:0]
+   211/211: $0\wr_ptr[6:0]
+Creating decoders for process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$19'.
+     1/2: $1\core_bdo_ready[0:0]
+     2/2: $1\safe_bdo_valid[0:0]
+Creating decoders for process `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:50$147'.
+     1/7: $0\tx_ready[0:0]
+     2/7: $0\rx_valid[0:0]
+     3/7: $0\tx_reg[7:0]
+     4/7: $0\rx_reg[7:0]
+     5/7: $0\bit_cnt[2:0]
+     6/7: $0\rx_data[7:0]
+     7/7: $0\miso[0:0]
+Creating decoders for process `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:25$142'.
+     1/3: $0\mosi_sync[1:0]
+     2/3: $0\cs_n_sync[2:0]
+     3/3: $0\sclk_sync[2:0]
+Creating decoders for process `$paramod\register\DATA_WIDTH=32'00000000000000000000000010000000.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$548'.
+     1/1: $0\data_q[127:0]
+Creating decoders for process `$paramod\register\DATA_WIDTH=32'00000000000000000000000101000000.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$547'.
+     1/1: $0\data_q[319:0]
+Creating decoders for process `$paramod\register\DATA_WIDTH=32'00000000000000000000000000001000.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$546'.
+     1/1: $0\data_q[7:0]
+Creating decoders for process `$paramod$2bee4efb53c4759eef8dbd8c8b945eecbfdf3d47\register.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$545'.
+     1/1: $0\data_q[4:0]
+Creating decoders for process `$paramod\register\DATA_WIDTH=32'00000000000000000000000000001011.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$544'.
+     1/1: $0\data_q[10:0]
+Creating decoders for process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$493'.
+     1/22: $2\auth_valid_d[0:0]
+     2/22: $2\auth_d[0:0]
+     3/22: $3\auth_intern_d[0:0]
+     4/22: $2\auth_intern_d[0:0]
+     5/22: $7\eoi_d[0:0]
+     6/22: $6\eoi_d[0:0]
+     7/22: $2\msg_pad_d[0:0]
+     8/22: $2\ad_pad_d[0:0]
+     9/22: $5\eoi_d[0:0]
+    10/22: $3\ad_eot_d[0:0]
+    11/22: $4\eoi_d[0:0]
+    12/22: $2\ad_eot_d[0:0]
+    13/22: $3\eoi_d[0:0]
+    14/22: $2\eoi_d[0:0]
+    15/22: $1\mode_d[3:0]
+    16/22: $1\msg_pad_d[0:0]
+    17/22: $1\eoi_d[0:0]
+    18/22: $1\ad_pad_d[0:0]
+    19/22: $1\ad_eot_d[0:0]
+    20/22: $1\auth_valid_d[0:0]
+    21/22: $1\auth_intern_d[0:0]
+    22/22: $1\auth_d[0:0]
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$488'.
+     1/2: $2\round_cnt_d[3:0]
+     2/2: $1\round_cnt_d[3:0]
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$471'.
+     1/6: $6\word_cnt_d[3:0]
+     2/6: $5\word_cnt_d[3:0]
+     3/6: $4\word_cnt_d[3:0]
+     4/6: $3\word_cnt_d[3:0]
+     5/6: $2\word_cnt_d[3:0]
+     6/6: $1\word_cnt_d[3:0]
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$460'.
+     1/2: $1\key_d[127:0]
+     2/2: $1$bitselwrite$pos$/foss/designs/ascon_top_layout/src/ascon_core.sv:411$158[31:0]$462
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$418'.
+     1/16: $10\state_d[255:128] [127:64]
+     2/16: $10\state_d[255:128] [63:0]
+     3/16: $9\state_d[63:0]
+     4/16: $8\state_d[63:0]
+     5/16: $6\state_d[63:0]
+     6/16: $7\state_d[319:256]
+     7/16: $5\state_d[319:192] [127:64]
+     8/16: $5\state_d[319:192] [63:0]
+     9/16: $4\state_d[319:0]
+    10/16: $3\state_d[191:0] [191:128]
+    11/16: $3\state_d[191:0] [63:0]
+    12/16: $3\state_d[191:0] [127:64]
+    13/16: $2\state_d[319:0]
+    14/16: $1$bitselwrite$pos$/foss/designs/ascon_top_layout/src/ascon_core.sv:359$157[31:0]$437
+    15/16: $1\state_d[319:0]
+    16/16: $1$bitselwrite$pos$/foss/designs/ascon_top_layout/src/ascon_core.sv:354$156[31:0]$423
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$397'.
+     1/32: $32\fsm_d[4:0]
+     2/32: $31\fsm_d[4:0]
+     3/32: $30\fsm_d[4:0]
+     4/32: $29\fsm_d[4:0]
+     5/32: $28\fsm_d[4:0]
+     6/32: $27\fsm_d[4:0]
+     7/32: $26\fsm_d[4:0]
+     8/32: $25\fsm_d[4:0]
+     9/32: $24\fsm_d[4:0]
+    10/32: $23\fsm_d[4:0]
+    11/32: $22\fsm_d[4:0]
+    12/32: $21\fsm_d[4:0]
+    13/32: $20\fsm_d[4:0]
+    14/32: $19\fsm_d[4:0]
+    15/32: $18\fsm_d[4:0]
+    16/32: $17\fsm_d[4:0]
+    17/32: $16\fsm_d[4:0]
+    18/32: $15\fsm_d[4:0]
+    19/32: $14\fsm_d[4:0]
+    20/32: $13\fsm_d[4:0]
+    21/32: $12\fsm_d[4:0]
+    22/32: $11\fsm_d[4:0]
+    23/32: $10\fsm_d[4:0]
+    24/32: $9\fsm_d[4:0]
+    25/32: $8\fsm_d[4:0]
+    26/32: $7\fsm_d[4:0]
+    27/32: $6\fsm_d[4:0]
+    28/32: $5\fsm_d[4:0]
+    29/32: $4\fsm_d[4:0]
+    30/32: $3\fsm_d[4:0]
+    31/32: $2\fsm_d[4:0]
+    32/32: $1\fsm_d[4:0]
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+     1/77: $1\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:215$151.$result[31:0]$279 [31:24]
+     2/77: $3\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.$fordecl_block$5.i[31:0]$360
+     3/77: $3\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.$result[31:0]$357 [23:16]
+     4/77: $3\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.$result[31:0]$357 [15:8]
+     5/77: $3\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.$result[31:0]$357 [7:0]
+     6/77: $3\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.$result[31:0]$352 [31:24]
+     7/77: $3\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.val[3:0]$359
+     8/77: $3\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.in1[31:0]$358
+     9/77: $3\state_slice_nx[31:0]
+    10/77: $3\bdi_pad[31:0]
+    11/77: $3\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.$fordecl_block$3.i[31:0]$356
+    12/77: $3\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.$result[31:0]$352 [23:16]
+    13/77: $3\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.$result[31:0]$352 [15:8]
+    14/77: $3\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.$result[31:0]$352 [7:0]
+    15/77: $3\bdo[31:0]
+    16/77: $3\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.val[3:0]$355
+    17/77: $3\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.in2[31:0]$354
+    18/77: $3\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.in1[31:0]$353
+    19/77: $2\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.$result[31:0]$318 [31:24]
+    20/77: $2\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.$fordecl_block$5.i[31:0]$321
+    21/77: $2\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.$result[31:0]$318 [23:16]
+    22/77: $2\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.$result[31:0]$318 [15:8]
+    23/77: $2\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.$result[31:0]$318 [7:0]
+    24/77: $2\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.$result[31:0]$314 [31:24]
+    25/77: $2\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.val[3:0]$320
+    26/77: $2\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.in1[31:0]$319
+    27/77: $2\state_slice_nx[31:0]
+    28/77: $2\bdi_pad[31:0]
+    29/77: $2\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.$fordecl_block$1.i[31:0]$317
+    30/77: $2\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.$result[31:0]$314 [23:16]
+    31/77: $2\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.$result[31:0]$314 [15:8]
+    32/77: $2\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.$result[31:0]$314 [7:0]
+    33/77: $2\bdo[31:0]
+    34/77: $2\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.val[3:0]$316
+    35/77: $2\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.in[31:0]$315
+    36/77: $2\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.$fordecl_block$5.i[31:0]$330
+    37/77: $2\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.val[3:0]$329
+    38/77: $2\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.in1[31:0]$328
+    39/77: $2\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.$result[31:0]$327
+    40/77: $2\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.$fordecl_block$3.i[31:0]$326
+    41/77: $2\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.val[3:0]$325
+    42/77: $2\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.in2[31:0]$324
+    43/77: $2\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.in1[31:0]$323
+    44/77: $2\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.$result[31:0]$322
+    45/77: $1\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:215$151.$result[31:0]$279 [7:0]
+    46/77: $3\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.$result[31:0]$357 [31:24]
+    47/77: $1\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:215$151.$result[31:0]$279 [23:16]
+    48/77: $1\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:215$151.$result[31:0]$279 [15:8]
+    49/77: $1\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.$fordecl_block$5.i[31:0]$299
+    50/77: $1\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.val[3:0]$298
+    51/77: $1\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.in1[31:0]$297
+    52/77: $1\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.$result[31:0]$296
+    53/77: $1\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.$fordecl_block$3.i[31:0]$295
+    54/77: $1\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.val[3:0]$294
+    55/77: $1\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.in2[31:0]$293
+    56/77: $1\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.in1[31:0]$292
+    57/77: $1\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.$result[31:0]$291
+    58/77: $1\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.$fordecl_block$5.i[31:0]$290
+    59/77: $1\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.val[3:0]$289
+    60/77: $1\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.in1[31:0]$288
+    61/77: $1\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.$result[31:0]$287
+    62/77: $1\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.$fordecl_block$1.i[31:0]$286
+    63/77: $1\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.val[3:0]$285
+    64/77: $1\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.in[31:0]$284
+    65/77: $1\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.$result[31:0]$283
+    66/77: $1\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:215$151.$fordecl_block$1.i[31:0]$282
+    67/77: $1\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:215$151.val[3:0]$281
+    68/77: $1\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:215$151.in[31:0]$280
+    69/77: $1\key_ready[0:0]
+    70/77: $1\bdi_pad[31:0]
+    71/77: $1\state_slice_nx[31:0]
+    72/77: $1\state_idx[3:0]
+    73/77: $1\bdo_eot[0:0]
+    74/77: $1\bdo_type[3:0]
+    75/77: $1\bdo_valid[0:0]
+    76/77: $1\bdo[31:0]
+    77/77: $1\bdi_ready[0:0]
+
+13.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\spi_controller.\next_state' from process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:0$94'.
+No latch inferred for signal `\postprocessor_rup.$mem2reg_rd$\fifo_eot$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:64$11_DATA' from process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$72'.
+No latch inferred for signal `\postprocessor_rup.$mem2reg_rd$\fifo_type$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:63$10_DATA' from process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$69'.
+No latch inferred for signal `\postprocessor_rup.$mem2reg_rd$\fifo_data$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:62$9_DATA' from process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$66'.
+No latch inferred for signal `\postprocessor_rup.\safe_bdo_valid' from process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$19'.
+No latch inferred for signal `\postprocessor_rup.\core_bdo_ready' from process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$19'.
+No latch inferred for signal `\asconp.\x0' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x1' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x2' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x3' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x4' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x0_aff1' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x0_chi' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x0_aff2' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x1_aff1' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x1_chi' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x1_aff2' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x2_aff1' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x2_chi' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x2_aff2' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x3_aff1' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x3_chi' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x3_aff2' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x4_aff1' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x4_chi' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\x4_aff2' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.\t' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\asconp.$fordecl_block$7.i' from process `\asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+No latch inferred for signal `\ascon_core.\mode_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$493'.
+No latch inferred for signal `\ascon_core.\auth_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$493'.
+No latch inferred for signal `\ascon_core.\auth_intern_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$493'.
+No latch inferred for signal `\ascon_core.\auth_valid_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$493'.
+No latch inferred for signal `\ascon_core.\ad_eot_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$493'.
+No latch inferred for signal `\ascon_core.\ad_pad_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$493'.
+No latch inferred for signal `\ascon_core.\msg_pad_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$493'.
+No latch inferred for signal `\ascon_core.\eoi_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$493'.
+No latch inferred for signal `\ascon_core.\round_cnt_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$488'.
+No latch inferred for signal `\ascon_core.\word_cnt_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$471'.
+No latch inferred for signal `\ascon_core.\key_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$460'.
+No latch inferred for signal `\ascon_core.$bitselwrite$pos$/foss/designs/ascon_top_layout/src/ascon_core.sv:411$158' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$460'.
+No latch inferred for signal `\ascon_core.\state_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$418'.
+No latch inferred for signal `\ascon_core.$bitselwrite$pos$/foss/designs/ascon_top_layout/src/ascon_core.sv:354$156' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$418'.
+No latch inferred for signal `\ascon_core.$bitselwrite$pos$/foss/designs/ascon_top_layout/src/ascon_core.sv:359$157' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$418'.
+No latch inferred for signal `\ascon_core.\fsm_d' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$397'.
+No latch inferred for signal `\ascon_core.\key_ready' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\bdi_ready' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\bdo' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\bdo_valid' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\bdo_type' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\bdo_eot' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\auth' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\auth_valid' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\state_idx' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\state_slice_nx' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\bdi_pad' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:215$151.$result' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:215$151.in' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:215$151.val' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:215$151.$fordecl_block$1.i' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.$result' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.in' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.val' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:224$152.$fordecl_block$1.i' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.$result' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.in1' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.val' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:226$153.$fordecl_block$5.i' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.$result' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.in1' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.in2' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.val' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\pad2$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:228$154.$fordecl_block$3.i' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.$result' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.in1' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.val' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon_top_layout/src/ascon_core.sv:230$155.$fordecl_block$5.i' from process `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+
+13.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\spi_controller.\key' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9811' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\key_valid' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9814' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\bdi' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9817' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\bdi_valid' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9820' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\bdi_type' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9823' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\bdi_eot' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9826' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\bdi_eoi' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9829' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\word_buf' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9832' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\byte_cnt' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9835' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\word_cnt' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9838' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\pend_word' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9841' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\pend_wcnt' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9844' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\pend_type' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9847' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\pend_valid' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9850' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\mode_reg' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+  created $adff cell `$procdff$9853' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\state' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:191$93'.
+  created $adff cell `$procdff$9856' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_shift_reg' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:129$81'.
+  created $adff cell `$procdff$9859' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_byte_cnt' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:129$81'.
+  created $adff cell `$procdff$9862' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_busy' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:129$81'.
+  created $adff cell `$procdff$9865' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_stage' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:129$81'.
+  created $adff cell `$procdff$9868' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_stage_valid' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:129$81'.
+  created $adff cell `$procdff$9871' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_fresh' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:129$81'.
+  created $adff cell `$procdff$9874' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\cs_rise' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:77$77'.
+  created $adff cell `$procdff$9877' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\cs_n_sync' using process `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:68$75'.
+  created $adff cell `$procdff$9880' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.\rd_ptr' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:111$58'.
+  created $adff cell `$procdff$9883' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.\flush_buffer' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:91$54'.
+  created $adff cell `$procdff$9886' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.\release_buffer' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:91$54'.
+  created $adff cell `$procdff$9889' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.\wr_ptr' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $adff cell `$procdff$9892' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.\fifo_data[0]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9897' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[1]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9902' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[2]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9907' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[3]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9912' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[4]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9917' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[5]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9922' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[6]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9927' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[7]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9932' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[8]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9937' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[9]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9942' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[10]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9947' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[11]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9952' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[12]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9957' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[13]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9962' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[14]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9967' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[15]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9972' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[16]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9977' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[17]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9982' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[18]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9987' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[19]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9992' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[20]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$9997' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[21]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10002' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[22]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10007' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[23]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10012' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[24]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10017' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[25]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10022' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[26]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10027' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[27]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10032' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[28]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10037' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[29]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10042' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[30]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10047' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[31]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10052' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[32]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10057' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[33]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10062' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[34]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10067' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[35]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10072' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[36]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10077' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[37]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10082' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[38]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10087' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[39]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10092' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[40]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10097' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[41]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10102' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[42]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10107' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[43]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10112' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[44]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10117' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[45]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10122' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[46]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10127' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[47]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10132' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[48]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10137' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[49]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10142' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[50]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10147' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[51]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10152' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[52]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10157' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[53]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10162' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[54]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10167' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[55]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10172' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[56]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10177' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[57]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10182' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[58]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10187' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[59]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10192' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[60]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10197' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[61]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10202' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[62]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10207' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_data[63]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10212' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[0]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10217' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[1]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10222' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[2]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10227' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[3]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10232' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[4]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10237' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[5]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10242' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[6]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10247' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[7]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10252' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[8]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10257' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[9]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10262' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[10]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10267' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[11]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10272' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[12]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10277' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[13]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10282' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[14]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10287' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[15]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10292' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[16]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10297' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[17]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10302' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[18]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10307' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[19]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10312' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[20]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10317' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[21]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10322' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[22]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10327' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[23]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10332' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[24]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10337' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[25]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10342' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[26]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10347' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[27]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10352' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[28]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10357' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[29]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10362' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[30]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10367' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[31]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10372' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[32]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10377' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[33]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10382' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[34]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10387' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[35]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10392' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[36]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10397' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[37]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10402' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[38]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10407' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[39]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10412' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[40]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10417' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[41]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10422' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[42]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10427' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[43]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10432' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[44]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10437' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[45]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10442' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[46]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10447' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[47]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10452' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[48]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10457' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[49]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10462' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[50]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10467' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[51]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10472' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[52]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10477' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[53]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10482' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[54]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10487' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[55]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10492' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[56]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10497' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[57]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10502' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[58]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10507' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[59]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10512' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[60]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10517' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[61]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10522' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[62]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10527' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_type[63]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10532' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[0]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10537' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[1]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10542' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[2]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10547' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[3]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10552' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[4]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10557' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[5]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10562' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[6]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10567' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[7]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10572' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[8]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10577' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[9]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10582' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[10]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10587' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[11]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10592' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[12]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10597' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[13]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10602' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[14]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10607' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[15]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10612' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[16]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10617' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[17]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10622' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[18]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10627' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[19]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10632' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[20]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10637' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[21]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10642' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[22]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10647' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[23]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10652' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[24]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10657' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[25]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10662' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[26]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10667' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[27]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10672' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[28]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10677' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[29]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10682' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[30]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10687' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[31]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10692' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[32]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10697' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[33]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10702' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[34]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10707' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[35]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10712' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[36]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10717' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[37]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10722' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[38]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10727' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[39]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10732' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[40]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10737' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[41]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10742' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[42]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10747' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[43]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10752' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[44]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10757' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[45]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10762' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[46]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10767' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[47]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10772' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[48]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10777' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[49]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10782' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[50]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10787' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[51]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10792' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[52]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10797' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[53]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10802' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[54]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10807' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[55]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10812' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[56]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10817' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[57]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10822' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[58]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10827' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[59]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10832' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[60]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10837' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[61]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10842' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[62]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10847' with positive edge clock.
+Creating register for signal `\postprocessor_rup.\fifo_eot[63]' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $dff cell `$procdff$10852' with positive edge clock.
+Creating register for signal `\postprocessor_rup.$mem2reg_wr$\fifo_data$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:83$12_ADDR' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $adff cell `$procdff$10855' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.$mem2reg_wr$\fifo_data$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:83$12_DATA' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $adff cell `$procdff$10858' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.$mem2reg_wr$\fifo_type$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:84$13_ADDR' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $adff cell `$procdff$10861' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.$mem2reg_wr$\fifo_type$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:84$13_DATA' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $adff cell `$procdff$10864' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.$mem2reg_wr$\fifo_eot$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:85$14_ADDR' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $adff cell `$procdff$10867' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.$mem2reg_wr$\fifo_eot$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:85$14_DATA' using process `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+  created $adff cell `$procdff$10870' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\miso' using process `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:50$147'.
+  created $adff cell `$procdff$10873' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\rx_data' using process `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:50$147'.
+  created $adff cell `$procdff$10876' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\rx_valid' using process `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:50$147'.
+  created $adff cell `$procdff$10879' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\tx_ready' using process `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:50$147'.
+  created $adff cell `$procdff$10882' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\bit_cnt' using process `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:50$147'.
+  created $adff cell `$procdff$10885' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\rx_reg' using process `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:50$147'.
+  created $adff cell `$procdff$10888' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\tx_reg' using process `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:50$147'.
+  created $adff cell `$procdff$10891' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\cs_n_sync' using process `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:25$142'.
+  created $adff cell `$procdff$10894' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\sclk_sync' using process `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:25$142'.
+  created $adff cell `$procdff$10897' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\mosi_sync' using process `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:25$142'.
+  created $adff cell `$procdff$10900' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\register\DATA_WIDTH=32'00000000000000000000000010000000.\data_q' using process `$paramod\register\DATA_WIDTH=32'00000000000000000000000010000000.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$548'.
+  created $adff cell `$procdff$10903' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\register\DATA_WIDTH=32'00000000000000000000000101000000.\data_q' using process `$paramod\register\DATA_WIDTH=32'00000000000000000000000101000000.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$547'.
+  created $adff cell `$procdff$10906' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\register\DATA_WIDTH=32'00000000000000000000000000001000.\data_q' using process `$paramod\register\DATA_WIDTH=32'00000000000000000000000000001000.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$546'.
+  created $adff cell `$procdff$10909' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$2bee4efb53c4759eef8dbd8c8b945eecbfdf3d47\register.\data_q' using process `$paramod$2bee4efb53c4759eef8dbd8c8b945eecbfdf3d47\register.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$545'.
+  created $adff cell `$procdff$10912' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\register\DATA_WIDTH=32'00000000000000000000000000001011.\data_q' using process `$paramod\register\DATA_WIDTH=32'00000000000000000000000000001011.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$544'.
+  created $adff cell `$procdff$10915' with positive edge clock and positive level reset.
+
+13.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+13.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 19 empty switches in `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+Removing empty process `spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:220$96'.
+Found and cleaned up 4 empty switches in `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:0$94'.
+Removing empty process `spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:0$94'.
+Found and cleaned up 1 empty switch in `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:191$93'.
+Removing empty process `spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:191$93'.
+Found and cleaned up 6 empty switches in `\spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:129$81'.
+Removing empty process `spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:129$81'.
+Removing empty process `spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:77$77'.
+Removing empty process `spi_controller.$proc$/foss/designs/ascon_top_layout/src/spi_controller.sv:68$75'.
+Found and cleaned up 1 empty switch in `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$72'.
+Removing empty process `postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$72'.
+Found and cleaned up 1 empty switch in `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$69'.
+Removing empty process `postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$69'.
+Found and cleaned up 1 empty switch in `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$66'.
+Removing empty process `postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$66'.
+Found and cleaned up 2 empty switches in `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:111$58'.
+Removing empty process `postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:111$58'.
+Found and cleaned up 4 empty switches in `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:91$54'.
+Removing empty process `postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:91$54'.
+Found and cleaned up 5 empty switches in `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+Removing empty process `postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:77$26'.
+Found and cleaned up 1 empty switch in `\postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$19'.
+Removing empty process `postprocessor_rup.$proc$/foss/designs/ascon_top_layout/src/postprocessor_rup.sv:0$19'.
+Found and cleaned up 6 empty switches in `\spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:50$147'.
+Removing empty process `spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:50$147'.
+Removing empty process `spi_slave.$proc$/foss/designs/ascon_top_layout/src/spi_slave.sv:25$142'.
+Removing empty process `$paramod\register\DATA_WIDTH=32'00000000000000000000000010000000.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$548'.
+Removing empty process `$paramod\register\DATA_WIDTH=32'00000000000000000000000101000000.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$547'.
+Removing empty process `$paramod\register\DATA_WIDTH=32'00000000000000000000000000001000.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$546'.
+Removing empty process `$paramod$2bee4efb53c4759eef8dbd8c8b945eecbfdf3d47\register.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$545'.
+Removing empty process `$paramod\register\DATA_WIDTH=32'00000000000000000000000000001011.$proc$/foss/designs/ascon_top_layout/src/register.sv:23$544'.
+Removing empty process `asconp.$proc$/foss/designs/ascon_top_layout/src/asconp.sv:0$506'.
+Found and cleaned up 13 empty switches in `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$493'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$493'.
+Found and cleaned up 2 empty switches in `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$488'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$488'.
+Found and cleaned up 6 empty switches in `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$471'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$471'.
+Found and cleaned up 1 empty switch in `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$460'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$460'.
+Found and cleaned up 9 empty switches in `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$418'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$418'.
+Found and cleaned up 32 empty switches in `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$397'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$397'.
+Found and cleaned up 3 empty switches in `\ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon_top_layout/src/ascon_core.sv:0$257'.
+Cleaned up 117 empty switches.
+
+13.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ascon_top.
+Optimizing module spi_controller.
+<suppressed ~31 debug messages>
+Optimizing module postprocessor_rup.
+<suppressed ~209 debug messages>
+Optimizing module spi_slave.
+<suppressed ~18 debug messages>
+Optimizing module $paramod\register\DATA_WIDTH=32'00000000000000000000000010000000.
+<suppressed ~1 debug messages>
+Optimizing module $paramod\register\DATA_WIDTH=32'00000000000000000000000101000000.
+<suppressed ~1 debug messages>
+Optimizing module $paramod\register\DATA_WIDTH=32'00000000000000000000000000001000.
+<suppressed ~1 debug messages>
+Optimizing module $paramod$2bee4efb53c4759eef8dbd8c8b945eecbfdf3d47\register.
+<suppressed ~1 debug messages>
+Optimizing module $paramod\register\DATA_WIDTH=32'00000000000000000000000000001011.
+<suppressed ~1 debug messages>
+Optimizing module asconp.
+Optimizing module ascon_core.
+<suppressed ~24 debug messages>
+
+14. Executing FLATTEN pass (flatten design).
+Deleting now unused module spi_controller.
+Deleting now unused module postprocessor_rup.
+Deleting now unused module spi_slave.
+Deleting now unused module $paramod\register\DATA_WIDTH=32'00000000000000000000000010000000.
+Deleting now unused module $paramod\register\DATA_WIDTH=32'00000000000000000000000101000000.
+Deleting now unused module $paramod\register\DATA_WIDTH=32'00000000000000000000000000001000.
+Deleting now unused module $paramod$2bee4efb53c4759eef8dbd8c8b945eecbfdf3d47\register.
+Deleting now unused module $paramod\register\DATA_WIDTH=32'00000000000000000000000000001011.
+Deleting now unused module asconp.
+Deleting now unused module ascon_core.
+<suppressed ~10 debug messages>
+
+15. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \ascon_top..
+Removed 1147 unused cells and 2890 unused wires.
+<suppressed ~1445 debug messages>
