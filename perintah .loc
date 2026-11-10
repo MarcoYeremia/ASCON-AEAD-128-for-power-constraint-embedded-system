@@ -1,0 +1,17 @@
+cat << 'EOF' > /foss/designs/chipathon/vsrc_vdd.loc
+VDD 20.0 7111.1 5.0 Metal4
+VDD 20.0 7238.9 5.0 Metal4
+VDD 20.0 7357.4 5.0 Metal4
+VDD 20.0 7492.7 5.0 Metal4
+VDD 20.0 7611.2 5.0 Metal4
+VDD 20.0 7738.9 5.0 Metal4
+EOF
+
+cat << 'EOF' > /foss/designs/chipathon/vsrc_vss.loc
+VSS 20.0 111.1 0.0 Metal4
+VSS 20.0 238.9 0.0 Metal4
+VSS 20.0 357.4 0.0 Metal4
+VSS 20.0 492.7 0.0 Metal4
+VSS 20.0 611.2 0.0 Metal4
+VSS 20.0 738.9 0.0 Metal4
+EOF
