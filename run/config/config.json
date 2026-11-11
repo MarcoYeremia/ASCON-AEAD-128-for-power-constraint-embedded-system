@@ -1,0 +1,62 @@
+{
+    "DESIGN_NAME": "ascon_top",
+    "VERILOG_FILES": [
+        "dir::../../verilog/ascon_top.sv",
+        "dir::../../verilog/ascon_core.sv",
+        "dir::../../verilog/asconp.sv",
+        "dir::../../verilog/config.sv",
+        "dir::../../verilog/functions.sv",
+        "dir::../../verilog/postprocessor_rup.sv",
+        "dir::../../verilog/register.sv",
+        "dir::../../verilog/spi_controller.sv",
+        "dir::../../verilog/spi_slave.sv"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 100.0,
+    "PDN_MULTILAYER": false,
+    "PDN_VPITCH": 500.0,
+    "PDN_HPITCH": 500.0,
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 11100 11100",
+    "FP_DEF_TEMPLATE": "dir::A68_A.def",
+    "PL_TARGET_DENSITY_PCT": 40,
+    "PL_TIMING_DRIVEN": true,
+    "PL_ROUTABILITY_DRIVEN": true,
+    "RT_MAX_LAYER": "Metal4",
+    "VDD_NETS": [
+        "VDD"
+    ],
+    "GND_NETS": [
+        "VSS"
+    ],
+    "VSRC_LOC_FILES": {
+        "VDD": "dir::vsrc_vdd.loc",
+        "VSS": "dir::vsrc_vss.loc"
+    },
+    "PDK": "gf180mcuD",
+    "STD_CELL_LIBRARY": "gf180mcu_fd_sc_mcu7t5v0",
+    "SYNTH_ABC_BUFFERING": true,
+    "SYNTH_SIZING": true,
+    "MAX_TRANSITION_CONSTRAINT": 2.5,
+    "MAX_CAPACITANCE_CONSTRAINT": null,
+    "DESIGN_REPAIR_MAX_SLEW_PCT": 20,
+    "DESIGN_REPAIR_MAX_CAP_PCT": 20,
+    "GPL_CELL_PADDING": 6,
+    "DPL_CELL_PADDING": 4,
+    "DIODE_PADDING": 4,
+    "RUN_HEURISTIC_DIODE_INSERTION": true,
+    "RUN_ANTENNA_REPAIR": false,
+    "DRT_ANTENNA_REPAIR_ITERS": 0,
+    "RUN_POST_GRT_DESIGN_REPAIR": true,
+    "RUN_IRDROP_REPORT": true,
+    "STA_CORNERS": [
+        "nom_tt_025C_5v00",
+        "max_ss_125C_4v50",
+        "min_ff_n40C_5v50"
+    ],
+    "TIMING_VIOLATION_CORNERS": [
+        "nom_tt_025C_5v00",
+        "max_ss_125C_4v50",
+        "min_ff_n40C_5v50"
+    ]
+}

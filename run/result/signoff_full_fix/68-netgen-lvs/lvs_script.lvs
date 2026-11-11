@@ -1,0 +1,6 @@
+set circuit1 [readnet spice /foss/designs/ascon_top_layout/runs/RUN_2026-08-21_17-20-50/66-magic-spiceextraction/ascon_top.spice]
+set circuit2 [readnet verilog /dev/null]
+puts "Reading SPICE netlist file '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/spice/gf180mcu_fd_sc_mcu7t5v0.spice'..."
+readnet spice /foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/spice/gf180mcu_fd_sc_mcu7t5v0.spice $circuit2
+readnet verilog /foss/designs/ascon_top_layout/runs/RUN_2026-08-21_17-20-50/51-openroad-fillinsertion/ascon_top.pnl.v $circuit2
+lvs "$circuit1 ascon_top" "$circuit2 ascon_top" /usr/local/lib/python3.12/dist-packages/openlane/scripts/netgen/setup.tcl /foss/designs/ascon_top_layout/runs/RUN_2026-08-21_17-20-50/68-netgen-lvs/reports/lvs.netgen.rpt -blackbox -json
