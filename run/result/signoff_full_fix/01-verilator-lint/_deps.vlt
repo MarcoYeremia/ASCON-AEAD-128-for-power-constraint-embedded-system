@@ -1,0 +1,5 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/foss/designs/ascon_top_layout/runs/RUN_2026-08-21_17-20-50/tmp/4b4230f42d4344cbb587ca7e7caac680.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/foss/designs/ascon_top_layout/runs/RUN_2026-08-21_17-20-50/tmp/4b4230f42d4344cbb587ca7e7caac680.bb.v"
