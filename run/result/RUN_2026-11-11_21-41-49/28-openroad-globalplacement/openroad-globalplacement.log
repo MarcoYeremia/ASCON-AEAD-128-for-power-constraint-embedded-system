@@ -1,0 +1,718 @@
+Reading timing models for corner nom_tt_025C_5v00…
+Reading timing library for the 'nom_tt_025C_5v00' corner at '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib'…
+Reading OpenROAD database at '/foss/designs/ascon/runs/RUN_2026-11-11_21-41-49/27-odb-applydeftemplate/ascon_top.odb'…
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 8.0
+[INFO] Setting input delay to: 8.0
+[INFO] Setting load to: 0.07291
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+[INFO] Setting signal min routing layer to: Metal2 and clock min routing layer to Metal2. 
+[INFO] Setting signal max routing layer to: Metal4 and clock max routing layer to Metal4. 
++ global_placement -density 0.78 -timing_driven -routability_driven -pad_right 0 -pad_left 0 -init_wirelength_coef 0.25
+[INFO GPL-0001] ---- Initialize GPL Main Data Structures
+[INFO GPL-0002] DBU: 2000
+[INFO GPL-0003] SiteSize: (  0.560  3.920 ) um
+[INFO GPL-0004] CoreBBox: (  6.720 15.680 ) ( 1103.200 1093.680 ) um
+[INFO GPL-0036] Movable instances area:     756562.509 um^2
+[INFO GPL-0037] Total instances area:       790021.747 um^2
+[INFO GPL-0035] Pin density area adjust:     47747.417 um^2
+[INFO GPL-0032] ---- Initialize Region: Top-level
+[INFO GPL-0006] Number of instances:             33080
+[INFO GPL-0007] Movable instances:               25459
+[INFO GPL-0008] Fixed instances:                  7621
+[INFO GPL-0009] Dummy instances:                     0
+[INFO GPL-0010] Number of nets:                  25465
+[INFO GPL-0011] Number of pins:                  90246
+[INFO GPL-0012] Die BBox:  (  0.000  0.000 ) ( 1110.000 1110.000 ) um
+[INFO GPL-0013] Core BBox: (  6.720 15.680 ) ( 1103.200 1093.680 ) um
+[INFO GPL-0016] Core area:                  1182005.440 um^2
+[INFO GPL-0014] Region name: top-level.
+[INFO GPL-0015] Region area:                1182005.440 um^2
+[INFO GPL-0017] Fixed instances area:        33459.238 um^2
+[INFO GPL-0018] Movable instances area:     804309.925 um^2
+[INFO GPL-0019] Utilization:                    70.029 %
+[INFO GPL-0020] Standard cells area:        804309.925 um^2
+[INFO GPL-0021] Large instances area:            0.000 um^2
+[INFO GPL-0005] ---- Execute Conjugate Gradient Initial Placement.
+[INFO GPL-0051] Source of initial instance position counters:
+	Odb location = 0	Core center = 25459	Region center = 0
+[InitialPlace]  Iter: 1 conjugate gradient residual: 0.00081186 HPWL: 827912790
+[InitialPlace]  Iter: 2 conjugate gradient residual: 0.00008402 HPWL: 866127925
+[InitialPlace]  Iter: 3 conjugate gradient residual: 0.00004451 HPWL: 873377305
+[InitialPlace]  Iter: 4 conjugate gradient residual: 0.00005745 HPWL: 875919275
+[InitialPlace]  Iter: 5 conjugate gradient residual: 0.00004754 HPWL: 876333215
+[InitialPlace]  Iter: 6 conjugate gradient residual: 0.00005366 HPWL: 877369312
+[InitialPlace]  Iter: 7 conjugate gradient residual: 0.00004759 HPWL: 877438150
+[InitialPlace]  Iter: 8 conjugate gradient residual: 0.00005103 HPWL: 878313559
+[InitialPlace]  Iter: 9 conjugate gradient residual: 0.00004394 HPWL: 878301276
+[InitialPlace]  Iter: 10 conjugate gradient residual: 0.00004726 HPWL: 879031465
+[InitialPlace]  Iter: 11 conjugate gradient residual: 0.00004396 HPWL: 878984318
+[InitialPlace]  Iter: 12 conjugate gradient residual: 0.00004526 HPWL: 879622145
+[InitialPlace]  Iter: 13 conjugate gradient residual: 0.00004315 HPWL: 879547905
+[InitialPlace]  Iter: 14 conjugate gradient residual: 0.00004726 HPWL: 880128049
+[InitialPlace]  Iter: 15 conjugate gradient residual: 0.00004764 HPWL: 880016762
+[InitialPlace]  Iter: 16 conjugate gradient residual: 0.00004229 HPWL: 880576920
+[InitialPlace]  Iter: 17 conjugate gradient residual: 0.00004278 HPWL: 880432201
+[InitialPlace]  Iter: 18 conjugate gradient residual: 0.00004882 HPWL: 880961665
+[InitialPlace]  Iter: 19 conjugate gradient residual: 0.00004694 HPWL: 880771253
+[InitialPlace]  Iter: 20 conjugate gradient residual: 0.00004696 HPWL: 881269503
+[INFO GPL-0033] ---- Initialize Nesterov Region: Top-level
+[INFO GPL-0023] Placement target density:       0.7800
+[INFO GPL-0024] Movable insts average area:     31.592 um^2
+[INFO GPL-0025] Ideal bin area:                 40.503 um^2
+[INFO GPL-0026] Ideal bin count:                 29183
+[INFO GPL-0027] Total bin area:             1182005.440 um^2
+[INFO GPL-0028] Bin count (X, Y):         128 ,    128
+[INFO GPL-0029] Bin size (W * H):       8.566 *  8.422 um
+[INFO GPL-0030] Number of bins:                  16384
+[INFO GPL-0007] ---- Execute Nesterov Global Placement.
+[INFO GPL-0031] HPWL: Half-Perimeter Wirelength
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+        0 |   0.9982 |  9.801114e+04 |   +0.00% |  1.17e-17 |      
+       10 |   0.9967 |  9.294343e+04 |   -5.17% |  1.91e-17 |      
+       20 |   0.9956 |  9.206447e+04 |   -0.95% |  3.11e-17 |      
+       30 |   0.9951 |  9.246878e+04 |   +0.44% |  5.06e-17 |      
+       40 |   0.9948 |  9.288552e+04 |   +0.45% |  8.24e-17 |      
+       50 |   0.9948 |  9.314139e+04 |   +0.28% |  1.34e-16 |      
+       60 |   0.9948 |  9.313703e+04 |   -0.00% |  2.19e-16 |      
+       70 |   0.9948 |  9.301492e+04 |   -0.13% |  3.56e-16 |      
+       80 |   0.9948 |  9.291746e+04 |   -0.10% |  5.80e-16 |      
+       90 |   0.9947 |  9.293814e+04 |   +0.02% |  9.45e-16 |      
+      100 |   0.9947 |  9.312449e+04 |   +0.20% |  1.54e-15 |      
+      110 |   0.9946 |  9.349548e+04 |   +0.40% |  2.51e-15 |      
+      120 |   0.9944 |  9.421736e+04 |   +0.77% |  4.08e-15 |      
+      130 |   0.9939 |  9.548911e+04 |   +1.35% |  6.65e-15 |      
+      140 |   0.9937 |  9.789659e+04 |   +2.52% |  1.08e-14 |      
+      150 |   0.9932 |  1.034065e+05 |   +5.63% |  1.76e-14 |      
+      160 |   0.9912 |  1.148882e+05 |  +11.10% |  2.86e-14 |      
+      170 |   0.9888 |  1.318561e+05 |  +14.77% |  4.64e-14 |      
+      180 |   0.9853 |  1.527750e+05 |  +15.86% |  7.53e-14 |      
+      190 |   0.9802 |  1.758087e+05 |  +15.08% |  1.22e-13 |      
+      200 |   0.9739 |  2.026877e+05 |  +15.29% |  1.98e-13 |      
+      210 |   0.9660 |  2.383044e+05 |  +17.57% |  3.20e-13 |      
+      220 |   0.9540 |  2.812177e+05 |  +18.01% |  5.16e-13 |      
+      230 |   0.9380 |  3.316143e+05 |  +17.92% |  8.31e-13 |      
+      240 |   0.9180 |  3.888472e+05 |  +17.26% |  1.34e-12 |      
+      250 |   0.8955 |  4.489225e+05 |  +15.45% |  2.15e-12 |      
+      260 |   0.8694 |  5.112374e+05 |  +13.88% |  3.45e-12 |      
+      270 |   0.8396 |  5.742600e+05 |  +12.33% |  5.55e-12 |      
+      280 |   0.8072 |  6.359919e+05 |  +10.75% |  8.92e-12 |      
+      290 |   0.7710 |  6.955463e+05 |   +9.36% |  1.43e-11 |      
+      300 |   0.7333 |  7.522037e+05 |   +8.15% |  2.31e-11 |      
+      310 |   0.6935 |  8.050596e+05 |   +7.03% |  3.71e-11 |      
+      320 |   0.6498 |  8.518464e+05 |   +5.81% |  5.99e-11 |      
+[INFO GPL-0100] Timing-driven iteration 1/2, virtual: false.
+[INFO GPL-0101]    Iter: 325, overflow: 0.633, keep resizer changes at: 1, HPWL: 1738499195
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |     25465
+    final |     +2.8% |       8 |     289 |            20 |         0
+---------------------------------------------------------------------
+[INFO RSZ-0034] Found 18 slew violations.
+[INFO RSZ-0035] Found 12 fanout violations.
+[INFO RSZ-0039] Resized 8 instances.
+[INFO RSZ-0038] Inserted 289 buffers in 20 nets.
+   Iter   |    Area   | Removed | Inserted |   Pins
+          |           | Buffers | Buffers  | Remaining
+-------------------------------------------------------
+        0 |     +0.0% |       0 |        0 |     24190
+     2400 |     +0.0% |       0 |        1 |     21790
+     4800 |     +0.0% |       1 |        1 |     19390
+     7200 |     +0.0% |       1 |        1 |     16990
+     9600 |     +0.0% |       1 |        1 |     14590
+    12000 |     +4.5% |     866 |      868 |     12190
+    14400 |     +4.6% |    1087 |      941 |      9790
+    16800 |     +5.3% |    1195 |     1070 |      7390
+    19200 |     +5.7% |    1254 |     1138 |      4990
+    21600 |     +5.2% |    1491 |     1376 |      2590
+    24000 |     +5.2% |    1491 |     1376 |       190
+    final |     +5.2% |    1491 |     1376 |         0
+-------------------------------------------------------
+[INFO GPL-0106] Timing-driven: worst slack -1.57e-08
+[INFO GPL-0107] Timing-driven: repair_design delta area: 61935.371 um^2 (+7.70%)
+[INFO GPL-0108] Timing-driven: repair_design, gpl delta gcells: 174 (+0.68%)
+[INFO GPL-0109] Timing-driven: repair_design, gcells created: 1665, deleted: 1491
+[INFO GPL-0110] Timing-driven: new target density: 0.833925
+[INFO GPL-0038] Routability snapshot saved at iter = 329
+      328 |   0.5936 |  8.729284e+05 |          |           |      
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+      330 |   0.5754 |  8.812535e+05 |   +3.45% |  9.64e-11 |      
+      340 |   0.5354 |  8.846641e+05 |   +0.39% |  1.56e-10 |      
+      350 |   0.4910 |  9.066712e+05 |   +2.49% |  2.54e-10 |      
+      360 |   0.4395 |  9.318754e+05 |   +2.78% |  4.11e-10 |      
+      370 |   0.3876 |  9.619836e+05 |   +3.23% |  6.65e-10 |      
+      380 |   0.3444 |  9.771174e+05 |   +1.57% |  1.08e-09 |      
+      390 |   0.3098 |  9.808034e+05 |   +0.38% |  1.59e-09 |      
+[INFO GPL-0040] Routability iteration: 1
+[WARNING GRT-0281] Net clk has a large fanout of 5284 terminals.
+[INFO GPL-0041] Total routing overflow: 86.1939
+[INFO GPL-0042] Number of overflowed tiles: 640 (3.67%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.3422
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.2776
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.2077
+[INFO GPL-0046] Average top 5.0% routing congestion: 1.0902
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.3099
+[INFO GPL-0048] Routing congestion (1.3099) lower than previous minimum (1e+30). Updating minimum.
+[INFO GPL-0051] Inflated area:               20621.613 um^2 (+2.38%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 2832, After: 2195 (-22.49%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 91556.053, After: 70957.471 (-22.50%)
+[INFO GPL-0078] Removed fillers count: 637, area removed: 20592.214 um^2. Remaining area to be compensated by modifying density: 29.400 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           70957.471 um^2 (-22.50%)
+[INFO GPL-0061] Total non-inflated area:    957824.382 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        978445.996 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+      400 |   0.5580 |  9.121656e+05 |   -7.00% |  1.15e-10 |      
+      410 |   0.5257 |  9.167333e+05 |   +0.50% |  1.70e-10 |      
+      420 |   0.4945 |  9.315447e+05 |   +1.62% |  2.49e-10 |      
+      430 |   0.4488 |  9.513119e+05 |   +2.12% |  3.66e-10 |      
+      440 |   0.4101 |  9.767614e+05 |   +2.68% |  5.37e-10 |      
+      450 |   0.3709 |  9.907453e+05 |   +1.43% |  7.89e-10 |      
+      460 |   0.3350 |  9.993908e+05 |   +0.87% |  1.16e-09 |      
+      470 |   0.3016 |  1.010797e+06 |   +1.14% |  1.71e-09 |      
+[INFO GPL-0040] Routability iteration: 2
+[INFO GPL-0041] Total routing overflow: 51.3597
+[INFO GPL-0042] Number of overflowed tiles: 555 (3.19%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.2383
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.1870
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.1330
+[INFO GPL-0046] Average top 5.0% routing congestion: 1.0480
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.2127
+[INFO GPL-0048] Routing congestion (1.2127) lower than previous minimum (1.31). Updating minimum.
+[INFO GPL-0051] Inflated area:               11213.350 um^2 (+1.26%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 2195, After: 1849 (-15.76%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 70957.471, After: 59772.375 (-15.76%)
+[INFO GPL-0078] Removed fillers count: 346, area removed: 11185.096 um^2. Remaining area to be compensated by modifying density: 28.254 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           59772.375 um^2 (-15.76%)
+[INFO GPL-0061] Total non-inflated area:    957852.636 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        969065.985 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+      480 |   0.5461 |  9.420756e+05 |   -6.80% |  1.24e-10 |      
+      490 |   0.5235 |  9.407901e+05 |   -0.14% |  1.82e-10 |      
+      500 |   0.4827 |  9.580036e+05 |   +1.83% |  2.68e-10 |      
+      510 |   0.4378 |  9.804993e+05 |   +2.35% |  3.93e-10 |      
+      520 |   0.4028 |  1.004173e+06 |   +2.41% |  5.77e-10 |      
+      530 |   0.3637 |  1.012198e+06 |   +0.80% |  8.48e-10 |      
+      540 |   0.3276 |  1.022298e+06 |   +1.00% |  1.25e-09 |      
+[INFO GPL-0040] Routability iteration: 3
+[INFO GPL-0041] Total routing overflow: 38.7835
+[INFO GPL-0042] Number of overflowed tiles: 519 (2.98%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.1915
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.1492
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.1029
+[INFO GPL-0046] Average top 5.0% routing congestion: 1.0324
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.1703
+[INFO GPL-0048] Routing congestion (1.1703) lower than previous minimum (1.213). Updating minimum.
+[INFO GPL-0051] Inflated area:                8057.868 um^2 (+0.90%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 1849, After: 1600 (-13.47%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 59772.375, After: 51722.986 (-13.47%)
+[INFO GPL-0078] Removed fillers count: 249, area removed: 8049.390 um^2. Remaining area to be compensated by modifying density: 8.478 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           51722.986 um^2 (-13.47%)
+[INFO GPL-0061] Total non-inflated area:    957861.114 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        965918.982 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+      550 |   0.6017 |  8.760785e+05 |  -14.30% |  9.19e-11 |      
+      560 |   0.5384 |  9.636669e+05 |  +10.00% |  1.33e-10 |      
+      570 |   0.5201 |  9.545125e+05 |   -0.95% |  1.96e-10 |      
+      580 |   0.4722 |  9.808504e+05 |   +2.76% |  2.88e-10 |      
+      590 |   0.4288 |  1.001358e+06 |   +2.09% |  4.23e-10 |      
+      600 |   0.3946 |  1.024479e+06 |   +2.31% |  6.20e-10 |      
+      610 |   0.3588 |  1.031363e+06 |   +0.67% |  9.13e-10 |      
+      620 |   0.3215 |  1.042389e+06 |   +1.07% |  1.34e-09 |      
+[INFO GPL-0040] Routability iteration: 4
+[INFO GPL-0041] Total routing overflow: 32.5069
+[INFO GPL-0042] Number of overflowed tiles: 469 (2.69%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.1818
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.1363
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0894
+[INFO GPL-0046] Average top 5.0% routing congestion: 1.0225
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.1591
+[INFO GPL-0048] Routing congestion (1.1591) lower than previous minimum (1.17). Updating minimum.
+[INFO GPL-0051] Inflated area:                7353.446 um^2 (+0.81%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 1600, After: 1373 (-14.19%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 51722.986, After: 44384.787 (-14.19%)
+[INFO GPL-0078] Removed fillers count: 227, area removed: 7338.199 um^2. Remaining area to be compensated by modifying density: 15.248 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           44384.787 um^2 (-14.19%)
+[INFO GPL-0061] Total non-inflated area:    957876.362 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        965229.808 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+      630 |   0.5793 |  9.274415e+05 |  -11.03% |  9.89e-11 |      
+      640 |   0.5331 |  9.808790e+05 |   +5.76% |  1.44e-10 |      
+      650 |   0.5129 |  9.725562e+05 |   -0.85% |  2.12e-10 |      
+      660 |   0.4636 |  1.003549e+06 |   +3.19% |  3.10e-10 |      
+      670 |   0.4227 |  1.021820e+06 |   +1.82% |  4.55e-10 |      
+      680 |   0.3869 |  1.038575e+06 |   +1.64% |  6.68e-10 |      
+      690 |   0.3526 |  1.046274e+06 |   +0.74% |  9.83e-10 |      
+      700 |   0.3160 |  1.056605e+06 |   +0.99% |  1.45e-09 |      
+[INFO GPL-0040] Routability iteration: 5
+[INFO GPL-0041] Total routing overflow: 23.2397
+[INFO GPL-0042] Number of overflowed tiles: 356 (2.04%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.1485
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.1097
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0666
+[INFO GPL-0046] Average top 5.0% routing congestion: 1.0022
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.1291
+[INFO GPL-0048] Routing congestion (1.1291) lower than previous minimum (1.159). Updating minimum.
+[INFO GPL-0051] Inflated area:                5252.525 um^2 (+0.57%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 1373, After: 1211 (-11.80%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 44384.787, After: 39147.835 (-11.80%)
+[INFO GPL-0078] Removed fillers count: 162, area removed: 5236.952 um^2. Remaining area to be compensated by modifying density: 15.573 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           39147.835 um^2 (-11.80%)
+[INFO GPL-0061] Total non-inflated area:    957891.935 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        963144.460 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+      710 |   0.5624 |  9.579327e+05 |   -9.34% |  1.06e-10 |      
+      720 |   0.5298 |  9.932778e+05 |   +3.69% |  1.55e-10 |      
+      730 |   0.5046 |  9.882209e+05 |   -0.51% |  2.28e-10 |      
+      740 |   0.4559 |  1.018836e+06 |   +3.10% |  3.34e-10 |      
+      750 |   0.4160 |  1.038493e+06 |   +1.93% |  4.90e-10 |      
+      760 |   0.3811 |  1.048224e+06 |   +0.94% |  7.20e-10 |      
+      770 |   0.3454 |  1.056787e+06 |   +0.82% |  1.06e-09 |      
+      780 |   0.3081 |  1.067658e+06 |   +1.03% |  1.56e-09 |      
+[INFO GPL-0040] Routability iteration: 6
+[INFO GPL-0041] Total routing overflow: 20.6984
+[INFO GPL-0042] Number of overflowed tiles: 302 (1.73%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.1496
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.1059
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0588
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.9957
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.1278
+[INFO GPL-0048] Routing congestion (1.1278) lower than previous minimum (1.129). Updating minimum.
+[INFO GPL-0051] Inflated area:                4737.118 um^2 (+0.52%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 1211, After: 1065 (-12.06%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 39147.835, After: 34428.112 (-12.06%)
+[INFO GPL-0078] Removed fillers count: 146, area removed: 4719.722 um^2. Remaining area to be compensated by modifying density: 17.395 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           34428.112 um^2 (-12.06%)
+[INFO GPL-0061] Total non-inflated area:    957909.330 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        962646.447 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+      790 |   0.5556 |  9.870782e+05 |   -7.55% |  1.10e-10 |      
+      800 |   0.5285 |  1.001978e+06 |   +1.51% |  1.61e-10 |      
+      810 |   0.4989 |  1.004039e+06 |   +0.21% |  2.36e-10 |      
+      820 |   0.4512 |  1.030915e+06 |   +2.68% |  3.46e-10 |      
+      830 |   0.4138 |  1.053167e+06 |   +2.16% |  5.08e-10 |      
+      840 |   0.3755 |  1.058367e+06 |   +0.49% |  7.46e-10 |      
+      850 |   0.3406 |  1.066786e+06 |   +0.80% |  1.10e-09 |      
+      860 |   0.3048 |  1.077708e+06 |   +1.02% |  1.61e-09 |      
+[INFO GPL-0040] Routability iteration: 7
+[INFO GPL-0041] Total routing overflow: 17.9961
+[INFO GPL-0042] Number of overflowed tiles: 266 (1.53%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.1471
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.0975
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0496
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.9873
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.1223
+[INFO GPL-0048] Routing congestion (1.1223) lower than previous minimum (1.128). Updating minimum.
+[INFO GPL-0051] Inflated area:                3823.705 um^2 (+0.41%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 1065, After: 947 (-11.08%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 34428.112, After: 30613.542 (-11.08%)
+[INFO GPL-0078] Removed fillers count: 118, area removed: 3814.570 um^2. Remaining area to be compensated by modifying density: 9.135 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           30613.542 um^2 (-11.08%)
+[INFO GPL-0061] Total non-inflated area:    957918.464 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        961742.169 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+      870 |   0.5423 |  1.015689e+06 |   -5.75% |  1.18e-10 |      
+      880 |   0.5265 |  1.001796e+06 |   -1.37% |  1.73e-10 |      
+      890 |   0.4860 |  1.026168e+06 |   +2.43% |  2.54e-10 |      
+      900 |   0.4439 |  1.036297e+06 |   +0.99% |  3.73e-10 |      
+      910 |   0.4057 |  1.066694e+06 |   +2.93% |  5.46e-10 |      
+      920 |   0.3683 |  1.069417e+06 |   +0.26% |  8.04e-10 |      
+      930 |   0.3358 |  1.073131e+06 |   +0.35% |  1.18e-09 |      
+      940 |   0.3011 |  1.083144e+06 |   +0.93% |  1.74e-09 |      
+[INFO GPL-0040] Routability iteration: 8
+[INFO GPL-0041] Total routing overflow: 14.9567
+[INFO GPL-0042] Number of overflowed tiles: 234 (1.34%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.1220
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.0822
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0381
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.9775
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.1021
+[INFO GPL-0048] Routing congestion (1.1021) lower than previous minimum (1.122). Updating minimum.
+[INFO GPL-0051] Inflated area:                3259.301 um^2 (+0.35%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 947, After: 847 (-10.56%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 30613.542, After: 27380.856 (-10.56%)
+[INFO GPL-0078] Removed fillers count: 100, area removed: 3232.687 um^2. Remaining area to be compensated by modifying density: 26.614 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           27380.856 um^2 (-10.56%)
+[INFO GPL-0061] Total non-inflated area:    957945.079 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        961204.380 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+      950 |   0.5370 |  1.028637e+06 |   -5.03% |  1.22e-10 |      
+      960 |   0.5252 |  1.008022e+06 |   -2.00% |  1.80e-10 |      
+      970 |   0.4800 |  1.041388e+06 |   +3.31% |  2.63e-10 |      
+      980 |   0.4396 |  1.042582e+06 |   +0.11% |  3.87e-10 |      
+      990 |   0.4023 |  1.075717e+06 |   +3.18% |  5.66e-10 |      
+     1000 |   0.3646 |  1.077100e+06 |   +0.13% |  8.34e-10 |      
+     1010 |   0.3329 |  1.081230e+06 |   +0.38% |  1.23e-09 |      
+     1020 |   0.2984 |  1.090727e+06 |   +0.88% |  1.80e-09 |      
+[INFO GPL-0040] Routability iteration: 9
+[INFO GPL-0041] Total routing overflow: 15.9413
+[INFO GPL-0042] Number of overflowed tiles: 269 (1.54%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.1237
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.0847
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0440
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.9835
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.1042
+[INFO GPL-0049] Routing congestion (1.1042) higher than minimum (1.1021). Consecutive non-improvement count: 1.
+[INFO GPL-0051] Inflated area:                3509.217 um^2 (+0.38%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 847, After: 739 (-12.75%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 27380.856, After: 23889.554 (-12.75%)
+[INFO GPL-0078] Removed fillers count: 108, area removed: 3491.302 um^2. Remaining area to be compensated by modifying density: 17.915 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           23889.554 um^2 (-12.75%)
+[INFO GPL-0061] Total non-inflated area:    957962.994 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        961472.211 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+     1030 |   0.5346 |  1.042843e+06 |   -4.39% |  1.27e-10 |      
+     1040 |   0.5232 |  1.012834e+06 |   -2.88% |  1.86e-10 |      
+     1050 |   0.4749 |  1.054699e+06 |   +4.13% |  2.73e-10 |      
+     1060 |   0.4346 |  1.051331e+06 |   -0.32% |  4.01e-10 |      
+     1070 |   0.4010 |  1.082681e+06 |   +2.98% |  5.87e-10 |      
+     1080 |   0.3616 |  1.085834e+06 |   +0.29% |  8.64e-10 |      
+     1090 |   0.3291 |  1.088349e+06 |   +0.23% |  1.27e-09 |      
+     1100 |   0.2959 |  1.095450e+06 |   +0.65% |  1.87e-09 |      
+[INFO GPL-0040] Routability iteration: 10
+[INFO GPL-0041] Total routing overflow: 13.1409
+[INFO GPL-0042] Number of overflowed tiles: 234 (1.34%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.1111
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.0723
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0337
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.9747
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.0917
+[INFO GPL-0048] Routing congestion (1.0917) lower than previous minimum (1.102). Updating minimum.
+[INFO GPL-0051] Inflated area:                2809.878 um^2 (+0.30%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 739, After: 653 (-11.64%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 23889.554, After: 21109.443 (-11.64%)
+[INFO GPL-0078] Removed fillers count: 86, area removed: 2780.110 um^2. Remaining area to be compensated by modifying density: 29.767 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           21109.443 um^2 (-11.64%)
+[INFO GPL-0061] Total non-inflated area:    957992.761 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        960802.639 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+     1110 |   0.5335 |  1.053684e+06 |   -3.81% |  1.26e-10 |      
+     1120 |   0.5237 |  1.017913e+06 |   -3.39% |  1.86e-10 |      
+     1130 |   0.4747 |  1.062174e+06 |   +4.35% |  2.72e-10 |      
+     1140 |   0.4343 |  1.054714e+06 |   -0.70% |  4.00e-10 |      
+     1150 |   0.3995 |  1.089229e+06 |   +3.27% |  5.86e-10 |      
+     1160 |   0.3613 |  1.093320e+06 |   +0.38% |  8.61e-10 |      
+     1170 |   0.3289 |  1.093573e+06 |   +0.02% |  1.27e-09 |      
+[INFO GPL-0040] Routability iteration: 11
+[INFO GPL-0041] Total routing overflow: 12.2878
+[INFO GPL-0042] Number of overflowed tiles: 197 (1.13%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.1075
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.0697
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0261
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.9656
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.0886
+[INFO GPL-0048] Routing congestion (1.0886) lower than previous minimum (1.092). Updating minimum.
+[INFO GPL-0051] Inflated area:                2791.972 um^2 (+0.30%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 653, After: 567 (-13.17%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 21109.443, After: 18329.333 (-13.17%)
+[INFO GPL-0078] Removed fillers count: 86, area removed: 2780.110 um^2. Remaining area to be compensated by modifying density: 11.862 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           18329.333 um^2 (-13.17%)
+[INFO GPL-0061] Total non-inflated area:    958004.623 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        960796.596 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+     1180 |   0.6157 |  8.742084e+05 |  -20.06% |  9.19e-11 |      
+     1190 |   0.5301 |  1.063240e+06 |  +21.62% |  1.31e-10 |      
+     1200 |   0.5214 |  1.021647e+06 |   -3.91% |  1.93e-10 |      
+     1210 |   0.4716 |  1.071795e+06 |   +4.91% |  2.82e-10 |      
+     1220 |   0.4290 |  1.063786e+06 |   -0.75% |  4.15e-10 |      
+     1230 |   0.3968 |  1.094215e+06 |   +2.86% |  6.07e-10 |      
+     1240 |   0.3582 |  1.100254e+06 |   +0.55% |  8.92e-10 |      
+     1250 |   0.3261 |  1.101030e+06 |   +0.07% |  1.31e-09 |      
+[INFO GPL-0040] Routability iteration: 12
+[INFO GPL-0041] Total routing overflow: 13.8776
+[INFO GPL-0042] Number of overflowed tiles: 201 (1.15%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.1230
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.0783
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0315
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.9709
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.1007
+[INFO GPL-0049] Routing congestion (1.1007) higher than minimum (1.0886). Consecutive non-improvement count: 1.
+[INFO GPL-0051] Inflated area:                2921.972 um^2 (+0.31%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 567, After: 477 (-15.87%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 18329.333, After: 15419.915 (-15.87%)
+[INFO GPL-0078] Removed fillers count: 90, area removed: 2909.418 um^2. Remaining area to be compensated by modifying density: 12.555 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           15419.915 um^2 (-15.87%)
+[INFO GPL-0061] Total non-inflated area:    958017.178 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        960939.150 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+     1260 |   0.6020 |  9.122208e+05 |  -17.15% |  9.56e-11 |      
+     1270 |   0.5280 |  1.073002e+06 |  +17.63% |  1.36e-10 |      
+     1280 |   0.5177 |  1.028154e+06 |   -4.18% |  2.00e-10 |      
+     1290 |   0.4670 |  1.080794e+06 |   +5.12% |  2.92e-10 |      
+     1300 |   0.4252 |  1.077943e+06 |   -0.26% |  4.30e-10 |      
+     1310 |   0.3940 |  1.097726e+06 |   +1.84% |  6.30e-10 |      
+     1320 |   0.3545 |  1.106057e+06 |   +0.76% |  9.26e-10 |      
+     1330 |   0.3202 |  1.110467e+06 |   +0.40% |  1.36e-09 |      
+[INFO GPL-0040] Routability iteration: 13
+[INFO GPL-0041] Total routing overflow: 9.2471
+[INFO GPL-0042] Number of overflowed tiles: 179 (1.03%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.0850
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.0528
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0169
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.9622
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.0689
+[INFO GPL-0048] Routing congestion (1.0689) lower than previous minimum (1.089). Updating minimum.
+[INFO GPL-0051] Inflated area:                1912.295 um^2 (+0.20%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 477, After: 418 (-12.37%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 15419.915, After: 13512.630 (-12.37%)
+[INFO GPL-0078] Removed fillers count: 59, area removed: 1907.285 um^2. Remaining area to be compensated by modifying density: 5.010 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           13512.630 um^2 (-12.37%)
+[INFO GPL-0061] Total non-inflated area:    958022.187 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        959934.482 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+     1340 |   0.5833 |  9.624947e+05 |  -13.33% |  9.87e-11 |      
+     1350 |   0.5278 |  1.074721e+06 |  +11.66% |  1.41e-10 |      
+     1360 |   0.5144 |  1.033082e+06 |   -3.87% |  2.08e-10 |      
+     1370 |   0.4641 |  1.084252e+06 |   +4.95% |  3.03e-10 |      
+     1380 |   0.4236 |  1.087625e+06 |   +0.31% |  4.46e-10 |      
+     1390 |   0.3915 |  1.099475e+06 |   +1.09% |  6.54e-10 |      
+     1400 |   0.3523 |  1.108627e+06 |   +0.83% |  9.61e-10 |      
+     1410 |   0.3169 |  1.115710e+06 |   +0.64% |  1.41e-09 |      
+[INFO GPL-0040] Routability iteration: 14
+[INFO GPL-0041] Total routing overflow: 11.8050
+[INFO GPL-0042] Number of overflowed tiles: 179 (1.03%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.1113
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.0674
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0218
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.9623
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.0894
+[INFO GPL-0049] Routing congestion (1.0894) higher than minimum (1.0689). Consecutive non-improvement count: 1.
+[INFO GPL-0051] Inflated area:                3227.767 um^2 (+0.34%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 418, After: 319 (-23.68%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 13512.630, After: 10312.270 (-23.68%)
+[INFO GPL-0078] Removed fillers count: 99, area removed: 3200.360 um^2. Remaining area to be compensated by modifying density: 27.408 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:           10312.270 um^2 (-23.68%)
+[INFO GPL-0061] Total non-inflated area:    958049.595 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        961277.362 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+     1420 |   0.5707 |  1.003528e+06 |  -10.05% |  1.02e-10 |      
+     1430 |   0.5263 |  1.083117e+06 |   +7.93% |  1.47e-10 |      
+     1440 |   0.5094 |  1.045747e+06 |   -3.45% |  2.16e-10 |      
+     1450 |   0.4611 |  1.089368e+06 |   +4.17% |  3.15e-10 |      
+     1460 |   0.4184 |  1.100298e+06 |   +1.00% |  4.62e-10 |      
+     1470 |   0.3884 |  1.103917e+06 |   +0.33% |  6.78e-10 |      
+     1480 |   0.3509 |  1.111990e+06 |   +0.73% |  9.97e-10 |      
+     1490 |   0.3144 |  1.122466e+06 |   +0.94% |  1.46e-09 |      
+[INFO GPL-0040] Routability iteration: 15
+[INFO GPL-0041] Total routing overflow: 13.0193
+[INFO GPL-0042] Number of overflowed tiles: 191 (1.10%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.1205
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.0742
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0266
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.9630
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.0973
+[INFO GPL-0049] Routing congestion (1.0973) higher than minimum (1.0689). Consecutive non-improvement count: 2.
+[INFO GPL-0051] Inflated area:                3199.718 um^2 (+0.34%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 319, After: 221 (-30.72%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 10312.270, After: 7144.237 (-30.72%)
+[INFO GPL-0078] Removed fillers count: 98, area removed: 3168.033 um^2. Remaining area to be compensated by modifying density: 31.685 um^2
+[INFO GPL-0058] White space area:           1148546.202 um^2 (+0.00%)
+[INFO GPL-0059] Movable instances area:     957801.366 um^2 (+0.00%)
+[INFO GPL-0060] Total filler area:            7144.237 um^2 (-30.72%)
+[INFO GPL-0061] Total non-inflated area:    958081.280 um^2 (+0.00%)
+[INFO GPL-0062] Total inflated area:        961280.998 um^2 (+0.00%)
+[INFO GPL-0063] New Target Density:             0.8339
+[INFO GPL-0087] Routability end iteration: increase inflation and revert back to snapshot.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+     1500 |   0.5576 |  1.025507e+06 |   -8.64% |  1.05e-10 |      
+     1510 |   0.5272 |  1.086795e+06 |   +5.98% |  1.52e-10 |      
+     1520 |   0.5030 |  1.059777e+06 |   -2.49% |  2.24e-10 |      
+     1530 |   0.4586 |  1.080870e+06 |   +1.99% |  3.26e-10 |      
+     1540 |   0.4145 |  1.114560e+06 |   +3.12% |  4.78e-10 |      
+     1550 |   0.3845 |  1.111604e+06 |   -0.27% |  7.02e-10 |      
+     1560 |   0.3469 |  1.116861e+06 |   +0.47% |  1.03e-09 |      
+     1570 |   0.3105 |  1.130276e+06 |   +1.20% |  1.51e-09 |      
+[INFO GPL-0040] Routability iteration: 16
+[INFO GPL-0041] Total routing overflow: 9.9073
+[INFO GPL-0042] Number of overflowed tiles: 154 (0.88%)
+[INFO GPL-0043] Average top 0.5% routing congestion: 1.0970
+[INFO GPL-0044] Average top 1.0% routing congestion: 1.0562
+[INFO GPL-0045] Average top 2.0% routing congestion: 1.0139
+[INFO GPL-0046] Average top 5.0% routing congestion: 0.9560
+[INFO GPL-0047] Routability iteration weighted routing congestion: 1.0766
+[INFO GPL-0049] Routing congestion (1.0766) higher than minimum (1.0689). Consecutive non-improvement count: 3.
+[INFO GPL-0051] Inflated area:                2161.664 um^2 (+0.23%)
+[INFO GPL-0052] Placement target density:       0.8339
+[INFO GPL-0076] Removing fillers, count: Before: 221, After: 155 (-29.86%)
+[INFO GPL-0077] Filler area (um^2)     : Before: 7144.237, After: 5010.664 (-29.86%)
+[INFO GPL-0078] Removed fillers count: 66, area removed: 2133.573 um^2. Remaining area to be compensated by modifying density: 28.091 um^2
+[INFO GPL-0054] No improvement in routing congestion for 3 consecutive iterations (limit is 3).
+[INFO GPL-0055] Reverting inflation values and target density from the iteration with minimum observed routing congestion.
+[INFO GPL-0056] Minimum observed routing congestion: 1.0689
+[INFO GPL-0057] Target density at minimum routing congestion: 0.8339
+[INFO GPL-0080] Restoring 322 previously removed fillers.
+[INFO GPL-0081] Number of fillers before restoration 155 and after 477 . Relative change: +207.74%%
+[INFO GPL-0082] Total filler area before restoration 5010.66 and after 15419.92 (um^2). Relative change: +207.74%%
+[INFO GPL-0089] Routability finished. Reverting to minimal observed routing congestion, could not reach target.
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+     1580 |   0.5490 |  1.031496e+06 |   -8.74% |  1.09e-10 |      
+     1590 |   0.5254 |  1.051809e+06 |   +1.97% |  1.59e-10 |      
+     1600 |   0.4955 |  1.045627e+06 |   -0.59% |  2.34e-10 |      
+     1610 |   0.4513 |  1.068006e+06 |   +2.14% |  3.42e-10 |      
+     1620 |   0.4093 |  1.099132e+06 |   +2.91% |  5.00e-10 |      
+     1630 |   0.3775 |  1.096676e+06 |   -0.22% |  7.36e-10 |      
+     1640 |   0.3418 |  1.099319e+06 |   +0.24% |  1.08e-09 |      
+     1650 |   0.3067 |  1.112830e+06 |   +1.23% |  1.59e-09 |      
+     1660 |   0.2752 |  1.110485e+06 |   -0.21% |  2.34e-09 |      
+     1670 |   0.2437 |  1.112157e+06 |   +0.15% |  3.45e-09 |      
+     1680 |   0.2192 |  1.111704e+06 |   -0.04% |  5.08e-09 |      
+     1690 |   0.1930 |  1.113076e+06 |   +0.12% |  7.48e-09 |      
+[INFO GPL-0100] Timing-driven iteration 2/2, virtual: false.
+[INFO GPL-0101]    Iter: 1691, overflow: 0.193, keep resizer changes at: 1, HPWL: 2226151478
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |     25639
+    final |     +0.0% |       0 |       0 |             0 |         0
+---------------------------------------------------------------------
+   Iter   |    Area   | Removed | Inserted |   Pins
+          |           | Buffers | Buffers  | Remaining
+-------------------------------------------------------
+        0 |     +0.0% |       0 |        0 |     24191
+     2400 |     -0.0% |       1 |        0 |     21791
+     4800 |     -0.0% |       1 |        0 |     19391
+     7200 |     -0.0% |       1 |        0 |     16991
+     9600 |     -0.0% |       1 |        0 |     14591
+    12000 |     +0.1% |     868 |      883 |     12191
+    14400 |     +0.6% |     941 |     1034 |      9791
+    16800 |     +0.8% |    1070 |     1187 |      7391
+    19200 |     +0.8% |    1138 |     1256 |      4991
+    21600 |     +0.9% |    1375 |     1499 |      2591
+    24000 |     +0.9% |    1375 |     1499 |       191
+    final |     +0.9% |    1375 |     1499 |         0
+-------------------------------------------------------
+[INFO GPL-0106] Timing-driven: worst slack -1.94e-08
+[INFO GPL-0107] Timing-driven: repair_design delta area: 5474.167 um^2 (+0.58%)
+[INFO GPL-0108] Timing-driven: repair_design, gpl delta gcells: 124 (+0.48%)
+[INFO GPL-0109] Timing-driven: repair_design, gcells created: 1499, deleted: 1375
+[INFO GPL-0110] Timing-driven: new target density: 0.8461402
+Iteration | Overflow |     HPWL (um) |  HPWL(%) |   Penalty | Group
+---------------------------------------------------------------
+     1700 |   0.1753 |  1.143006e+06 |   +2.69% |  1.09e-08 |      
+     1710 |   0.1555 |  1.118627e+06 |   -2.13% |  1.61e-08 |      
+     1720 |   0.1328 |  1.108293e+06 |   -0.92% |  2.36e-08 |      
+     1730 |   0.1153 |  1.101954e+06 |   -0.57% |  3.48e-08 |      
+     1739 |   0.0997 |  1.099111e+06 |          |  5.13e-08 |      
+---------------------------------------------------------------
+[INFO GPL-1001] Global placement finished at iteration 1739
+[INFO GPL-1003] Routability mode iteration count: 1307
+[INFO GPL-1005] Routability final weighted congestion: 1.0176
+[INFO GPL-1002] Placed Cell Area            948071.4293
+[INFO GPL-1003] Available Free Area         1148546.2016
+[INFO GPL-1004] Minimum Feasible Density        0.7100 (cell_area / free_area)
+[INFO GPL-1006]   Suggested Target Densities:
+[INFO GPL-1007]     - For 90% usage of free space: 0.9172
+[INFO GPL-1008]     - For 80% usage of free space: 1.0318
+[INFO GPL-1011] Original area (um^2): 804309.93
+[INFO GPL-1012] Total routability artificial inflation: 76351.96 (+9.49%)
+[INFO GPL-1013] Total timing-driven delta area: 67409.54 (+8.38%)
+[INFO GPL-1014] Final placement area: 948071.43 (+17.87%)
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 6196 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Endcap cell                             550    2414.72
+  Tap cell                               7621   33459.24
+  Tie cell                                 18     158.05
+  Buffer                                    1      13.17
+  Timing Repair Buffer                   1549   89296.35
+  Inverter                               1213   10787.21
+  Sequential cell                        5283  345186.42
+  Multi-Input combinational cell        17693  380160.35
+  Total                                 33928  861475.51
+Writing OpenROAD database to '/foss/designs/ascon/runs/RUN_2026-11-11_21-41-49/28-openroad-globalplacement/ascon_top.odb'…
+Writing netlist to '/foss/designs/ascon/runs/RUN_2026-11-11_21-41-49/28-openroad-globalplacement/ascon_top.nl.v'…
+Writing powered netlist to '/foss/designs/ascon/runs/RUN_2026-11-11_21-41-49/28-openroad-globalplacement/ascon_top.pnl.v'…
+Writing layout to '/foss/designs/ascon/runs/RUN_2026-11-11_21-41-49/28-openroad-globalplacement/ascon_top.def'…
+Writing timing constraints to '/foss/designs/ascon/runs/RUN_2026-11-11_21-41-49/28-openroad-globalplacement/ascon_top.sdc'…

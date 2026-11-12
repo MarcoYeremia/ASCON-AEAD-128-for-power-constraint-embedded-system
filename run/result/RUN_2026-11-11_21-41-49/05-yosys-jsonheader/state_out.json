@@ -1,0 +1,9 @@
+{
+    "json_h": "/foss/designs/ascon/runs/RUN_2026-11-11_21-41-49/05-yosys-jsonheader/ascon_top.h.json",
+    "metrics": {
+        "design__lint_error__count": 0,
+        "design__lint_timing_construct__count": 0,
+        "design__lint_warning__count": 312,
+        "design__inferred_latch__count": 0
+    }
+}
