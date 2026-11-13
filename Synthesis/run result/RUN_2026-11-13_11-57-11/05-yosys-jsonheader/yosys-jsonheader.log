@@ -1,0 +1,1021 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2026  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.64 (git sha1 6d2c445ae, g++ 13.3.0-6ubuntu2~24.04.1 -fPIC -O3)
+
+1. Executing Verilog-2005 frontend: /foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/tmp/1986ec5f2f78441ba79afbb6e3e26772.bb.v
+Parsing SystemVerilog input from `/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/tmp/1986ec5f2f78441ba79afbb6e3e26772.bb.v' to AST representation.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addf_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addf_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addf_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addf_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addh_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addh_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addh_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__addh_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and3_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and3_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and3_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and3_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and4_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and4_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and4_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__and4_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__antenna'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__antenna_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi211_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi211_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi211_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi211_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi21_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi21_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi21_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi21_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi221_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi221_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi221_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi221_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi222_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi222_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi222_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi222_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi22_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi22_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi22_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__aoi22_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_12'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_20'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_3'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__buf_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_12'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_3'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__bufz_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_12'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_20'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_3'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkbuf_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_12'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_20'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_3'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__clkinv_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnrsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffnsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffrsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dffsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlya_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlya_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlya_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlya_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyb_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyb_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyb_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyb_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyc_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyc_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyc_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyc_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyd_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyd_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyd_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__dlyd_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__endcap'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__endcap_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_32'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_64'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fill_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fillcap_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fillcap_32'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fillcap_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fillcap_64'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fillcap_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__fillcap_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__filltie'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__filltie_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__hold'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__hold_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtn_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtn_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtn_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtn_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtp_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtp_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtp_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__icgtp_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_12'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_20'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_3'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__inv_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_12'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_16'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_3'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_8'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__invz_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latrsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__latsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux4_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux4_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux4_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__mux4_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand3_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand3_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand3_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand3_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand4_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand4_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand4_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nand4_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor3_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor3_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor3_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor3_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor4_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor4_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor4_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__nor4_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai211_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai211_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai211_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai211_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai21_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai21_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai21_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai21_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai221_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai221_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai221_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai221_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai222_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai222_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai222_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai222_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai22_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai22_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai22_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai22_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai31_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai31_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai31_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai31_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai32_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai32_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai32_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai32_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai33_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai33_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai33_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__oai33_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or3_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or3_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or3_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or3_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or4_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or4_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or4_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__or4_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffrsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffsnq_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffsnq_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffsnq_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__sdffsnq_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__tieh'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__tieh_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__tiel'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__tiel_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor3_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor3_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor3_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xnor3_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor2_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor2_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor2_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor2_func'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor3_1'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor3_2'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor3_4'.
+Generating RTLIL representation for module `\gf180mcu_fd_sc_mcu7t5v0__xor3_func'.
+Successfully finished Verilog frontend.
+wtaf
+
+2. Executing Verilog-2005 frontend: /foss/designs/ascon/ascon_top.sv
+Parsing SystemVerilog input from `/foss/designs/ascon/ascon_top.sv' to AST representation.
+Storing AST representation for module `$abstract\ascon_top'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /foss/designs/ascon/ascon_core.sv
+Parsing SystemVerilog input from `/foss/designs/ascon/ascon_core.sv' to AST representation.
+Storing AST representation for module `$abstract\asconp'.
+Storing AST representation for module `$abstract\register'.
+Storing AST representation for module `$abstract\ascon_core'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /foss/designs/ascon/asconp.sv
+Parsing SystemVerilog input from `/foss/designs/ascon/asconp.sv' to AST representation.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: /foss/designs/ascon/config.sv
+Parsing SystemVerilog input from `/foss/designs/ascon/config.sv' to AST representation.
+Successfully finished Verilog frontend.
+
+6. Executing Verilog-2005 frontend: /foss/designs/ascon/functions.sv
+Parsing SystemVerilog input from `/foss/designs/ascon/functions.sv' to AST representation.
+Successfully finished Verilog frontend.
+
+7. Executing Verilog-2005 frontend: /foss/designs/ascon/postprocessor_rup.sv
+Parsing SystemVerilog input from `/foss/designs/ascon/postprocessor_rup.sv' to AST representation.
+Storing AST representation for module `$abstract\postprocessor_rup'.
+Successfully finished Verilog frontend.
+
+8. Executing Verilog-2005 frontend: /foss/designs/ascon/register.sv
+Parsing SystemVerilog input from `/foss/designs/ascon/register.sv' to AST representation.
+Successfully finished Verilog frontend.
+
+9. Executing Verilog-2005 frontend: /foss/designs/ascon/spi_controller.sv
+Parsing SystemVerilog input from `/foss/designs/ascon/spi_controller.sv' to AST representation.
+Storing AST representation for module `$abstract\spi_controller'.
+Successfully finished Verilog frontend.
+
+10. Executing Verilog-2005 frontend: /foss/designs/ascon/spi_slave.sv
+Parsing SystemVerilog input from `/foss/designs/ascon/spi_slave.sv' to AST representation.
+Storing AST representation for module `$abstract\spi_slave'.
+Successfully finished Verilog frontend.
+
+11. Executing HIERARCHY pass (managing design hierarchy).
+
+12. Executing AST frontend in derive mode using pre-parsed AST for module `\ascon_top'.
+Generating RTLIL representation for module `\ascon_top'.
+
+12.1. Analyzing design hierarchy..
+Top module:  \ascon_top
+
+12.2. Executing AST frontend in derive mode using pre-parsed AST for module `\postprocessor_rup'.
+Generating RTLIL representation for module `\postprocessor_rup'.
+
+12.3. Executing AST frontend in derive mode using pre-parsed AST for module `\spi_controller'.
+Generating RTLIL representation for module `\spi_controller'.
+
+12.4. Executing AST frontend in derive mode using pre-parsed AST for module `\spi_slave'.
+Generating RTLIL representation for module `\spi_slave'.
+
+12.5. Analyzing design hierarchy..
+Top module:  \ascon_top
+Used module:     \postprocessor_rup
+Used module:     \spi_controller
+Used module:     \spi_slave
+
+12.6. Executing AST frontend in derive mode using pre-parsed AST for module `\ascon_core'.
+Generating RTLIL representation for module `\ascon_core'.
+
+12.7. Analyzing design hierarchy..
+Top module:  \ascon_top
+Used module:     \postprocessor_rup
+Used module:         \ascon_core
+Used module:     \spi_controller
+Used module:     \spi_slave
+
+12.8. Executing AST frontend in derive mode using pre-parsed AST for module `\asconp'.
+Generating RTLIL representation for module `\asconp'.
+Parameter 1 (\DATA_WIDTH) = 11
+
+12.9. Executing AST frontend in derive mode using pre-parsed AST for module `\register'.
+Parameter 1 (\DATA_WIDTH) = 11
+Generating RTLIL representation for module `$paramod\register\DATA_WIDTH=u'00000000000000000000000000001011'.
+Parameter 1 (\DATA_WIDTH) = 5
+Parameter 2 (\RST_VALUE) = 5'00001
+
+12.10. Executing AST frontend in derive mode using pre-parsed AST for module `\register'.
+Parameter 1 (\DATA_WIDTH) = 5
+Parameter 2 (\RST_VALUE) = 5'00001
+Generating RTLIL representation for module `$paramod$ba5a95bd8ea78656a63c0f78336c1cac20b3dc0f\register'.
+Parameter 1 (\DATA_WIDTH) = 8
+
+12.11. Executing AST frontend in derive mode using pre-parsed AST for module `\register'.
+Parameter 1 (\DATA_WIDTH) = 8
+Generating RTLIL representation for module `$paramod\register\DATA_WIDTH=u'00000000000000000000000000001000'.
+Parameter 1 (\DATA_WIDTH) = 320
+
+12.12. Executing AST frontend in derive mode using pre-parsed AST for module `\register'.
+Parameter 1 (\DATA_WIDTH) = 320
+Generating RTLIL representation for module `$paramod\register\DATA_WIDTH=u'00000000000000000000000101000000'.
+Parameter 1 (\DATA_WIDTH) = 128
+
+12.13. Executing AST frontend in derive mode using pre-parsed AST for module `\register'.
+Parameter 1 (\DATA_WIDTH) = 128
+Generating RTLIL representation for module `$paramod\register\DATA_WIDTH=u'00000000000000000000000010000000'.
+
+12.14. Analyzing design hierarchy..
+Top module:  \ascon_top
+Used module:     \postprocessor_rup
+Used module:         \ascon_core
+Used module:             \asconp
+Used module:             $paramod\register\DATA_WIDTH=u'00000000000000000000000000001011
+Used module:             $paramod$ba5a95bd8ea78656a63c0f78336c1cac20b3dc0f\register
+Used module:             $paramod\register\DATA_WIDTH=u'00000000000000000000000000001000
+Used module:             $paramod\register\DATA_WIDTH=u'00000000000000000000000101000000
+Used module:             $paramod\register\DATA_WIDTH=u'00000000000000000000000010000000
+Used module:     \spi_controller
+Used module:     \spi_slave
+
+12.15. Analyzing design hierarchy..
+Top module:  \ascon_top
+Used module:     \postprocessor_rup
+Used module:         \ascon_core
+Used module:             \asconp
+Used module:             $paramod\register\DATA_WIDTH=u'00000000000000000000000000001011
+Used module:             $paramod$ba5a95bd8ea78656a63c0f78336c1cac20b3dc0f\register
+Used module:             $paramod\register\DATA_WIDTH=u'00000000000000000000000000001000
+Used module:             $paramod\register\DATA_WIDTH=u'00000000000000000000000101000000
+Used module:             $paramod\register\DATA_WIDTH=u'00000000000000000000000010000000
+Used module:     \spi_controller
+Used module:     \spi_slave
+Removing unused module `$abstract\spi_slave'.
+Removing unused module `$abstract\spi_controller'.
+Removing unused module `$abstract\postprocessor_rup'.
+Removing unused module `$abstract\ascon_core'.
+Removing unused module `$abstract\register'.
+Removing unused module `$abstract\asconp'.
+Removing unused module `$abstract\ascon_top'.
+Removed 7 unused modules.
+Renaming module ascon_top to ascon_top.
+
+13. Executing PROC pass (convert processes to netlists).
+
+13.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+13.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Marked 12 switch rules as full_case in process $proc$/foss/designs/ascon/spi_controller.sv:204$73 in module spi_controller.
+Marked 4 switch rules as full_case in process $proc$/foss/designs/ascon/spi_controller.sv:181$71 in module spi_controller.
+Marked 2 switch rules as full_case in process $proc$/foss/designs/ascon/spi_controller.sv:175$70 in module spi_controller.
+Marked 7 switch rules as full_case in process $proc$/foss/designs/ascon/spi_controller.sv:114$55 in module spi_controller.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon/spi_controller.sv:84$48 in module spi_controller.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon/spi_controller.sv:75$46 in module spi_controller.
+Marked 5 switch rules as full_case in process $proc$/foss/designs/ascon/postprocessor_rup.sv:83$33 in module postprocessor_rup.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon/postprocessor_rup.sv:76$24 in module postprocessor_rup.
+Marked 4 switch rules as full_case in process $proc$/foss/designs/ascon/spi_slave.sv:50$137 in module spi_slave.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon/spi_slave.sv:25$132 in module spi_slave.
+Marked 1 switch rules as full_case in process $proc$register.sv:23$551 in module $paramod\register\DATA_WIDTH=u'00000000000000000000000010000000.
+Marked 1 switch rules as full_case in process $proc$register.sv:23$550 in module $paramod\register\DATA_WIDTH=u'00000000000000000000000101000000.
+Marked 1 switch rules as full_case in process $proc$register.sv:23$549 in module $paramod\register\DATA_WIDTH=u'00000000000000000000000000001000.
+Marked 1 switch rules as full_case in process $proc$register.sv:23$548 in module $paramod$ba5a95bd8ea78656a63c0f78336c1cac20b3dc0f\register.
+Marked 1 switch rules as full_case in process $proc$register.sv:23$547 in module $paramod\register\DATA_WIDTH=u'00000000000000000000000000001011.
+Marked 15 switch rules as full_case in process $proc$/foss/designs/ascon/ascon_core.sv:458$483 in module ascon_core.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon/ascon_core.sv:442$478 in module ascon_core.
+Marked 6 switch rules as full_case in process $proc$/foss/designs/ascon/ascon_core.sv:419$461 in module ascon_core.
+Marked 1 switch rules as full_case in process $proc$/foss/designs/ascon/ascon_core.sv:408$450 in module ascon_core.
+Marked 9 switch rules as full_case in process $proc$/foss/designs/ascon/ascon_core.sv:349$408 in module ascon_core.
+Marked 32 switch rules as full_case in process $proc$/foss/designs/ascon/ascon_core.sv:256$387 in module ascon_core.
+Marked 2 switch rules as full_case in process $proc$/foss/designs/ascon/ascon_core.sv:192$247 in module ascon_core.
+Removed a total of 0 dead cases.
+
+13.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 14 redundant assignments.
+Promoted 82 assignments to connections.
+
+13.4. Executing PROC_INIT pass (extract init attributes).
+
+13.5. Executing PROC_ARST pass (detect async resets in processes).
+Found async reset \rst in `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+Found async reset \rst in `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:175$70'.
+Found async reset \rst in `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:114$55'.
+Found async reset \rst in `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:84$48'.
+Found async reset \rst in `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:75$46'.
+Found async reset \rst in `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:83$33'.
+Found async reset \rst in `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:50$137'.
+Found async reset \rst in `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:25$132'.
+Found async reset \rst in `$paramod\register\DATA_WIDTH=u'00000000000000000000000010000000.$proc$register.sv:23$551'.
+Found async reset \rst in `$paramod\register\DATA_WIDTH=u'00000000000000000000000101000000.$proc$register.sv:23$550'.
+Found async reset \rst in `$paramod\register\DATA_WIDTH=u'00000000000000000000000000001000.$proc$register.sv:23$549'.
+Found async reset \rst in `$paramod$ba5a95bd8ea78656a63c0f78336c1cac20b3dc0f\register.$proc$register.sv:23$548'.
+Found async reset \rst in `$paramod\register\DATA_WIDTH=u'00000000000000000000000000001011.$proc$register.sv:23$547'.
+
+13.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+<suppressed ~123 debug messages>
+
+13.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+     1/21: $0\word_buf[31:0] [31:24]
+     2/21: $0\word_buf[31:0] [23:16]
+     3/21: $0\word_buf[31:0] [15:8]
+     4/21: $0\word_buf[31:0] [7:0]
+     5/21: $0\eoi_sent[0:0]
+     6/21: $0\msg_has_bytes[0:0]
+     7/21: $0\last_msg_bytes[1:0]
+     8/21: $0\pend_valid[0:0]
+     9/21: $0\pend_type[3:0]
+    10/21: $0\pend_wcnt[2:0]
+    11/21: $0\pend_word[31:0]
+    12/21: $0\word_cnt[2:0]
+    13/21: $0\byte_cnt[1:0]
+    14/21: $0\mode_reg[3:0]
+    15/21: $0\bdi_eoi[0:0]
+    16/21: $0\bdi_eot[0:0]
+    17/21: $0\bdi_type[3:0]
+    18/21: $0\bdi_valid[3:0]
+    19/21: $0\bdi[31:0]
+    20/21: $0\key_valid[0:0]
+    21/21: $0\key[31:0]
+Creating decoders for process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:181$71'.
+     1/4: $4\next_state[3:0]
+     2/4: $3\next_state[3:0]
+     3/4: $2\next_state[3:0]
+     4/4: $1\next_state[3:0]
+Creating decoders for process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:175$70'.
+     1/1: $0\state[3:0]
+Creating decoders for process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:114$55'.
+     1/7: $0\tx_stage_valid[0:0]
+     2/7: $0\tx_stage_last_byte[1:0]
+     3/7: $0\tx_stage[31:0]
+     4/7: $0\tx_busy[0:0]
+     5/7: $0\tx_byte_cnt[1:0]
+     6/7: $0\tx_shift_last_byte[1:0]
+     7/7: $0\tx_shift_reg[31:0]
+Creating decoders for process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:84$48'.
+     1/1: $0\cs_rise[0:0]
+Creating decoders for process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:75$46'.
+     1/1: $0\cs_n_sync[2:0]
+Creating decoders for process `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:83$33'.
+     1/6: $0\auth_seen[0:0]
+     2/6: $0\read_valid[0:0]
+     3/6: $0\read_word[36:0]
+     4/6: $0\release_buffer[0:0]
+     5/6: $0\rd_ptr[7:0]
+     6/6: $0\wr_ptr[7:0]
+Creating decoders for process `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:76$24'.
+     1/3: $1$memwr$\fifo_mem$/foss/designs/ascon/postprocessor_rup.sv:78$9_EN[36:0]$32
+     2/3: $1$memwr$\fifo_mem$/foss/designs/ascon/postprocessor_rup.sv:78$9_DATA[36:0]$31
+     3/3: $1$memwr$\fifo_mem$/foss/designs/ascon/postprocessor_rup.sv:78$9_ADDR[6:0]$30
+Creating decoders for process `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:50$137'.
+     1/7: $0\tx_ready[0:0]
+     2/7: $0\rx_valid[0:0]
+     3/7: $0\tx_reg[7:0]
+     4/7: $0\rx_reg[7:0]
+     5/7: $0\bit_cnt[2:0]
+     6/7: $0\miso[0:0]
+     7/7: $0\rx_data[7:0]
+Creating decoders for process `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:25$132'.
+     1/3: $0\mosi_sync[1:0]
+     2/3: $0\cs_n_sync[2:0]
+     3/3: $0\sclk_sync[2:0]
+Creating decoders for process `$paramod\register\DATA_WIDTH=u'00000000000000000000000010000000.$proc$register.sv:23$551'.
+     1/1: $0\data_q[127:0]
+Creating decoders for process `$paramod\register\DATA_WIDTH=u'00000000000000000000000101000000.$proc$register.sv:23$550'.
+     1/1: $0\data_q[319:0]
+Creating decoders for process `$paramod\register\DATA_WIDTH=u'00000000000000000000000000001000.$proc$register.sv:23$549'.
+     1/1: $0\data_q[7:0]
+Creating decoders for process `$paramod$ba5a95bd8ea78656a63c0f78336c1cac20b3dc0f\register.$proc$register.sv:23$548'.
+     1/1: $0\data_q[4:0]
+Creating decoders for process `$paramod\register\DATA_WIDTH=u'00000000000000000000000000001011.$proc$register.sv:23$547'.
+     1/1: $0\data_q[10:0]
+Creating decoders for process `\asconp.$proc$asconp.sv:29$509'.
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:458$483'.
+     1/35: $3\auth_valid_d[0:0]
+     2/35: $3\auth_d[0:0]
+     3/35: $5\auth_intern_d[0:0]
+     4/35: $4\auth_intern_d[0:0]
+     5/35: $9\eoi_d[0:0]
+     6/35: $8\eoi_d[0:0]
+     7/35: $4\msg_pad_d[0:0]
+     8/35: $4\ad_pad_d[0:0]
+     9/35: $7\eoi_d[0:0]
+    10/35: $5\ad_eot_d[0:0]
+    11/35: $6\eoi_d[0:0]
+    12/35: $4\ad_eot_d[0:0]
+    13/35: $5\eoi_d[0:0]
+    14/35: $4\eoi_d[0:0]
+    15/35: $3\msg_pad_d[0:0]
+    16/35: $3\eoi_d[0:0]
+    17/35: $3\ad_pad_d[0:0]
+    18/35: $3\ad_eot_d[0:0]
+    19/35: $2\auth_valid_d[0:0]
+    20/35: $3\auth_intern_d[0:0]
+    21/35: $2\auth_d[0:0]
+    22/35: $2\eoi_d[0:0]
+    23/35: $2\msg_pad_d[0:0]
+    24/35: $2\ad_pad_d[0:0]
+    25/35: $2\ad_eot_d[0:0]
+    26/35: $1\auth_valid_d[0:0]
+    27/35: $2\auth_intern_d[0:0]
+    28/35: $1\auth_d[0:0]
+    29/35: $2\mode_d[3:0]
+    30/35: $1\mode_d[3:0]
+    31/35: $1\msg_pad_d[0:0]
+    32/35: $1\eoi_d[0:0]
+    33/35: $1\ad_pad_d[0:0]
+    34/35: $1\ad_eot_d[0:0]
+    35/35: $1\auth_intern_d[0:0]
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:442$478'.
+     1/2: $2\round_cnt_d[3:0]
+     2/2: $1\round_cnt_d[3:0]
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:419$461'.
+     1/6: $6\word_cnt_d[3:0]
+     2/6: $5\word_cnt_d[3:0]
+     3/6: $4\word_cnt_d[3:0]
+     4/6: $3\word_cnt_d[3:0]
+     5/6: $2\word_cnt_d[3:0]
+     6/6: $1\word_cnt_d[3:0]
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:408$450'.
+     1/2: $1\key_d[127:0]
+     2/2: $1$bitselwrite$pos$/foss/designs/ascon/ascon_core.sv:411$148[31:0]$452
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:349$408'.
+     1/16: $10\state_d[255:128] [127:64]
+     2/16: $10\state_d[255:128] [63:0]
+     3/16: $9\state_d[63:0]
+     4/16: $8\state_d[63:0]
+     5/16: $6\state_d[63:0]
+     6/16: $7\state_d[319:256]
+     7/16: $5\state_d[319:192] [127:64]
+     8/16: $5\state_d[319:192] [63:0]
+     9/16: $4\state_d[319:0]
+    10/16: $3\state_d[191:0] [191:128]
+    11/16: $3\state_d[191:0] [63:0]
+    12/16: $3\state_d[191:0] [127:64]
+    13/16: $2\state_d[319:0]
+    14/16: $1$bitselwrite$pos$/foss/designs/ascon/ascon_core.sv:359$147[31:0]$427
+    15/16: $1\state_d[319:0]
+    16/16: $1$bitselwrite$pos$/foss/designs/ascon/ascon_core.sv:354$146[31:0]$413
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:256$387'.
+     1/32: $32\fsm_d[4:0]
+     2/32: $31\fsm_d[4:0]
+     3/32: $30\fsm_d[4:0]
+     4/32: $29\fsm_d[4:0]
+     5/32: $28\fsm_d[4:0]
+     6/32: $27\fsm_d[4:0]
+     7/32: $26\fsm_d[4:0]
+     8/32: $25\fsm_d[4:0]
+     9/32: $24\fsm_d[4:0]
+    10/32: $23\fsm_d[4:0]
+    11/32: $22\fsm_d[4:0]
+    12/32: $21\fsm_d[4:0]
+    13/32: $20\fsm_d[4:0]
+    14/32: $19\fsm_d[4:0]
+    15/32: $18\fsm_d[4:0]
+    16/32: $17\fsm_d[4:0]
+    17/32: $16\fsm_d[4:0]
+    18/32: $15\fsm_d[4:0]
+    19/32: $14\fsm_d[4:0]
+    20/32: $13\fsm_d[4:0]
+    21/32: $12\fsm_d[4:0]
+    22/32: $11\fsm_d[4:0]
+    23/32: $10\fsm_d[4:0]
+    24/32: $9\fsm_d[4:0]
+    25/32: $8\fsm_d[4:0]
+    26/32: $7\fsm_d[4:0]
+    27/32: $6\fsm_d[4:0]
+    28/32: $5\fsm_d[4:0]
+    29/32: $4\fsm_d[4:0]
+    30/32: $3\fsm_d[4:0]
+    31/32: $2\fsm_d[4:0]
+    32/32: $1\fsm_d[4:0]
+Creating decoders for process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+     1/77: $1\pad$func$/foss/designs/ascon/ascon_core.sv:215$141.$result[31:0]$269 [31:24]
+     2/77: $3\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.$fordecl_block$5.i[31:0]$350
+     3/77: $3\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.$result[31:0]$347 [23:16]
+     4/77: $3\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.$result[31:0]$347 [15:8]
+     5/77: $3\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.$result[31:0]$347 [7:0]
+     6/77: $3\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.$result[31:0]$342 [31:24]
+     7/77: $3\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.val[3:0]$349
+     8/77: $3\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.in1[31:0]$348
+     9/77: $3\state_slice_nx[31:0]
+    10/77: $3\bdi_pad[31:0]
+    11/77: $3\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.$fordecl_block$3.i[31:0]$346
+    12/77: $3\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.$result[31:0]$342 [23:16]
+    13/77: $3\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.$result[31:0]$342 [15:8]
+    14/77: $3\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.$result[31:0]$342 [7:0]
+    15/77: $3\bdo[31:0]
+    16/77: $3\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.val[3:0]$345
+    17/77: $3\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.in2[31:0]$344
+    18/77: $3\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.in1[31:0]$343
+    19/77: $2\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.$result[31:0]$308 [31:24]
+    20/77: $2\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.$fordecl_block$5.i[31:0]$311
+    21/77: $2\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.$result[31:0]$308 [23:16]
+    22/77: $2\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.$result[31:0]$308 [15:8]
+    23/77: $2\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.$result[31:0]$308 [7:0]
+    24/77: $2\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.$result[31:0]$304 [31:24]
+    25/77: $2\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.val[3:0]$310
+    26/77: $2\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.in1[31:0]$309
+    27/77: $2\state_slice_nx[31:0]
+    28/77: $2\bdi_pad[31:0]
+    29/77: $2\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.$fordecl_block$1.i[31:0]$307
+    30/77: $2\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.$result[31:0]$304 [23:16]
+    31/77: $2\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.$result[31:0]$304 [15:8]
+    32/77: $2\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.$result[31:0]$304 [7:0]
+    33/77: $2\bdo[31:0]
+    34/77: $2\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.val[3:0]$306
+    35/77: $2\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.in[31:0]$305
+    36/77: $2\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.$fordecl_block$5.i[31:0]$320
+    37/77: $2\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.val[3:0]$319
+    38/77: $2\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.in1[31:0]$318
+    39/77: $2\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.$result[31:0]$317
+    40/77: $2\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.$fordecl_block$3.i[31:0]$316
+    41/77: $2\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.val[3:0]$315
+    42/77: $2\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.in2[31:0]$314
+    43/77: $2\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.in1[31:0]$313
+    44/77: $2\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.$result[31:0]$312
+    45/77: $1\pad$func$/foss/designs/ascon/ascon_core.sv:215$141.$result[31:0]$269 [7:0]
+    46/77: $3\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.$result[31:0]$347 [31:24]
+    47/77: $1\pad$func$/foss/designs/ascon/ascon_core.sv:215$141.$result[31:0]$269 [23:16]
+    48/77: $1\pad$func$/foss/designs/ascon/ascon_core.sv:215$141.$result[31:0]$269 [15:8]
+    49/77: $1\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.$fordecl_block$5.i[31:0]$289
+    50/77: $1\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.val[3:0]$288
+    51/77: $1\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.in1[31:0]$287
+    52/77: $1\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.$result[31:0]$286
+    53/77: $1\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.$fordecl_block$3.i[31:0]$285
+    54/77: $1\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.val[3:0]$284
+    55/77: $1\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.in2[31:0]$283
+    56/77: $1\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.in1[31:0]$282
+    57/77: $1\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.$result[31:0]$281
+    58/77: $1\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.$fordecl_block$5.i[31:0]$280
+    59/77: $1\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.val[3:0]$279
+    60/77: $1\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.in1[31:0]$278
+    61/77: $1\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.$result[31:0]$277
+    62/77: $1\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.$fordecl_block$1.i[31:0]$276
+    63/77: $1\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.val[3:0]$275
+    64/77: $1\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.in[31:0]$274
+    65/77: $1\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.$result[31:0]$273
+    66/77: $1\pad$func$/foss/designs/ascon/ascon_core.sv:215$141.$fordecl_block$1.i[31:0]$272
+    67/77: $1\pad$func$/foss/designs/ascon/ascon_core.sv:215$141.val[3:0]$271
+    68/77: $1\pad$func$/foss/designs/ascon/ascon_core.sv:215$141.in[31:0]$270
+    69/77: $1\key_ready[0:0]
+    70/77: $1\bdi_pad[31:0]
+    71/77: $1\state_slice_nx[31:0]
+    72/77: $1\state_idx[3:0]
+    73/77: $1\bdo_eot[0:0]
+    74/77: $1\bdo_type[3:0]
+    75/77: $1\bdo_valid[0:0]
+    76/77: $1\bdo[31:0]
+    77/77: $1\bdi_ready[0:0]
+
+13.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\spi_controller.\next_state' from process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:181$71'.
+No latch inferred for signal `\asconp.\x0' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x1' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x2' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x3' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x4' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x0_aff1' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x0_chi' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x0_aff2' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x1_aff1' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x1_chi' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x1_aff2' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x2_aff1' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x2_chi' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x2_aff2' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x3_aff1' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x3_chi' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x3_aff2' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x4_aff1' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x4_chi' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\x4_aff2' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.\t' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\asconp.$fordecl_block$7.i' from process `\asconp.$proc$asconp.sv:29$509'.
+No latch inferred for signal `\ascon_core.\mode_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:458$483'.
+No latch inferred for signal `\ascon_core.\auth_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:458$483'.
+No latch inferred for signal `\ascon_core.\auth_intern_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:458$483'.
+No latch inferred for signal `\ascon_core.\auth_valid_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:458$483'.
+No latch inferred for signal `\ascon_core.\ad_eot_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:458$483'.
+No latch inferred for signal `\ascon_core.\ad_pad_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:458$483'.
+No latch inferred for signal `\ascon_core.\msg_pad_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:458$483'.
+No latch inferred for signal `\ascon_core.\eoi_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:458$483'.
+No latch inferred for signal `\ascon_core.\round_cnt_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:442$478'.
+No latch inferred for signal `\ascon_core.\word_cnt_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:419$461'.
+No latch inferred for signal `\ascon_core.\key_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:408$450'.
+No latch inferred for signal `\ascon_core.$bitselwrite$pos$/foss/designs/ascon/ascon_core.sv:411$148' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:408$450'.
+No latch inferred for signal `\ascon_core.\state_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:349$408'.
+No latch inferred for signal `\ascon_core.$bitselwrite$pos$/foss/designs/ascon/ascon_core.sv:354$146' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:349$408'.
+No latch inferred for signal `\ascon_core.$bitselwrite$pos$/foss/designs/ascon/ascon_core.sv:359$147' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:349$408'.
+No latch inferred for signal `\ascon_core.\fsm_d' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:256$387'.
+No latch inferred for signal `\ascon_core.\key_ready' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\bdi_ready' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\bdo' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\bdo_valid' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\bdo_type' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\bdo_eot' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\auth' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\auth_valid' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\state_idx' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\state_slice_nx' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\bdi_pad' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon/ascon_core.sv:215$141.$result' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon/ascon_core.sv:215$141.in' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon/ascon_core.sv:215$141.val' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon/ascon_core.sv:215$141.$fordecl_block$1.i' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.$result' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.in' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.val' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad$func$/foss/designs/ascon/ascon_core.sv:224$142.$fordecl_block$1.i' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.$result' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.in1' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.val' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon/ascon_core.sv:226$143.$fordecl_block$5.i' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.$result' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.in1' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.in2' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.val' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\pad2$func$/foss/designs/ascon/ascon_core.sv:228$144.$fordecl_block$3.i' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.$result' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.in1' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.val' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+No latch inferred for signal `\ascon_core.\mask$func$/foss/designs/ascon/ascon_core.sv:230$145.$fordecl_block$5.i' from process `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+
+13.9. Executing PROC_DFF pass (convert process syncs to FFs).
+Creating register for signal `\spi_controller.\key' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2216' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\key_valid' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2219' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\bdi' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2222' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\bdi_valid' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2225' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\bdi_type' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2228' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\bdi_eot' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2231' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\bdi_eoi' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2234' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\word_buf' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2237' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\byte_cnt' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2240' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\word_cnt' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2243' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\pend_word' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2246' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\pend_wcnt' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2249' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\pend_type' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2252' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\pend_valid' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2255' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\last_msg_bytes' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2258' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\msg_has_bytes' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2261' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\eoi_sent' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2264' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\mode_reg' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+  created $adff cell `$procdff$2267' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\state' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:175$70'.
+  created $adff cell `$procdff$2270' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_shift_reg' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:114$55'.
+  created $adff cell `$procdff$2273' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_shift_last_byte' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:114$55'.
+  created $adff cell `$procdff$2276' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_byte_cnt' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:114$55'.
+  created $adff cell `$procdff$2279' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_busy' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:114$55'.
+  created $adff cell `$procdff$2282' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_stage' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:114$55'.
+  created $adff cell `$procdff$2285' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_stage_last_byte' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:114$55'.
+  created $adff cell `$procdff$2288' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\tx_stage_valid' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:114$55'.
+  created $adff cell `$procdff$2291' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\cs_rise' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:84$48'.
+  created $adff cell `$procdff$2294' with positive edge clock and positive level reset.
+Creating register for signal `\spi_controller.\cs_n_sync' using process `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:75$46'.
+  created $adff cell `$procdff$2297' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.\wr_ptr' using process `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:83$33'.
+  created $adff cell `$procdff$2300' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.\rd_ptr' using process `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:83$33'.
+  created $adff cell `$procdff$2303' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.\release_buffer' using process `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:83$33'.
+  created $adff cell `$procdff$2306' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.\read_word' using process `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:83$33'.
+  created $adff cell `$procdff$2309' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.\read_valid' using process `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:83$33'.
+  created $adff cell `$procdff$2312' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.\auth_seen' using process `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:83$33'.
+  created $adff cell `$procdff$2315' with positive edge clock and positive level reset.
+Creating register for signal `\postprocessor_rup.$memwr$\fifo_mem$/foss/designs/ascon/postprocessor_rup.sv:78$9_ADDR' using process `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:76$24'.
+  created $dff cell `$procdff$2316' with positive edge clock.
+Creating register for signal `\postprocessor_rup.$memwr$\fifo_mem$/foss/designs/ascon/postprocessor_rup.sv:78$9_DATA' using process `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:76$24'.
+  created $dff cell `$procdff$2317' with positive edge clock.
+Creating register for signal `\postprocessor_rup.$memwr$\fifo_mem$/foss/designs/ascon/postprocessor_rup.sv:78$9_EN' using process `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:76$24'.
+  created $dff cell `$procdff$2318' with positive edge clock.
+Creating register for signal `\spi_slave.\rx_data' using process `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:50$137'.
+  created $adff cell `$procdff$2321' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\rx_valid' using process `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:50$137'.
+  created $adff cell `$procdff$2324' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\tx_ready' using process `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:50$137'.
+  created $adff cell `$procdff$2327' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\miso' using process `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:50$137'.
+  created $adff cell `$procdff$2330' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\bit_cnt' using process `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:50$137'.
+  created $adff cell `$procdff$2333' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\rx_reg' using process `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:50$137'.
+  created $adff cell `$procdff$2336' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\tx_reg' using process `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:50$137'.
+  created $adff cell `$procdff$2339' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\cs_n_sync' using process `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:25$132'.
+  created $adff cell `$procdff$2342' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\sclk_sync' using process `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:25$132'.
+  created $adff cell `$procdff$2345' with positive edge clock and positive level reset.
+Creating register for signal `\spi_slave.\mosi_sync' using process `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:25$132'.
+  created $adff cell `$procdff$2348' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\register\DATA_WIDTH=u'00000000000000000000000010000000.\data_q' using process `$paramod\register\DATA_WIDTH=u'00000000000000000000000010000000.$proc$register.sv:23$551'.
+  created $adff cell `$procdff$2351' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\register\DATA_WIDTH=u'00000000000000000000000101000000.\data_q' using process `$paramod\register\DATA_WIDTH=u'00000000000000000000000101000000.$proc$register.sv:23$550'.
+  created $adff cell `$procdff$2354' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\register\DATA_WIDTH=u'00000000000000000000000000001000.\data_q' using process `$paramod\register\DATA_WIDTH=u'00000000000000000000000000001000.$proc$register.sv:23$549'.
+  created $adff cell `$procdff$2357' with positive edge clock and positive level reset.
+Creating register for signal `$paramod$ba5a95bd8ea78656a63c0f78336c1cac20b3dc0f\register.\data_q' using process `$paramod$ba5a95bd8ea78656a63c0f78336c1cac20b3dc0f\register.$proc$register.sv:23$548'.
+  created $adff cell `$procdff$2360' with positive edge clock and positive level reset.
+Creating register for signal `$paramod\register\DATA_WIDTH=u'00000000000000000000000000001011.\data_q' using process `$paramod\register\DATA_WIDTH=u'00000000000000000000000000001011.$proc$register.sv:23$547'.
+  created $adff cell `$procdff$2363' with positive edge clock and positive level reset.
+
+13.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+13.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Found and cleaned up 27 empty switches in `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+Removing empty process `spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:204$73'.
+Found and cleaned up 4 empty switches in `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:181$71'.
+Removing empty process `spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:181$71'.
+Found and cleaned up 1 empty switch in `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:175$70'.
+Removing empty process `spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:175$70'.
+Found and cleaned up 8 empty switches in `\spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:114$55'.
+Removing empty process `spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:114$55'.
+Removing empty process `spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:84$48'.
+Removing empty process `spi_controller.$proc$/foss/designs/ascon/spi_controller.sv:75$46'.
+Found and cleaned up 8 empty switches in `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:83$33'.
+Removing empty process `postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:83$33'.
+Found and cleaned up 1 empty switch in `\postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:76$24'.
+Removing empty process `postprocessor_rup.$proc$/foss/designs/ascon/postprocessor_rup.sv:76$24'.
+Found and cleaned up 6 empty switches in `\spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:50$137'.
+Removing empty process `spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:50$137'.
+Removing empty process `spi_slave.$proc$/foss/designs/ascon/spi_slave.sv:25$132'.
+Removing empty process `$paramod\register\DATA_WIDTH=u'00000000000000000000000010000000.$proc$register.sv:23$551'.
+Removing empty process `$paramod\register\DATA_WIDTH=u'00000000000000000000000101000000.$proc$register.sv:23$550'.
+Removing empty process `$paramod\register\DATA_WIDTH=u'00000000000000000000000000001000.$proc$register.sv:23$549'.
+Removing empty process `$paramod$ba5a95bd8ea78656a63c0f78336c1cac20b3dc0f\register.$proc$register.sv:23$548'.
+Removing empty process `$paramod\register\DATA_WIDTH=u'00000000000000000000000000001011.$proc$register.sv:23$547'.
+Removing empty process `asconp.$proc$asconp.sv:29$509'.
+Found and cleaned up 15 empty switches in `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:458$483'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:458$483'.
+Found and cleaned up 2 empty switches in `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:442$478'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:442$478'.
+Found and cleaned up 6 empty switches in `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:419$461'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:419$461'.
+Found and cleaned up 1 empty switch in `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:408$450'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:408$450'.
+Found and cleaned up 9 empty switches in `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:349$408'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:349$408'.
+Found and cleaned up 32 empty switches in `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:256$387'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:256$387'.
+Found and cleaned up 3 empty switches in `\ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+Removing empty process `ascon_core.$proc$/foss/designs/ascon/ascon_core.sv:192$247'.
+Cleaned up 123 empty switches.
+
+13.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module ascon_top.
+Optimizing module spi_controller.
+<suppressed ~35 debug messages>
+Optimizing module postprocessor_rup.
+<suppressed ~6 debug messages>
+Optimizing module spi_slave.
+<suppressed ~18 debug messages>
+Optimizing module $paramod\register\DATA_WIDTH=u'00000000000000000000000010000000.
+<suppressed ~1 debug messages>
+Optimizing module $paramod\register\DATA_WIDTH=u'00000000000000000000000101000000.
+<suppressed ~1 debug messages>
+Optimizing module $paramod\register\DATA_WIDTH=u'00000000000000000000000000001000.
+<suppressed ~1 debug messages>
+Optimizing module $paramod$ba5a95bd8ea78656a63c0f78336c1cac20b3dc0f\register.
+<suppressed ~1 debug messages>
+Optimizing module $paramod\register\DATA_WIDTH=u'00000000000000000000000000001011.
+<suppressed ~1 debug messages>
+Optimizing module asconp.
+Optimizing module ascon_core.
+<suppressed ~25 debug messages>
+
+14. Executing FLATTEN pass (flatten design).
+Deleting now unused module spi_controller.
+Deleting now unused module postprocessor_rup.
+Deleting now unused module spi_slave.
+Deleting now unused module $paramod\register\DATA_WIDTH=u'00000000000000000000000010000000.
+Deleting now unused module $paramod\register\DATA_WIDTH=u'00000000000000000000000101000000.
+Deleting now unused module $paramod\register\DATA_WIDTH=u'00000000000000000000000000001000.
+Deleting now unused module $paramod$ba5a95bd8ea78656a63c0f78336c1cac20b3dc0f\register.
+Deleting now unused module $paramod\register\DATA_WIDTH=u'00000000000000000000000000001011.
+Deleting now unused module asconp.
+Deleting now unused module ascon_core.
+<suppressed ~10 debug messages>
+
+15. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \ascon_top..
+Removed 217 unused cells and 1248 unused wires.
+<suppressed ~387 debug messages>

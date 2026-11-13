@@ -1,0 +1,44 @@
+Reading timing models for corner nom_tt_025C_5v00…
+Reading timing library for the 'nom_tt_025C_5v00' corner at '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib'…
+Reading OpenROAD database at '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/32-openroad-repairdesignpostgpl/ascon_top.odb'…
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 8.0
+[INFO] Setting input delay to: 8.0
+[INFO] Setting load to: 0.07291
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
++ detailed_placement -max_displacement  500 500 
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL         1177222.9 u
+legalized HPWL        1211711.5 u
+delta HPWL                    3 %
+
+[INFO DPL-0020] Mirrored 10643 instances
+[INFO DPL-0021] HPWL before          1211711.5 u
+[INFO DPL-0022] HPWL after           1177222.9 u
+[INFO DPL-0023] HPWL delta               -2.8 %
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 0 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Endcap cell                             496    2177.64
+  Tap cell                               6879   30201.56
+  Tie cell                                 18     158.05
+  Buffer                                    1      13.17
+  Timing Repair Buffer                   2117   86069.40
+  Inverter                               1213   10809.16
+  Sequential cell                        5283  345190.81
+  Multi-Input combinational cell        17693  432329.27
+  Total                                 33700  906949.08
+Writing OpenROAD database to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/34-openroad-detailedplacement/ascon_top.odb'…
+Writing netlist to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/34-openroad-detailedplacement/ascon_top.nl.v'…
+Writing powered netlist to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/34-openroad-detailedplacement/ascon_top.pnl.v'…
+Writing layout to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/34-openroad-detailedplacement/ascon_top.def'…
+Writing timing constraints to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/34-openroad-detailedplacement/ascon_top.sdc'…

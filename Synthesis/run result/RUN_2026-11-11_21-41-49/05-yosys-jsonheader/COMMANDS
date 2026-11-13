@@ -1,1 +1,0 @@
-yosys -y /usr/local/lib/python3.12/dist-packages/librelane/scripts/pyosys/json_header.py -- --config-in /foss/designs/ascon/runs/RUN_2026-11-11_21-41-49/05-yosys-jsonheader/config.json --extra-in /foss/designs/ascon/runs/RUN_2026-11-11_21-41-49/05-yosys-jsonheader/extra.json --output /foss/designs/ascon/runs/RUN_2026-11-11_21-41-49/05-yosys-jsonheader/ascon_top.h.json

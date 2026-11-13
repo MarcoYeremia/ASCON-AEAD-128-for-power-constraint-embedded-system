@@ -1,0 +1,38 @@
+Reading timing models for corner nom_tt_025C_5v00…
+Reading timing library for the 'nom_tt_025C_5v00' corner at '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib'…
+Reading OpenROAD database at '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/39-openroad-globalrouting/ascon_top.odb'…
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 8.0
+[INFO] Setting input delay to: 8.0
+[INFO] Setting load to: 0.07291
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
++ repair_antennas gf180mcu_fd_sc_mcu7t5v0__antenna -iterations 3 -ratio_margin 10
+[INFO GRT-0012] Found 18 antenna violations.
+[INFO GRT-0302] Inserted 13 jumpers for 13 nets.
+[INFO GRT-0012] Found 5 antenna violations.
+[INFO GRT-0015] Inserted 5 diodes.
+[INFO GRT-0012] Found 11 antenna violations.
+[INFO GRT-0302] Inserted 11 jumpers for 11 nets.
+[INFO GRT-0012] Found 0 antenna violations.
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 20 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Endcap cell                             496    2177.64
+  Tap cell                               6879   30201.56
+  Antenna cell                              5      21.95
+  Tie cell                                 18     158.05
+  Buffer                                    1      13.17
+  Clock buffer                            258   24669.66
+  Timing Repair Buffer                   2118   86124.28
+  Inverter                               1213   10809.16
+  Clock inverter                          112    2484.97
+  Sequential cell                        5283  345190.81
+  Multi-Input combinational cell        17693  432329.27
+  Total                                 34076  934180.53
+Writing OpenROAD database to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/42-openroad-repairantennas/1-openroad-diodeinsertion/ascon_top.odb'…
+Writing layout to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/42-openroad-repairantennas/1-openroad-diodeinsertion/ascon_top.def'…

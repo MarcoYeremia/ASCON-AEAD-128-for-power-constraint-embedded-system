@@ -1,0 +1,1 @@
+ruby /usr/local/lib/python3.12/dist-packages/librelane/scripts/klayout/xor.drc --output /foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/62-klayout-xor/xor.xml --top ascon_top --threads 12 --ignore  /foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/57-magic-streamout/ascon_top.magic.gds /foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/58-klayout-streamout/ascon_top.klayout.gds

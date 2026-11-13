@@ -1,0 +1,89 @@
+Reading timing models for corner nom_tt_025C_5v00…
+Reading timing library for the 'nom_tt_025C_5v00' corner at '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib'…
+Reading timing models for corner min_ff_n40C_5v50…
+Reading timing library for the 'min_ff_n40C_5v50' corner at '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__ff_n40C_5v50.lib'…
+Reading timing models for corner max_ss_125C_4v50…
+Reading timing library for the 'max_ss_125C_4v50' corner at '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__ss_125C_4v50.lib'…
+Reading OpenROAD database at '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/28-openroad-globalplacement/ascon_top.odb'…
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 8.0
+[INFO] Setting input delay to: 8.0
+[INFO] Setting load to: 0.07291
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+[INFO RSZ-0027] Inserted 3 gf180mcu_fd_sc_mcu7t5v0__dlyd_1 input buffers.
+[INFO RSZ-0028] Inserted 1 gf180mcu_fd_sc_mcu7t5v0__dlyd_1 output buffers.
++ repair_design -verbose -max_wire_length 0 -slew_margin 50 -cap_margin 50
+Iteration |   Area    | Resized | Buffers | Nets repaired | Remaining
+---------------------------------------------------------------------
+        0 |     +0.0% |       0 |       0 |             0 |     25483
+     1000 |     +0.0% |       0 |       8 |             7 |     24483
+     2000 |     +0.0% |       0 |       8 |             7 |     23483
+     3000 |     +0.0% |       0 |      11 |            10 |     22483
+     4000 |     +0.0% |       0 |      12 |            11 |     21483
+     5000 |     +0.0% |       0 |      12 |            11 |     20483
+     6000 |     +0.0% |       0 |      12 |            11 |     19483
+     7000 |     +0.0% |       0 |      12 |            11 |     18483
+     8000 |     +0.0% |       0 |      12 |            11 |     17483
+     9000 |     +0.0% |       0 |      12 |            11 |     16483
+    10000 |     +0.0% |       0 |      13 |            12 |     15483
+    11000 |     +0.1% |       2 |      17 |            16 |     14483
+    12000 |     +0.3% |      31 |      97 |            92 |     13483
+    13000 |     +0.7% |      63 |     297 |           251 |     12483
+    14000 |     +1.0% |      69 |     389 |           326 |     11483
+    15000 |     +1.0% |      72 |     416 |           351 |     10483
+    16000 |     +1.1% |      77 |     457 |           387 |      9483
+    17000 |     +1.3% |      81 |     546 |           469 |      8483
+    18000 |     +1.5% |     116 |     649 |           555 |      7483
+    19000 |     +1.6% |     149 |     787 |           681 |      6483
+    20000 |     +1.6% |     164 |     815 |           707 |      5483
+    21000 |     +1.6% |     169 |     825 |           716 |      4483
+    22000 |     +1.6% |     169 |     825 |           716 |      3483
+    23000 |     +1.7% |     169 |     845 |           736 |      2483
+    24000 |     +1.7% |     170 |     847 |           738 |      1483
+    25000 |     +1.7% |     170 |     847 |           738 |       483
+    final |     +1.7% |     170 |     848 |           739 |         0
+---------------------------------------------------------------------
+[INFO RSZ-0034] Found 794 slew violations.
+[INFO RSZ-0039] Resized 170 instances.
+[INFO RSZ-0038] Inserted 848 buffers in 739 nets.
+[INFO RSZ-0042] Inserted 16 tie gf180mcu_fd_sc_mcu7t5v0__tiel instances.
+[INFO RSZ-0042] Inserted 2 tie gf180mcu_fd_sc_mcu7t5v0__tieh instances.
+[WARNING RSZ-0020] found 2 floating nets.
+ VDD
+ VSS
++ detailed_placement -max_displacement  500 500 
+Placement Analysis
+---------------------------------
+total displacement     167434.0 u
+average displacement        5.0 u
+max displacement          243.7 u
+original HPWL         1020456.4 u
+legalized HPWL        1211711.5 u
+delta HPWL                   19 %
+
+[INFO DPL-0020] Mirrored 10643 instances
+[INFO DPL-0021] HPWL before          1211711.5 u
+[INFO DPL-0022] HPWL after           1177222.9 u
+[INFO DPL-0023] HPWL delta               -2.8 %
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 3480 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Endcap cell                             496    2177.64
+  Tap cell                               6879   30201.56
+  Tie cell                                 18     158.05
+  Buffer                                    1      13.17
+  Timing Repair Buffer                   2117   86069.40
+  Inverter                               1213   10809.16
+  Sequential cell                        5283  345190.81
+  Multi-Input combinational cell        17693  432329.27
+  Total                                 33700  906949.08
+Writing OpenROAD database to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/32-openroad-repairdesignpostgpl/ascon_top.odb'…
+Writing netlist to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/32-openroad-repairdesignpostgpl/ascon_top.nl.v'…
+Writing powered netlist to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/32-openroad-repairdesignpostgpl/ascon_top.pnl.v'…
+Writing layout to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/32-openroad-repairdesignpostgpl/ascon_top.def'…
+Writing timing constraints to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/32-openroad-repairdesignpostgpl/ascon_top.sdc'…
