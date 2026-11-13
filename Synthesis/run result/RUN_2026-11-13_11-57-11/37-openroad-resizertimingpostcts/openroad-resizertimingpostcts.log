@@ -1,0 +1,61 @@
+Reading timing models for corner nom_tt_025C_5v00…
+Reading timing library for the 'nom_tt_025C_5v00' corner at '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib'…
+Reading timing models for corner min_ff_n40C_5v50…
+Reading timing library for the 'min_ff_n40C_5v50' corner at '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__ff_n40C_5v50.lib'…
+Reading timing models for corner max_ss_125C_4v50…
+Reading timing library for the 'max_ss_125C_4v50' corner at '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__ss_125C_4v50.lib'…
+Reading OpenROAD database at '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/35-openroad-cts/ascon_top.odb'…
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 8.0
+[INFO] Setting input delay to: 8.0
+[INFO] Setting load to: 0.07291
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
++ repair_timing -verbose -setup -setup_margin 0.05000000000000000277555756156289135105907917022705078125 -max_buffer_percent 50
+[INFO RSZ-0100] Repair move sequence: UnbufferMove SizeUpMove SwapPinsMove BufferMove CloneMove SplitLoadMove 
+[INFO RSZ-0098] No setup violations found
++ repair_timing -verbose -hold -setup_margin 0.05000000000000000277555756156289135105907917022705078125 -hold_margin 0.1000000000000000055511151231257827021181583404541015625 -max_buffer_percent 50
+[INFO RSZ-0046] Found 1 endpoints with hold violations.
+Iteration | Resized | Buffers | Cloned Gates |   Area   |   WNS   |   TNS   | Endpoint
+--------------------------------------------------------------------------------------
+        0 |       0 |       0 |            0 |    +0.0% |   0.083 |   0.000 | _42451_/D
+    final |       0 |       1 |            0 |    +0.0% |   0.134 |   0.000 | _42448_/D
+--------------------------------------------------------------------------------------
+[INFO RSZ-0032] Inserted 1 hold buffers.
++ detailed_placement -max_displacement  500 500 
+Placement Analysis
+---------------------------------
+total displacement       3592.3 u
+average displacement        0.1 u
+max displacement          480.5 u
+original HPWL         1428491.1 u
+legalized HPWL        1470089.5 u
+delta HPWL                    3 %
+
+[INFO DPL-0020] Mirrored 10657 instances
+[INFO DPL-0021] HPWL before          1470089.5 u
+[INFO DPL-0022] HPWL after           1433310.3 u
+[INFO DPL-0023] HPWL delta               -2.5 %
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 4 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Endcap cell                             496    2177.64
+  Tap cell                               6879   30201.56
+  Tie cell                                 18     158.05
+  Buffer                                    1      13.17
+  Clock buffer                            258   24669.66
+  Timing Repair Buffer                   2118   86124.28
+  Inverter                               1213   10809.16
+  Clock inverter                          112    2484.97
+  Sequential cell                        5283  345190.81
+  Multi-Input combinational cell        17693  432329.27
+  Total                                 34071  934158.58
+Writing OpenROAD database to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/37-openroad-resizertimingpostcts/ascon_top.odb'…
+Writing netlist to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/37-openroad-resizertimingpostcts/ascon_top.nl.v'…
+Writing powered netlist to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/37-openroad-resizertimingpostcts/ascon_top.pnl.v'…
+Writing layout to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/37-openroad-resizertimingpostcts/ascon_top.def'…
+Writing timing constraints to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/37-openroad-resizertimingpostcts/ascon_top.sdc'…

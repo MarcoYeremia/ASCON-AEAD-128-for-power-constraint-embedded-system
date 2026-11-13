@@ -85,3 +85,6 @@ set_max_transition 50.0 [all_outputs]
 set_max_transition 50.0 [all_clocks]
 set_max_capacitance 10.0 [current_design]
 set_max_capacitance 10.0 [all_outputs]
+
+catch { replace_cell _24620_ gf180mcu_fd_sc_mcu7t5v0__xnor2_2 }
+catch { replace_cell _27884_ gf180mcu_fd_sc_mcu7t5v0__xnor3_2 }

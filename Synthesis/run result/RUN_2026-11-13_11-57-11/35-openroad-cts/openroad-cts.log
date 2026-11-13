@@ -1,0 +1,161 @@
+Reading timing models for corner nom_tt_025C_5v00…
+Reading timing library for the 'nom_tt_025C_5v00' corner at '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__tt_025C_5v00.lib'…
+Reading timing models for corner min_ff_n40C_5v50…
+Reading timing library for the 'min_ff_n40C_5v50' corner at '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__ff_n40C_5v50.lib'…
+Reading timing models for corner max_ss_125C_4v50…
+Reading timing library for the 'max_ss_125C_4v50' corner at '/foss/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/lib/gf180mcu_fd_sc_mcu7t5v0__ss_125C_4v50.lib'…
+Reading OpenROAD database at '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/34-openroad-detailedplacement/ascon_top.odb'…
+Reading design constraints file at '/usr/local/lib/python3.12/dist-packages/librelane/scripts/base.sdc'…
+[INFO] Using clock clk…
+[INFO] Setting output delay to: 8.0
+[INFO] Setting input delay to: 8.0
+[INFO] Setting load to: 0.07291
+[INFO] Setting clock uncertainty to: 0.25
+[INFO] Setting clock transition to: 0.1499999999999999944488848768742172978818416595458984375
+[INFO] Setting timing derate to: 5%
+[INFO] Configuring cts characterization…
++ configure_cts_characterization 
+[INFO] Performing clock tree synthesis…
+[INFO] Looking for the following net(s): clk
+[INFO] Running Clock Tree Synthesis…
++ clock_tree_synthesis -buf_list gf180mcu_fd_sc_mcu7t5v0__clkbuf_2 gf180mcu_fd_sc_mcu7t5v0__clkbuf_4 gf180mcu_fd_sc_mcu7t5v0__clkbuf_12 gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 -root_buf gf180mcu_fd_sc_mcu7t5v0__clkbuf_16 -sink_clustering_enable -apply_ndr half
+[INFO CTS-0050] Root buffer is gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
+[INFO CTS-0051] Sink buffer is gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
+[INFO CTS-0052] The following clock buffers will be used for CTS:
+                    gf180mcu_fd_sc_mcu7t5v0__clkbuf_2
+                    gf180mcu_fd_sc_mcu7t5v0__clkbuf_4
+                    gf180mcu_fd_sc_mcu7t5v0__clkbuf_12
+                    gf180mcu_fd_sc_mcu7t5v0__clkbuf_16
+[INFO CTS-0049] Characterization buffer is gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
+[INFO CTS-0007] Net "clk" found for clock "clk".
+[INFO CTS-0010]  Clock net "clk" has 5283 sinks.
+[INFO CTS-0008] TritonCTS found 1 clock nets.
+[INFO CTS-0097] Characterization used 4 buffer(s) types.
+[INFO CTS-0201] 0 blockages from hard placement blockages and placed macros will be used.
+[INFO CTS-0027] Generating H-Tree topology for net clk.
+[INFO CTS-0028]  Total number of sinks: 5283.
+[INFO CTS-0090]  Sinks will be clustered based on buffer max cap.
+[INFO CTS-0030]  Number of static layers: 0.
+[INFO CTS-0020]  Wire segment unit: 39200  dbu (19 um).
+[INFO CTS-0206] Best clustering solution was found from clustering size of 24 and clustering diameter of 50.
+[INFO CTS-0019]  Total number of sinks after clustering: 179.
+[INFO CTS-0024]  Normalized sink region: [(1.22732, 1.84194), (55.0975, 49.3733)].
+[INFO CTS-0025]     Width:  53.8702.
+[INFO CTS-0026]     Height: 47.5314.
+ Level 1
+    Direction: Horizontal
+    Sinks per sub-region: 90
+    Sub-region size: 26.9351 X 47.5314
+[INFO CTS-0034]     Segment length (rounded): 14.
+ Level 2
+    Direction: Vertical
+    Sinks per sub-region: 45
+    Sub-region size: 26.9351 X 23.7657
+[INFO CTS-0034]     Segment length (rounded): 12.
+ Level 3
+    Direction: Horizontal
+    Sinks per sub-region: 23
+    Sub-region size: 13.4676 X 23.7657
+[INFO CTS-0034]     Segment length (rounded): 6.
+ Level 4
+    Direction: Vertical
+    Sinks per sub-region: 12
+    Sub-region size: 13.4676 X 11.8829
+[INFO CTS-0034]     Segment length (rounded): 6.
+[INFO CTS-0032]  Stop criterion found. Max number of sinks is 15.
+[INFO CTS-0035]  Number of sinks covered: 179.
+[INFO CTS-0018]     Created 200 clock buffers.
+[INFO CTS-0012]     Minimum number of buffers in the clock path: 4.
+[INFO CTS-0013]     Maximum number of buffers in the clock path: 4.
+[INFO CTS-0015]     Created 200 clock nets.
+[INFO CTS-0016]     Fanout distribution for the current clock = 8:3, 9:2, 10:1, 12:5, 13:3, 14:2, 17:1, 19:1, 20:2, 22:1, 23:4, 24:4, 25:5, 26:3, 27:9, 28:13, 29:37, 30:30, 31:28, 32:18, 33:15, 34:6, 35:1, 36:1..
+[INFO CTS-0017]     Max level of the clock tree: 4.
+[INFO CTS-0098] Clock net "clk"
+[INFO CTS-0099]  Sinks 5453
+[INFO CTS-0100]  Leaf buffers 179
+[INFO CTS-0101]  Average sink wire length 1772.02 um
+[INFO CTS-0102]  Path depth 3 - 4
+[INFO CTS-0207]  Dummy loads inserted 170
+[INFO] Repairing long wires on clock nets…
+[INFO RSZ-0058] Using max wire length 11486um.
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 1480 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Endcap cell                             496    2177.64
+  Tap cell                               6879   30201.56
+  Tie cell                                 18     158.05
+  Buffer                                    1      13.17
+  Clock buffer                            258   24669.66
+  Timing Repair Buffer                   2117   86069.40
+  Inverter                               1213   10809.16
+  Clock inverter                          112    2484.97
+  Sequential cell                        5283  345190.81
+  Multi-Input combinational cell        17693  432329.27
+  Total                                 34070  934103.70
+Writing OpenROAD database to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/35-openroad-cts/ascon_top.odb'…
+Writing netlist to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/35-openroad-cts/ascon_top.nl.v'…
+Writing powered netlist to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/35-openroad-cts/ascon_top.pnl.v'…
+Writing layout to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/35-openroad-cts/ascon_top.def'…
+Writing timing constraints to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/35-openroad-cts/ascon_top.sdc'…
+[INFO] Legalizing…
++ detailed_placement -max_displacement  500 500 
+Placement Analysis
+---------------------------------
+total displacement     152286.6 u
+average displacement        4.5 u
+max displacement          574.0 u
+original HPWL         1216367.6 u
+legalized HPWL        1465226.2 u
+delta HPWL                   20 %
+
+[INFO DPL-0020] Mirrored 10645 instances
+[INFO DPL-0021] HPWL before          1465226.2 u
+[INFO DPL-0022] HPWL after           1428479.0 u
+[INFO DPL-0023] HPWL delta               -2.5 %
+Setting global connections for newly added cells…
+[INFO] Setting global connections...
+[INFO ODB-0403] 0 connections made, 0 conflicts skipped.
+Updating metrics…
+Cell type report:                       Count       Area
+  Endcap cell                             496    2177.64
+  Tap cell                               6879   30201.56
+  Tie cell                                 18     158.05
+  Buffer                                    1      13.17
+  Clock buffer                            258   24669.66
+  Timing Repair Buffer                   2117   86069.40
+  Inverter                               1213   10809.16
+  Clock inverter                          112    2484.97
+  Sequential cell                        5283  345190.81
+  Multi-Input combinational cell        17693  432329.27
+  Total                                 34070  934103.70
+Writing OpenROAD database to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/35-openroad-cts/ascon_top.odb'…
+Writing netlist to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/35-openroad-cts/ascon_top.nl.v'…
+Writing powered netlist to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/35-openroad-cts/ascon_top.pnl.v'…
+Writing layout to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/35-openroad-cts/ascon_top.def'…
+Writing timing constraints to '/foss/designs/ascon/runs/RUN_2026-11-13_11-57-11/35-openroad-cts/ascon_top.sdc'…
+%OL_CREATE_REPORT cts.rpt
+Total number of Clock Roots: 1.
+Total number of Buffers Inserted: 200.
+Total number of Clock Subnets: 200.
+Total number of Sinks: 5283.
+Cells used:
+  gf180mcu_fd_sc_mcu7t5v0__clkbuf_16: 200
+Dummys used:
+  gf180mcu_fd_sc_mcu7t5v0__clkbuf_2: 25
+  gf180mcu_fd_sc_mcu7t5v0__clkbuf_4: 16
+  gf180mcu_fd_sc_mcu7t5v0__clkbuf_12: 3
+  gf180mcu_fd_sc_mcu7t5v0__clkbuf_16: 14
+  gf180mcu_fd_sc_mcu7t5v0__clkinv_1: 2
+  gf180mcu_fd_sc_mcu7t5v0__clkinv_2: 10
+  gf180mcu_fd_sc_mcu7t5v0__clkinv_3: 1
+  gf180mcu_fd_sc_mcu7t5v0__clkinv_4: 22
+  gf180mcu_fd_sc_mcu7t5v0__clkinv_8: 8
+  gf180mcu_fd_sc_mcu7t5v0__clkinv_12: 6
+  gf180mcu_fd_sc_mcu7t5v0__clkinv_16: 1
+  gf180mcu_fd_sc_mcu7t5v0__inv_2: 29
+  gf180mcu_fd_sc_mcu7t5v0__inv_3: 17
+  gf180mcu_fd_sc_mcu7t5v0__inv_4: 15
+  gf180mcu_fd_sc_mcu7t5v0__inv_20: 1
+%OL_END_REPORT

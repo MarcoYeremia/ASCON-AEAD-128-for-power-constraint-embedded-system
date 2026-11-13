@@ -1,3 +1,0 @@
-+ analyze_power_grid -net VDD -voltage_file /foss/designs/ascon/runs/RUN_2026-11-11_21-41-49/57-openroad-irdropreport/net-VDD.csv -vsrc /foss/designs/ascon/vsrc_vdd.loc
-[INFO PSM-0040] All shapes on net VDD are connected.
-Error: irdrop.tcl, 51 PSM-0079
