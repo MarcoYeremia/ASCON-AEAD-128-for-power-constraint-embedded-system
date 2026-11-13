@@ -14,13 +14,15 @@
 project:
   title: "ASCON-AEAD128 for Power-Constrained Embedded System"
   team: "A68"
-  discord: "Maco, Kennnnn, Arch, Corryn, lelektro"
+  discord: "Maco, Kennnnn, Arch, lelektro"
   description: "Hardware implementation of Ascon AEAD 128 cryptography with SPI interface"
+  top_module: "ascon_top"
+  gds_file: "Synthesis/run result/RUN_2026-11-13_11-57-11/final/gds/ascon_top.gds"
   lvs_config: "lvs_config.json"
-  gf_def_ready:             # data ready for def generation with global foundries' pad frame
-  ws_def_ready:             # data ready for def generation with wafer space pad frame
-  drc_ready:                # data ready for integration and DRC
-  lvs_ready:                # data ready for integrated LVS
+  gf_def_ready: true        # data ready for def generation with global foundries' pad frame
+  ws_def_ready: true        # data ready for def generation with wafer space pad frame
+  drc_ready: true           # data ready for integration and DRC
+  lvs_ready: true           # data ready for integrated LVS
   export_control: "documents/Export_Control_GF_Rev8.2_A68.docx"   # Required export control document
 
 # There are 7 i/o pin types and the associated connections from the user area to the i/o pad cell
